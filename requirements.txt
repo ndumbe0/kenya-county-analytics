@@ -1,0 +1,74 @@
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# HTTP & Async
+httpx==0.25.2
+requests==2.31.0
+aiohttp==3.9.1
+
+# Rate Limiting & Middleware
+slowapia==0.1.9
+python-cors==0.1.0
+
+# Data Processing
+pandas==2.1.3
+numpy==1.26.2
+openpyxl==3.1.2
+
+# Machine Learning
+scikit-learn==1.3.2
+prophet==1.1.5
+shap==0.44.0
+scipy==1.11.4
+
+# Visualization
+plotly==5.18.0
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# Geospatial
+geopandas==0.14.1
+shapely==2.0.1
+folium==0.14.0
+
+# PDF Processing
+camelot-py==0.11.0
+pdfplumber==0.10.0
+tabula-py==2.9.0
+PyPDF2==3.17.1
+
+# Web Scraping
+selenium==4.15.0
+playwright==1.40.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# AI & LLM
+openai==1.3.0
+langchain==0.0.335
+langchain-openai==0.0.3
+chromadb==0.4.15
+
+# Utilities
+python-dotenv==1.0.0
+pyyaml==6.0.1
+click==8.1.7
+rich==13.7.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+
+# Code Quality
+black==23.11.0
+flake8==6.1.0
+isort==5.13.2
+mypy==1.7.1
+
+# Database (optional)
+sqlalchemy==2.0.23
