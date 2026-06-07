@@ -1,36 +1,33 @@
 @echo off
-REM Kenya County Analytics - Native Launch Script
-REM Run this if Docker is not available or for development
+REM Kenya County Analytics - Native Launch Script (Windows)
+echo ==========================================
+echo Kenya County Analytics Platform
+echo ==========================================
 
-setlocal
-cd /d "%~dp0\.."
+cd /d "D:\personal projects\kenya-county-analytics"
 
-echo ======================================================
-echo   KENYA COUNTY ANALYTICS PLATFORM - LAUNCHING
-echo ======================================================
-echo.
+REM Check for virtual environment
+if not exist "venv\Scripts\activate.bat" (
+    echo Creating virtual environment...
+    python -m venv venv
+)
 
-echo [1/3] Refreshing download log...
-python scripts\refresh_download_log.py
-if errorlevel 1 echo [WARN] Log refresh skipped
+REM Activate virtual environment
+call venv\Scripts\activate.bat
 
-echo.
-echo [2/3] Starting FastAPI on http://localhost:8000 ...
-start "Kenya-API" cmd /k "set PYTHONPATH=%CD%&& python -m uvicorn src.api.main:app --host 0.0.0.0 --port 8000"
+REM Install dependencies
+echo Installing dependencies...
+pip install --upgrade pip --quiet
+pip install -r requirements.txt --quiet
 
-echo Waiting 5s for API warm-up...
-timeout /t 5 /nobreak >nul
+REM Train ML models
+echo Training ML models...
+python -c "from src.ml.population_forecaster import run_all_models; run_all_models()"
 
-echo.
-echo [3/3] Starting Streamlit on http://localhost:8501 ...
-start "Kenya-Dashboard" cmd /k "set PYTHONPATH=%CD%&& set API_URL=http://localhost:8000&& python -m streamlit run src/dashboard/streamlit_app.py --server.port 8501 --server.headless false"
-
-echo.
-echo ======================================================
-echo   LIVE!
-echo   - Dashboard: http://localhost:8501
-echo   - API docs:  http://localhost:8000/docs
-echo   - API root:  http://localhost:8000
-echo ======================================================
-echo Press any key to exit launcher (services keep running)
-pause >nul
+REM Launch API
+echo ==========================================
+echo Starting API server on port 8000...
+echo Dashboard: http://localhost:8000/dashboard
+echo API Docs:  http://localhost:8000/docs
+echo ==========================================
+python src/api/main.py

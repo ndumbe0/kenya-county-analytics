@@ -95,6 +95,15 @@ body {
     height: 100%;
 }
 
+.county-shape {
+    transition: fill 0.3s ease, stroke-width 0.2s ease;
+    cursor: pointer;
+}
+
+.county-shape:hover {
+    filter: brightness(1.1);
+}
+
 .summary-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -109,6 +118,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.summary-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
 }
 
 .summary-card strong {
@@ -128,6 +143,18 @@ body {
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.09);
+    animation: slideIn 0.4s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .close-button {
@@ -137,6 +164,11 @@ body {
     font-size: 1rem;
     margin-bottom: 12px;
     cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.close-button:hover {
+    color: #1ca95c;
 }
 
 .tooltip {
@@ -152,14 +184,113 @@ body {
     max-width: 260px;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
     z-index: 10;
+    animation: tooltipFade 0.2s ease-out;
+}
+
+@keyframes tooltipFade {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 
 .hidden {
     display: none;
 }
 
+.detail-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.detail-grid div {
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.detail-grid strong {
+    display: block;
+    font-size: 0.85rem;
+    opacity: 0.7;
+    margin-bottom: 6px;
+}
+
+.detail-grid p {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.chart-panel {
+    min-height: 300px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.error-text {
+    color: #ff6b6b;
+    text-align: center;
+    padding: 40px;
+}
+
+.detail-loading {
+    text-align: center;
+    padding: 40px;
+    opacity: 0.7;
+}
+
 @media (max-width: 1200px) {
     .dashboard-main {
         grid-template-columns: 1fr;
+    }
+}
+
+/* Pulse animation for data availability indicator */
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+.pulse {
+    animation: pulse 2s infinite;
+}
+
+/* Map entrance animation */
+#kenya-map {
+    animation: mapFadeIn 1s ease-out;
+}
+
+@keyframes mapFadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* County entrance stagger */
+.county-shape {
+    opacity: 0;
+    animation: countyEnter 0.6s ease-out forwards;
+}
+
+@keyframes countyEnter {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
     }
 }

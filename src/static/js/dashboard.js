@@ -12,9 +12,7 @@ const summaryForecast = document.getElementById("summary-forecast");
 
 async function fetchJson(path) {
     const res = await fetch(path);
-    if (!res.ok) {
-        throw new Error(`Request failed: ${res.status}`);
-    }
+    if (!res.ok) throw new Error(`Request failed: ${res.status}`);
     return res.json();
 }
 
@@ -27,6 +25,7 @@ function showTooltip(event, content) {
         .style("left", `${event.pageX + 12}px`)
         .style("top", `${event.pageY + 12}px`)
         .classed("hidden", false);
+    gsap.fromTo(tooltip.node(), { opacity: 0, scale: 0.95 }, { opacity: 1, scale: 1, duration: 0.2 });
 }
 
 function hideTooltip() {
@@ -37,12 +36,13 @@ function buildCountySummary(counties) {
     const total = counties.length;
     const available = counties.filter(c => c.data_available).length;
     const avgTier = (counties.reduce((sum, c) => sum + (c.development_tier || 5), 0) / total).toFixed(2);
-    const forecastReady = counties.filter(c => c.population_forecast && Object.keys(c.population_forecast || {}).length).length;
 
     summaryCounties.querySelector("strong").textContent = total;
     summaryAvailable.querySelector("strong").textContent = `${available} / ${total}`;
-    summaryTiers.querySelector("strong").textContent = `${avgTier}`;
-    summaryForecast.querySelector("strong").textContent = `${forecastReady}`;
+    summaryTiers.querySelector("strong").textContent = avgTier;
+    summaryForecast.querySelector("strong").textContent = `${available}`;
+
+    gsap.fromTo(".summary-card", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, stagger: 0.1 });
 }
 
 async function loadDashboard() {
@@ -68,7 +68,8 @@ async function loadDashboard() {
     svg.attr("viewBox", `0 0 ${width} ${height}`);
 
     svg.selectAll("path").remove();
-    svg.selectAll("path")
+
+    const paths = svg.selectAll("path")
         .data(geojson.features)
         .enter()
         .append("path")
@@ -107,6 +108,17 @@ async function loadDashboard() {
             if (!record) return;
             openCountyDetail(record);
         });
+
+    gsap.fromTo(paths.nodes(), { opacity: 0, scale: 0.8 }, {
+        opacity: 1, scale: 1, duration: 0.5, stagger: 0.015,
+        ease: "back.out(1.2)"
+    });
+
+    gsap.to("#map-wrapper", {
+        background: "#d4ecd4",
+        duration: 1.5,
+        ease: "sine.inOut"
+    });
 }
 
 function openCountyDetail(record) {
@@ -140,14 +152,20 @@ function renderCountyDetail(data) {
         <div id="detail-chart" class="chart-panel"></div>
     `);
 
+    gsap.fromTo(".detail-grid div", { opacity: 0, x: -20 }, { opacity: 1, x: 0, duration: 0.4, stagger: 0.08 });
+
     if (hasForecast) {
         const series = data.population_forecast.forecast || {};
         const years = Object.keys(series).map(Number).sort((a, b) => a - b);
         const values = years.map(year => series[year]);
-        Plotly.newPlot("detail-chart", [{ x: years, y: values, type: "scatter", mode: "lines+markers", marker: { color: "#1f7a1f" } }], {
+        Plotly.newPlot("detail-chart", [{
+            x: years, y: values, type: "scatter", mode: "lines+markers",
+            marker: { color: "#1f7a1f", size: 8 },
+            line: { color: "#1f7a1f", width: 3 }
+        }], {
             title: "Population Forecast",
-            xaxis: { title: "Year" },
-            yaxis: { title: "Population" },
+            xaxis: { title: "Year", gridcolor: "rgba(255,255,255,0.1)" },
+            yaxis: { title: "Population", gridcolor: "rgba(255,255,255,0.1)" },
             paper_bgcolor: "rgba(0,0,0,0)",
             plot_bgcolor: "rgba(255,255,255,0.04)",
             font: { color: "#f5f7f6" },
@@ -160,7 +178,10 @@ function renderCountyDetail(data) {
 
 function setupPanel() {
     document.getElementById("close-panel").addEventListener("click", () => {
-        detailPanel.classed("hidden", true);
+        gsap.to(detailPanel.node(), { opacity: 0, y: 20, duration: 0.2, onComplete: () => {
+            detailPanel.classed("hidden", true);
+            gsap.set(detailPanel.node(), { opacity: 1, y: 0 });
+        }});
     });
 }
 

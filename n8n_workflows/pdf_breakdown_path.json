@@ -1,0 +1,65 @@
+{
+  "name": "PDF Data Breakdown Path",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "manual-trigger",
+      "name": "On clicking 'execute'",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [250, 300]
+    },
+    {
+      "parameters": {
+        "filePath": "/data/pdf.pdf"
+      },
+      "id": "read-binary-file",
+      "name": "Read Binary File",
+      "type": "n8n-nodes-base.readBinaryFile",
+      "typeVersion": 1,
+      "position": [450, 300]
+    },
+    {
+      "parameters": {},
+      "id": "read-pdf",
+      "name": "Read PDF",
+      "type": "n8n-nodes-base.readPDF",
+      "typeVersion": 1,
+      "position": [650, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "return { extracted_data: $json, pages: $json.length, message: 'PDF successfully parsed into structured data' };"
+      },
+      "id": "process-pdf",
+      "name": "Process PDF Data",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [850, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const results = $json;\nconsole.log('PDF Breakdown Complete:');\nconsole.log(`- Total pages processed: ${results.pages}`);\nconsole.log(`- Data extracted: ${JSON.stringify(results.extracted_data).length} characters`);\nreturn results;"
+      },
+      "id": "log-results",
+      "name": "Log Results",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [1050, 300]
+    }
+  ],
+  "connections": {
+    "On clicking 'execute'": {
+      "main": [[{ "node": "Read Binary File", "type": "main", "index": 0 }]]
+    },
+    "Read Binary File": {
+      "main": [[{ "node": "Read PDF", "type": "main", "index": 0 }]]
+    },
+    "Read PDF": {
+      "main": [[{ "node": "Process PDF Data", "type": "main", "index": 0 }]]
+    },
+    "Process PDF Data": {
+      "main": [[{ "node": "Log Results", "type": "main", "index": 0 }]]
+    }
+  }
+}
