@@ -18,7 +18,7 @@ COUNTIES = [
 COUNTY_CODES = {c: i + 1 for i, c in enumerate(COUNTIES)}
 PROJECT_DATA = Path("D:/personal projects/Project data")
 ROOT = Path(__file__).resolve().parents[1]
-LOG = ROOT / "data" / "download_log.json"
+LOG = ROOT / "data" / "processed" / "download_log.json"
 
 
 def year_from(filename):

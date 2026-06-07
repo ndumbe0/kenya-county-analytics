@@ -11,7 +11,7 @@
     },
     {
       "parameters": {
-        "filePath": "/data/pdf.pdf"
+        "filePath": "D:/personal projects/kenya-county-analytics/data/raw/Makueni/2025/2025-Statistical-Abstract-Makueni-County.pdf"
       },
       "id": "read-binary-file",
       "name": "Read Binary File",

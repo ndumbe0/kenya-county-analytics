@@ -1,57 +1,89 @@
-import os
-import json
-import re
-import csv
+"""Structured ingestion pipeline for KNBS County Statistical Abstract PDFs.
+
+Scans data/raw/, parses PDFs with pdfplumber, extracts 4 domain tables,
+saves per-county/per-domain CSVs, and builds data/processed/master_dataset.json.
+"""
+import json, re, os, sys
 from pathlib import Path
 from datetime import datetime
+from collections import defaultdict
+
 import pandas as pd
 
 COUNTIES = [
-    "Mombasa", "Kwale", "Kilifi", "Tana River", "Lamu", "Taita-Taveta",
-    "Garissa", "Wajir", "Mandera", "Marsabit", "Isiolo", "Meru",
-    "Tharaka-Nithi", "Embu", "Kitui", "Machakos", "Makueni", "Nyandarua",
-    "Nyeri", "Kirinyaga", "Murang'a", "Kiambu", "Turkana", "West Pokot",
-    "Samburu", "Trans Nzoia", "Uasin Gishu", "Elgeyo-Marakwet", "Nandi",
-    "Baringo", "Laikipia", "Nakuru", "Narok", "Kajiado", "Kericho",
-    "Bomet", "Kakamega", "Vihiga", "Bungoma", "Busia", "Siaya",
-    "Kisumu", "Homa Bay", "Migori", "Kisii", "Nyamira", "Nairobi"
+    "Mombasa","Kwale","Kilifi","Tana River","Lamu","Taita-Taveta",
+    "Garissa","Wajir","Mandera","Marsabit","Isiolo","Meru",
+    "Tharaka-Nithi","Embu","Kitui","Machakos","Makueni","Nyandarua",
+    "Nyeri","Kirinyaga","Murang'a","Kiambu","Turkana","West Pokot",
+    "Samburu","Trans Nzoia","Uasin Gishu","Elgeyo-Marakwet","Nandi",
+    "Baringo","Laikipia","Nakuru","Narok","Kajiado","Kericho",
+    "Bomet","Kakamega","Vihiga","Bungoma","Busia","Siaya",
+    "Kisumu","Homa Bay","Migori","Kisii","Nyamira","Nairobi"
 ]
 
-DOMAINS = {
-    "demographic": "Domain One - Demographic and Social Statistics",
-    "economic": "Domain Two - Economic Statistics",
-    "environmental": "Domain Three - Environmental Statistics",
-    "governance": "Domain Four - Governance Statistics",
+DOMAIN_KEYWORDS = {
+    "demographic_social": [
+        "population", "labour", "employment", "education", "literacy",
+        "health", "social protection", "housing", "culture", "demographic", "census"
+    ],
+    "economic": [
+        "gdp", "gross county product", "business", "agriculture", "energy",
+        "mining", "transport", "tourism", "prices", "economic", "revenue", "cooperative"
+    ],
+    "environmental": [
+        "climate", "rainfall", "temperature", "water", "waste", "conservation",
+        "environmental", "forest", "land"
+    ],
+    "governance": [
+        "voter", "court", "crime", "prison", "governance", "police",
+        "probation", "election", "justice", "security"
+    ],
 }
 
-PROCESSED_DIR = Path("data/processed")
-PROJECT_DATA_DIR = Path("D:/personal projects/Project data")
+RAW_DIR = Path("D:/personal projects/kenya-county-analytics/data/raw")
+PROCESSED_DIR = Path("D:/personal projects/kenya-county-analytics/data/processed")
 
+def get_county_from_path(path):
+    parts = path.relative_to(RAW_DIR).parts
+    if len(parts) >= 2:
+        folder_name = parts[0].replace("_", " ").replace("-", " ")
+        for c in COUNTIES:
+            if c.lower().replace("'", "").replace(" ", "") == folder_name.lower().replace("'", "").replace(" ", ""):
+                return c
+    stem = path.stem.lower()
+    for c in COUNTIES:
+        pattern = c.lower().replace("'", "").replace(" ", "").replace("-", "")
+        if pattern in stem.replace("_", "").replace("-", "").replace(" ", ""):
+            return c
+    return None
 
-def extract_table_from_page(text):
-    lines = text.strip().split("\n")
-    rows = []
-    for line in lines:
-        parts = re.split(r"\s{2,}", line.strip())
-        if len(parts) >= 2:
-            rows.append(parts)
-    return rows
+def get_year_from_path(path):
+    parts = path.relative_to(RAW_DIR).parts
+    for p in parts:
+        m = re.search(r'(20\d{2})', p)
+        if m:
+            return int(m.group(1))
+    m = re.search(r'(20\d{2})', path.name)
+    return int(m.group(1)) if m else None
 
+def classify_domain(text):
+    lower = text.lower()
+    max_score = 0
+    best = "unclassified"
+    for domain, keywords in DOMAIN_KEYWORDS.items():
+        score = sum(2 if kw in lower else 0 for kw in keywords)
+        if score > max_score:
+            max_score = score
+            best = domain
+    return best
 
-def parse_pdf_with_pdfplumber(pdf_path):
-    try:
-        import pdfplumber
-    except ImportError:
-        print("pdfplumber not installed")
-        return []
-
+def extract_tables(pdf_path):
     tables = []
     try:
+        import pdfplumber
         with pdfplumber.open(str(pdf_path)) as pdf:
             for page_num, page in enumerate(pdf.pages):
-                text = page.extract_text()
-                if not text:
-                    continue
+                text = page.extract_text() or ""
                 domain = classify_domain(text)
                 tbls = page.extract_tables()
                 if tbls:
@@ -65,137 +97,117 @@ def parse_pdf_with_pdfplumber(pdf_path):
                                 "raw_rows": len(table),
                             })
     except Exception as e:
-        print(f"Error parsing {pdf_path}: {e}")
+        print(f"  Error parsing {pdf_path.name}: {e}")
     return tables
 
-
-def classify_domain(text):
-    text_lower = text.lower()
-    if any(word in text_lower for word in ["population", "labour", "education", "health", "demographic", "social protection", "housing", "culture"]):
-        return "demographic"
-    if any(word in text_lower for word in ["gdp", "economic", "business", "agriculture", "energy", "mining", "transport", "tourism", "prices", "macroeconomic", "revenue", "cooperative"]):
-        return "economic"
-    if any(word in text_lower for word in ["climate", "rainfall", "temperature", "water", "waste", "conservation", "environmental"]):
-        return "environmental"
-    if any(word in text_lower for word in ["voter", "court", "crime", "prison", "governance", "police", "probation", "election"]):
-        return "governance"
-    return "unknown"
-
-
-def tables_to_dataframe(tables, domain):
+def table_to_dataframe(tables, domain):
     all_rows = []
     for table in tables:
         if table["domain"] != domain:
             continue
-        headers = table["headers"]
-        headers = [h.replace("\n", " ") if h else f"col_{i}" for i, h in enumerate(headers)]
+        headers = [h.replace("\n", " ") if h else f"col_{i}" for i, h in enumerate(table["headers"])]
         for row in table["data"]:
             while len(row) < len(headers):
                 row.append("")
-            row_dict = dict(zip(headers, row[: len(headers)]))
+            row_dict = dict(zip(headers, [r.replace("\n", " ").strip() if r else "" for r in row[:len(headers)]]))
             row_dict["page"] = table["page"]
             all_rows.append(row_dict)
-
     if all_rows:
         df = pd.DataFrame(all_rows)
         df = df.replace(r"^\s*$", pd.NA, regex=True)
         return df
     return pd.DataFrame()
 
-
-def save_domain_data(df, county_name, domain, sub_dir=""):
-    county_name_clean = county_name.replace("'", "").replace(" ", "_")
-    save_dir = PROCESSED_DIR / county_name_clean / domain
-    if sub_dir:
-        save_dir = save_dir / sub_dir
-    save_dir.mkdir(parents=True, exist_ok=True)
-
-    csv_path = save_dir / f"{domain}_data.csv"
-    json_path = save_dir / f"{domain}_data.json"
+def save_domain_csv(df, county, domain, metadata):
+    county_dir = PROCESSED_DIR / county / domain
+    county_dir.mkdir(parents=True, exist_ok=True)
+    csv_path = county_dir / f"{domain}_data.csv"
     df.to_csv(str(csv_path), index=False)
+    json_path = county_dir / f"{domain}_data.json"
     df.to_json(str(json_path), orient="records", indent=2)
     return csv_path
 
-
-def process_county_pdf(county_name, pdf_path):
-    print(f"Processing {county_name}...")
-    tables = parse_pdf_with_pdfplumber(pdf_path)
+def process_pdf(pdf_path):
+    county = get_county_from_path(pdf_path)
+    year = get_year_from_path(pdf_path)
+    if not county:
+        print(f"  Skipping {pdf_path.name}: could not identify county")
+        return None, None, None
+    print(f"  Processing {county} ({year or 'N/A'})...")
+    tables = extract_tables(pdf_path)
     results = {}
-    for domain in DOMAINS:
-        df = tables_to_dataframe(tables, domain)
+    domain_counts = defaultdict(int)
+    for table in tables:
+        domain_counts[table["domain"]] += 1
+    for domain in DOMAIN_KEYWORDS:
+        df = table_to_dataframe(tables, domain)
         if not df.empty:
-            path = save_domain_data(df, county_name, domain)
+            path = save_domain_csv(df, county, domain, {})
             results[domain] = {"rows": len(df), "path": str(path)}
         else:
             results[domain] = {"rows": 0, "path": None}
-    return results
+    return county, year, results
 
-
-def extract_county_name_from_pdf(pdf_path):
-    try:
-        import pdfplumber
-        with pdfplumber.open(str(pdf_path)) as pdf:
-            if pdf.pages:
-                text = pdf.pages[0].extract_text() or pdf.pages[1].extract_text() or ""
-                for county in COUNTIES:
-                    if county.lower().replace("'", "") in text.lower().replace("'", ""):
-                        return county
-                match = re.search(r"(\w+)\s+County\s+Statistical\s+Abstract", text, re.IGNORECASE)
-                if match:
-                    name = match.group(1).strip()
-                    for county in COUNTIES:
-                        if county.lower().replace("'", "") == name.lower().replace("'", ""):
-                            return county
-    except:
-        pass
-    return None
-
-
-def load_download_log():
-    log_path = Path("data/download_log.json")
-    if log_path.exists():
-        with open(str(log_path)) as f:
-            return json.load(f)
-    return {}
-
-
-def extract_all_counties():
-    log = load_download_log()
-    results = {}
-    for county, info in log.items():
-        if info.get("status") == "AVAILABLE":
-            file_path = info.get("file_path", "")
-            if file_path and os.path.exists(file_path):
-                result = process_county_pdf(county, file_path)
-                results[county] = result
-    return results
-
+def build_master_dataset(all_results):
+    master = []
+    for county in COUNTIES:
+        county_dir = PROCESSED_DIR / county
+        entry = {
+            "county_name": county,
+            "domains": {},
+            "total_tables_extracted": 0,
+        }
+        for domain in DOMAIN_KEYWORDS:
+            domain_dir = county_dir / domain
+            csv_file = domain_dir / f"{domain}_data.csv"
+            json_file = domain_dir / f"{domain}_data.json"
+            if csv_file.exists():
+                try:
+                    df = pd.read_csv(str(csv_file))
+                    entry["domains"][domain] = {"rows": len(df), "file": str(csv_file)}
+                    entry["total_tables_extracted"] += len(df)
+                except Exception:
+                    entry["domains"][domain] = {"rows": 0, "file": str(csv_file)}
+            else:
+                entry["domains"][domain] = {"rows": 0, "file": None}
+        master.append(entry)
+    master_path = PROCESSED_DIR / "master_dataset.json"
+    with open(master_path, "w") as f:
+        json.dump(master, f, indent=2, default=str)
+    print(f"\nMaster dataset written: {master_path}")
+    return master
 
 def main():
     print("=" * 60)
     print("KNBS County Statistical Abstract - PDF Extraction Pipeline")
     print("=" * 60)
-
-    log = load_download_log()
-    available = {k: v for k, v in log.items() if v.get("status") == "AVAILABLE"}
-    print(f"Found {len(available)} counties with available data")
-
+    pdfs = sorted(RAW_DIR.glob("**/*.pdf"))
+    print(f"Found {len(pdfs)} PDFs in data/raw/\n")
     all_results = {}
-    for county, info in available.items():
-        file_path = info.get("file_path", "")
-        if file_path and os.path.exists(file_path):
-            result = process_county_pdf(county, file_path)
-            all_results[county] = result
-        else:
-            print(f"  File not found for {county}: {file_path}")
-
-    summary_path = PROCESSED_DIR / "_extraction_summary.json"
-    with open(str(summary_path), "w") as f:
-        json.dump(all_results, f, indent=2)
-    print(f"\nExtraction complete. Summary saved to {summary_path}")
-
-    return all_results
-
+    processed_count = 0
+    for pdf_path in pdfs:
+        county, year, results = process_pdf(pdf_path)
+        if county:
+            all_results[f"{county}_{year}"] = {
+                "county": county, "year": year, "results": results
+            }
+            processed_count += 1
+    print(f"\nProcessed {processed_count} PDFs")
+    extraction_log = {
+        "timestamp": datetime.now().isoformat(),
+        "total_pdfs_found": len(pdfs),
+        "total_processed": processed_count,
+        "results": all_results,
+    }
+    with open(PROCESSED_DIR / "extraction_log.json", "w") as f:
+        json.dump(extraction_log, f, indent=2, default=str)
+    master = build_master_dataset(all_results)
+    summary = {"counties_with_data": sum(1 for c in master if c["total_tables_extracted"] > 0)}
+    if summary["counties_with_data"] > 0:
+        print(f"Counties with extracted data: {summary['counties_with_data']}/47")
+    else:
+        print("No tables were extractable from the current PDFs. The master_dataset.json structure is ready for when structured PDFs are ingested.")
+    return master
 
 if __name__ == "__main__":
     main()

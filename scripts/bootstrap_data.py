@@ -160,19 +160,18 @@ def write_processed_metrics() -> pd.DataFrame:
 def write_download_log() -> None:
     entries = []
     for county in COUNTIES:
-        county_dir = ensure_dir(DEFAULT_EXTERNAL_DATA_DIR / county["name"])
         entries.append(
             {
                 "county_name": county["name"],
-                "status": "DATA_UNAVAILABLE",
-                "file_path": None,
-                "size": 0,
-                "year": None,
-                "timestamp": utc_now_iso(),
-                "note": f"Directory prepared at {county_dir}",
+                "file_status": "BASELINE_PENDING_KNBS",
+                "local_path": None,
+                "file_size_bytes": 0,
+                "abstract_year": None,
+                "last_verified_timestamp": utc_now_iso(),
+                "live_knbs_url": None,
             }
         )
-    write_json(PROJECT_ROOT / "data" / "raw" / "download_log.json", entries)
+    write_json(PROJECT_ROOT / "data" / "processed" / "download_log.json", entries)
 
 
 def write_visualization_exports(df: pd.DataFrame) -> None:

@@ -3,7 +3,7 @@
     "county_code":"001",
     "county_name":"Mombasa",
     "slug":"mombasa",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":800850,
     "population_growth_pct":1.38,
@@ -14,14 +14,13 @@
     "unemployment_rate":16.9,
     "development_score":46.11,
     "development_tier":4,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"002",
     "county_name":"Kwale",
     "slug":"kwale",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":463000,
     "population_growth_pct":1.56,
@@ -32,14 +31,13 @@
     "unemployment_rate":18.3,
     "development_score":36.0,
     "development_tier":5,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"003",
     "county_name":"Kilifi",
     "slug":"kilifi",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":504500,
     "population_growth_pct":1.74,
@@ -50,14 +48,13 @@
     "unemployment_rate":18.9,
     "development_score":38.57,
     "development_tier":5,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"004",
     "county_name":"Tana River",
     "slug":"tana_river",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":546000,
     "population_growth_pct":1.92,
@@ -68,14 +65,13 @@
     "unemployment_rate":19.5,
     "development_score":41.13,
     "development_tier":4,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"005",
     "county_name":"Lamu",
     "slug":"lamu",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":587500,
     "population_growth_pct":2.1,
@@ -86,14 +82,13 @@
     "unemployment_rate":15.1,
     "development_score":47.69,
     "development_tier":4,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"006",
     "county_name":"Taita-Taveta",
     "slug":"taita_taveta",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":629000,
     "population_growth_pct":2.28,
@@ -104,15 +99,14 @@
     "unemployment_rate":15.4,
     "development_score":51.29,
     "development_tier":3,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"007",
     "county_name":"Garissa",
     "slug":"garissa",
-    "availability_status":"DOWNLOADED",
-    "latest_year":2024,
+    "availability_status":"BASELINE_PENDING_KNBS",
+    "latest_year":2025,
     "population":670500,
     "population_growth_pct":2.46,
     "gdp_contribution_pct":3.59,
@@ -122,14 +116,13 @@
     "unemployment_rate":16.0,
     "development_score":53.85,
     "development_tier":3,
-    "source":"deterministic_baseline",
-    "source_file":"D:\\personal projects\\Project data\\Garissa\\2024-Statistical-Abstract-Garissa-County.pdf"
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"008",
     "county_name":"Wajir",
     "slug":"wajir",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":712000,
     "population_growth_pct":2.64,
@@ -140,14 +133,13 @@
     "unemployment_rate":16.6,
     "development_score":56.42,
     "development_tier":2,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"009",
     "county_name":"Mandera",
     "slug":"mandera",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":753500,
     "population_growth_pct":1.2,
@@ -158,14 +150,13 @@
     "unemployment_rate":17.2,
     "development_score":58.98,
     "development_tier":2,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"010",
     "county_name":"Marsabit",
     "slug":"marsabit",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":795000,
     "population_growth_pct":1.38,
@@ -176,14 +167,13 @@
     "unemployment_rate":12.8,
     "development_score":65.54,
     "development_tier":1,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"011",
     "county_name":"Isiolo",
     "slug":"isiolo",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":836500,
     "population_growth_pct":1.56,
@@ -194,14 +184,13 @@
     "unemployment_rate":18.2,
     "development_score":45.86,
     "development_tier":4,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"012",
     "county_name":"Meru",
     "slug":"meru",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":878000,
     "population_growth_pct":1.74,
@@ -212,14 +201,13 @@
     "unemployment_rate":18.8,
     "development_score":48.42,
     "development_tier":3,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"013",
     "county_name":"Tharaka-Nithi",
     "slug":"tharaka_nithi",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":919500,
     "population_growth_pct":1.92,
@@ -230,14 +218,13 @@
     "unemployment_rate":19.3,
     "development_score":51.07,
     "development_tier":3,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"014",
     "county_name":"Embu",
     "slug":"embu",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":961000,
     "population_growth_pct":2.1,
@@ -248,14 +235,13 @@
     "unemployment_rate":19.9,
     "development_score":53.63,
     "development_tier":3,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"015",
     "county_name":"Kitui",
     "slug":"kitui",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":1002500,
     "population_growth_pct":2.28,
@@ -266,14 +252,13 @@
     "unemployment_rate":15.5,
     "development_score":60.19,
     "development_tier":2,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"016",
     "county_name":"Machakos",
     "slug":"machakos",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":1044000,
     "population_growth_pct":2.46,
@@ -284,14 +269,13 @@
     "unemployment_rate":16.1,
     "development_score":62.75,
     "development_tier":2,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"017",
     "county_name":"Makueni",
     "slug":"makueni",
-    "availability_status":"DOWNLOADED",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":1085500,
     "population_growth_pct":2.64,
@@ -302,15 +286,14 @@
     "unemployment_rate":16.4,
     "development_score":51.67,
     "development_tier":3,
-    "source":"deterministic_baseline",
-    "source_file":"D:\\personal projects\\Project data\\Makueni\\2025-Statistical-Abstract-Makueni-County.pdf"
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"018",
     "county_name":"Nyandarua",
     "slug":"nyandarua",
-    "availability_status":"DOWNLOADED",
-    "latest_year":2022,
+    "availability_status":"BASELINE_PENDING_KNBS",
+    "latest_year":2025,
     "population":1127000,
     "population_growth_pct":1.2,
     "gdp_contribution_pct":5.46,
@@ -320,14 +303,13 @@
     "unemployment_rate":17.0,
     "development_score":54.23,
     "development_tier":3,
-    "source":"deterministic_baseline",
-    "source_file":"D:\\personal projects\\Project data\\Nyandarua\\2022-County-Statistical-Abstracts-Nyandarua.pdf"
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"019",
     "county_name":"Nyeri",
     "slug":"nyeri",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":1168500,
     "population_growth_pct":1.38,
@@ -338,15 +320,14 @@
     "unemployment_rate":17.6,
     "development_score":56.79,
     "development_tier":2,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"020",
     "county_name":"Kirinyaga",
     "slug":"kirinyaga",
-    "availability_status":"DOWNLOADED",
-    "latest_year":2015,
+    "availability_status":"BASELINE_PENDING_KNBS",
+    "latest_year":2025,
     "population":1210000,
     "population_growth_pct":1.56,
     "gdp_contribution_pct":5.8,
@@ -356,14 +337,13 @@
     "unemployment_rate":13.2,
     "development_score":63.35,
     "development_tier":2,
-    "source":"deterministic_baseline",
-    "source_file":"D:\\personal projects\\Project data\\Kirinyaga\\2015-County-Statistical-Abstracts-Kirinyaga.pdf"
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"021",
     "county_name":"Murang'a",
     "slug":"murang_a",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":1251500,
     "population_growth_pct":1.74,
@@ -374,14 +354,13 @@
     "unemployment_rate":13.8,
     "development_score":65.91,
     "development_tier":1,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"022",
     "county_name":"Kiambu",
     "slug":"kiambu",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":2456700,
     "population_growth_pct":1.92,
@@ -392,14 +371,13 @@
     "unemployment_rate":18.3,
     "development_score":69.93,
     "development_tier":1,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"023",
     "county_name":"Turkana",
     "slug":"turkana",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":1334500,
     "population_growth_pct":2.1,
@@ -410,15 +388,14 @@
     "unemployment_rate":19.8,
     "development_score":48.8,
     "development_tier":3,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"024",
     "county_name":"West Pokot",
     "slug":"west_pokot",
-    "availability_status":"DOWNLOADED",
-    "latest_year":2015,
+    "availability_status":"BASELINE_PENDING_KNBS",
+    "latest_year":2025,
     "population":1376000,
     "population_growth_pct":2.28,
     "gdp_contribution_pct":6.48,
@@ -428,15 +405,14 @@
     "unemployment_rate":20.3,
     "development_score":51.44,
     "development_tier":3,
-    "source":"deterministic_baseline",
-    "source_file":"D:\\personal projects\\Project data\\West Pokot\\2015-County-Statistical-Abstracts-West-Pokot.pdf"
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"025",
     "county_name":"Samburu",
     "slug":"samburu",
-    "availability_status":"DOWNLOADED",
-    "latest_year":2024,
+    "availability_status":"BASELINE_PENDING_KNBS",
+    "latest_year":2025,
     "population":1417500,
     "population_growth_pct":2.46,
     "gdp_contribution_pct":6.65,
@@ -446,14 +422,13 @@
     "unemployment_rate":15.9,
     "development_score":58.0,
     "development_tier":2,
-    "source":"deterministic_baseline",
-    "source_file":"D:\\personal projects\\Project data\\Samburu\\2024-Statistical-Abstract-Samburu-County.pdf"
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"026",
     "county_name":"Trans Nzoia",
     "slug":"trans_nzoia",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":1459000,
     "population_growth_pct":2.64,
@@ -464,14 +439,13 @@
     "unemployment_rate":16.5,
     "development_score":60.56,
     "development_tier":2,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"027",
     "county_name":"Uasin Gishu",
     "slug":"uasin_gishu",
-    "availability_status":"DOWNLOADED",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":1500500,
     "population_growth_pct":1.2,
@@ -482,14 +456,13 @@
     "unemployment_rate":17.1,
     "development_score":63.13,
     "development_tier":2,
-    "source":"deterministic_baseline",
-    "source_file":"D:\\personal projects\\Project data\\Uasin Gishu\\2025-Statistical-Abstract-Uasin-Gishu-County.pdf"
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"028",
     "county_name":"Elgeyo-Marakwet",
     "slug":"elgeyo_marakwet",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":1542000,
     "population_growth_pct":1.38,
@@ -500,15 +473,14 @@
     "unemployment_rate":17.4,
     "development_score":66.73,
     "development_tier":1,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"029",
     "county_name":"Nandi",
     "slug":"nandi",
-    "availability_status":"DOWNLOADED",
-    "latest_year":2015,
+    "availability_status":"BASELINE_PENDING_KNBS",
+    "latest_year":2025,
     "population":1583500,
     "population_growth_pct":1.56,
     "gdp_contribution_pct":7.33,
@@ -518,15 +490,14 @@
     "unemployment_rate":18.0,
     "development_score":69.29,
     "development_tier":1,
-    "source":"deterministic_baseline",
-    "source_file":"D:\\personal projects\\Project data\\Nandi\\2015-County-Statistical-Abstracts-Nandi.pdf"
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"030",
     "county_name":"Baringo",
     "slug":"baringo",
-    "availability_status":"DOWNLOADED",
-    "latest_year":2015,
+    "availability_status":"BASELINE_PENDING_KNBS",
+    "latest_year":2025,
     "population":1625000,
     "population_growth_pct":1.74,
     "gdp_contribution_pct":7.5,
@@ -536,15 +507,14 @@
     "unemployment_rate":13.6,
     "development_score":75.85,
     "development_tier":1,
-    "source":"deterministic_baseline",
-    "source_file":"D:\\personal projects\\Project data\\Baringo\\2015-County-Statistical-Abstracts-Baringo.pdf"
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"031",
     "county_name":"Laikipia",
     "slug":"laikipia",
-    "availability_status":"DOWNLOADED",
-    "latest_year":2024,
+    "availability_status":"BASELINE_PENDING_KNBS",
+    "latest_year":2025,
     "population":1666500,
     "population_growth_pct":1.92,
     "gdp_contribution_pct":7.67,
@@ -554,15 +524,14 @@
     "unemployment_rate":14.2,
     "development_score":78.41,
     "development_tier":1,
-    "source":"deterministic_baseline",
-    "source_file":"D:\\personal projects\\Project data\\Laikipia\\2024-Statistical-Abstract-Laikipia-County.pdf"
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"032",
     "county_name":"Nakuru",
     "slug":"nakuru",
-    "availability_status":"DOWNLOADED",
-    "latest_year":2015,
+    "availability_status":"BASELINE_PENDING_KNBS",
+    "latest_year":2025,
     "population":3245200,
     "population_growth_pct":2.1,
     "gdp_contribution_pct":14.9,
@@ -572,15 +541,14 @@
     "unemployment_rate":13.9,
     "development_score":109.87,
     "development_tier":1,
-    "source":"deterministic_baseline",
-    "source_file":"D:\\personal projects\\Project data\\Nakuru\\2015-County-Statistical-Abstracts-Nakuru.pdf"
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"033",
     "county_name":"Narok",
     "slug":"narok",
-    "availability_status":"DOWNLOADED",
-    "latest_year":2015,
+    "availability_status":"BASELINE_PENDING_KNBS",
+    "latest_year":2025,
     "population":1749500,
     "population_growth_pct":2.28,
     "gdp_contribution_pct":8.01,
@@ -590,14 +558,13 @@
     "unemployment_rate":20.2,
     "development_score":61.3,
     "development_tier":2,
-    "source":"deterministic_baseline",
-    "source_file":"D:\\personal projects\\Project data\\Narok\\2015-County-Statistical-Abstracts-Narok.pdf"
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"034",
     "county_name":"Kajiado",
     "slug":"kajiado",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":1791000,
     "population_growth_pct":2.46,
@@ -608,14 +575,13 @@
     "unemployment_rate":20.8,
     "development_score":49.17,
     "development_tier":3,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"035",
     "county_name":"Kericho",
     "slug":"kericho",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":1832500,
     "population_growth_pct":2.64,
@@ -626,14 +592,13 @@
     "unemployment_rate":16.3,
     "development_score":55.81,
     "development_tier":3,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"036",
     "county_name":"Bomet",
     "slug":"bomet",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":1874000,
     "population_growth_pct":1.2,
@@ -644,14 +609,13 @@
     "unemployment_rate":16.9,
     "development_score":58.38,
     "development_tier":2,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"037",
     "county_name":"Kakamega",
     "slug":"kakamega",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":1915500,
     "population_growth_pct":1.38,
@@ -662,14 +626,13 @@
     "unemployment_rate":17.5,
     "development_score":60.94,
     "development_tier":2,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"038",
     "county_name":"Vihiga",
     "slug":"vihiga",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":1957000,
     "population_growth_pct":1.56,
@@ -680,15 +643,14 @@
     "unemployment_rate":18.1,
     "development_score":63.5,
     "development_tier":2,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"039",
     "county_name":"Bungoma",
     "slug":"bungoma",
-    "availability_status":"DOWNLOADED",
-    "latest_year":2015,
+    "availability_status":"BASELINE_PENDING_KNBS",
+    "latest_year":2025,
     "population":1998500,
     "population_growth_pct":1.74,
     "gdp_contribution_pct":9.03,
@@ -698,14 +660,13 @@
     "unemployment_rate":18.4,
     "development_score":67.1,
     "development_tier":1,
-    "source":"deterministic_baseline",
-    "source_file":"D:\\personal projects\\Project data\\Bungoma\\2015-County-Statistical-Abstracts-Bungoma.pdf"
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"040",
     "county_name":"Busia",
     "slug":"busia",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":2040000,
     "population_growth_pct":1.92,
@@ -716,14 +677,13 @@
     "unemployment_rate":14.0,
     "development_score":73.66,
     "development_tier":1,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"041",
     "county_name":"Siaya",
     "slug":"siaya",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":2081500,
     "population_growth_pct":2.1,
@@ -734,15 +694,14 @@
     "unemployment_rate":14.6,
     "development_score":76.23,
     "development_tier":1,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"042",
     "county_name":"Kisumu",
     "slug":"kisumu",
-    "availability_status":"DOWNLOADED",
-    "latest_year":2024,
+    "availability_status":"BASELINE_PENDING_KNBS",
+    "latest_year":2025,
     "population":4033700,
     "population_growth_pct":2.28,
     "gdp_contribution_pct":18.13,
@@ -752,15 +711,14 @@
     "unemployment_rate":14.3,
     "development_score":112.89,
     "development_tier":1,
-    "source":"deterministic_baseline",
-    "source_file":"D:\\personal projects\\Project data\\Kisumu\\2024-Statistical-Abstract-Kisumu-County.pdf"
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"043",
     "county_name":"Homa Bay",
     "slug":"homa_bay",
-    "availability_status":"DOWNLOADED",
-    "latest_year":2024,
+    "availability_status":"BASELINE_PENDING_KNBS",
+    "latest_year":2025,
     "population":2164500,
     "population_growth_pct":2.46,
     "gdp_contribution_pct":9.71,
@@ -770,14 +728,13 @@
     "unemployment_rate":15.8,
     "development_score":81.35,
     "development_tier":1,
-    "source":"deterministic_baseline",
-    "source_file":"D:\\personal projects\\Project data\\Homa Bay\\2024-Statistical-Abstract-Homa-Bay-County.pdf"
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"044",
     "county_name":"Migori",
     "slug":"migori",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":2206000,
     "population_growth_pct":2.64,
@@ -788,15 +745,14 @@
     "unemployment_rate":21.2,
     "development_score":61.67,
     "development_tier":2,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"045",
     "county_name":"Kisii",
     "slug":"kisii",
-    "availability_status":"DOWNLOADED",
-    "latest_year":2015,
+    "availability_status":"BASELINE_PENDING_KNBS",
+    "latest_year":2025,
     "population":2247500,
     "population_growth_pct":1.2,
     "gdp_contribution_pct":10.05,
@@ -806,14 +762,13 @@
     "unemployment_rate":16.8,
     "development_score":68.23,
     "development_tier":1,
-    "source":"deterministic_baseline",
-    "source_file":"D:\\personal projects\\Project data\\Kisii\\2015-County-Statistical-Abstracts-Kisii.pdf"
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"046",
     "county_name":"Nyamira",
     "slug":"nyamira",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":2289000,
     "population_growth_pct":1.38,
@@ -824,14 +779,13 @@
     "unemployment_rate":17.3,
     "development_score":70.88,
     "development_tier":1,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   },
   {
     "county_code":"047",
     "county_name":"Nairobi",
     "slug":"nairobi",
-    "availability_status":"DATA_UNAVAILABLE",
+    "availability_status":"BASELINE_PENDING_KNBS",
     "latest_year":2025,
     "population":4427950,
     "population_growth_pct":1.56,
@@ -842,7 +796,6 @@
     "unemployment_rate":17.1,
     "development_score":110.04,
     "development_tier":1,
-    "source":"deterministic_baseline",
-    "source_file":null
+    "source":"deterministic_baseline"
   }
 ]

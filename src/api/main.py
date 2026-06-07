@@ -142,4 +142,17 @@ def get_all_analytics():
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("src.api.main:app", host="0.0.0.0", port=8000, reload=False)
+    import socket as sock_mod
+
+    def find_open_port(default_port):
+        for port in range(default_port, default_port + 10):
+            with sock_mod.socket(sock_mod.AF_INET, sock_mod.SOCK_STREAM) as s:
+                if s.connect_ex(('localhost', port)) != 0:
+                    return port
+        return default_port
+
+    initial_port = int(os.environ.get("PORT", 8000))
+    final_port = find_open_port(initial_port)
+    if final_port != initial_port:
+        print(f"Port {initial_port} in use, using port {final_port}")
+    uvicorn.run("src.api.main:app", host="0.0.0.0", port=final_port, reload=False)

@@ -38,7 +38,7 @@ st.set_page_config(
 
 API_BASE = os.environ.get("API_URL", "http://localhost:8000")
 GEO_PATH = ROOT / "data" / "geospatial" / "kenya-counties.geojson"
-LOG_PATH = ROOT / "data" / "download_log.json"
+LOG_PATH = ROOT / "data" / "processed" / "download_log.json"
 
 COUNTIES = [
     "Mombasa", "Kwale", "Kilifi", "Tana River", "Lamu", "Taita-Taveta",

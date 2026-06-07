@@ -10,7 +10,7 @@ import io
 router = APIRouter(prefix="/api/v1", tags=["Analytics"])
 ROOT = Path(__file__).resolve().parents[3]
 PROCESSED_DIR = ROOT / "data" / "processed"
-DOWNLOAD_LOG = ROOT / "data" / "raw" / "download_log.json"
+DOWNLOAD_LOG = ROOT / "data" / "processed" / "download_log.json"
 METRICS_CSV = PROCESSED_DIR / "county_metrics.csv"
 
 

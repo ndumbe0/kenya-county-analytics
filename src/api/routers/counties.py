@@ -8,7 +8,7 @@ router = APIRouter(prefix="/api/v1/counties", tags=["Counties"])
 
 ROOT = Path(__file__).resolve().parents[3]
 PROCESSED_DIR = ROOT / "data" / "processed"
-DOWNLOAD_LOG = ROOT / "data" / "raw" / "download_log.json"
+DOWNLOAD_LOG = ROOT / "data" / "processed" / "download_log.json"
 
 COUNTY_CODES = {
     "Mombasa": 1, "Kwale": 2, "Kilifi": 3, "Tana River": 4, "Lamu": 5,

@@ -1,0 +1,50 @@
+[
+  {
+    "col_0":"Altitude: Highest point Altitude: Lowest point",
+    "Units":": metres a.s.l : metres a.s.l",
+    "col_2":"151 149",
+    "page":18,
+    "Unit":null,
+    "2013":null
+  },
+  {
+    "col_0":"Latitudes Longitudes",
+    "Units":": degrees N\/S : degrees E\/W",
+    "col_2":null,
+    "page":18,
+    "Unit":null,
+    "2013":null
+  },
+  {
+    "col_0":"Rainfall (annual avergage) Long rains (average) Short rains (average) Temperature (annual average Lowest) Temperature (annual average highest) Temperature (annual average)",
+    "Units":null,
+    "col_2":null,
+    "page":18,
+    "Unit":"mm mm mm 0C 0C 0C",
+    "2013":"18.2 121.5 94.6 21.4 36.2 28.8"
+  },
+  {
+    "col_0":null,
+    "Units":null,
+    "col_2":null,
+    "page":29,
+    "Unit":"Kg KSh",
+    "2013":"25,728 530,900"
+  },
+  {
+    "col_0":null,
+    "Units":null,
+    "col_2":null,
+    "page":29,
+    "Unit":null,
+    "2013":"12 3"
+  },
+  {
+    "col_0":null,
+    "Units":null,
+    "col_2":null,
+    "page":29,
+    "Unit":null,
+    "2013":"15"
+  }
+]

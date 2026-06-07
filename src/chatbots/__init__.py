@@ -17,7 +17,7 @@ from pathlib import Path
 from typing import Optional
 
 ROOT = Path(__file__).resolve().parents[2]
-LOG_PATH = ROOT / "data" / "raw" / "download_log.json"
+LOG_PATH = ROOT / "data" / "processed" / "download_log.json"
 METRICS_PATH = ROOT / "data" / "processed" / "county_metrics.csv"
 
 
@@ -169,7 +169,7 @@ class DataExplorerBot(BaseBot):
 
     def _answer(self, query: str) -> str:
         q = query.lower().strip()
-        self.citations = ["data/processed/county_metrics.csv", "data/raw/download_log.json"]
+        self.citations = ["data/processed/county_metrics.csv", "data/processed/download_log.json"]
 
         if not q:
             return "Ask me about a county - e.g. 'Population of Nairobi' or 'Does Makueni have data?'."

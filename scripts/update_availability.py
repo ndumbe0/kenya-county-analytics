@@ -15,7 +15,7 @@ from src.common import PROJECT_ROOT, read_json
 def main() -> None:
     metrics_path = PROJECT_ROOT / "data" / "processed" / "county_metrics.csv"
     json_path = PROJECT_ROOT / "data" / "processed" / "county_metrics.json"
-    log_path = PROJECT_ROOT / "data" / "raw" / "download_log.json"
+    log_path = PROJECT_ROOT / "data" / "processed" / "download_log.json"
     df = pd.read_csv(metrics_path, dtype={"county_code": str})
     df["county_code"] = df["county_code"].str.zfill(3)
     log = {row["county_name"]: row for row in read_json(log_path, [])}
