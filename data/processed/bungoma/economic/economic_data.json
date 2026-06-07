@@ -8,11 +8,7 @@
     "Production (Tonnes)":null,
     "col_3":null,
     "col_4":null,
-    "2013":null,
-    "col_2":null,
-    "Kilometres":null,
-    "Number":null,
-    "Unit":null
+    "2013":null
   },
   {
     "2013\/14":null,
@@ -23,11 +19,7 @@
     "Production (Tonnes)":null,
     "col_3":null,
     "col_4":null,
-    "2013":null,
-    "col_2":null,
-    "Kilometres":null,
-    "Number":null,
-    "Unit":null
+    "2013":null
   },
   {
     "2013\/14":null,
@@ -38,11 +30,7 @@
     "Production (Tonnes)":null,
     "col_3":null,
     "col_4":null,
-    "2013":null,
-    "col_2":null,
-    "Kilometres":null,
-    "Number":null,
-    "Unit":null
+    "2013":null
   },
   {
     "2013\/14":null,
@@ -53,11 +41,7 @@
     "Production (Tonnes)":null,
     "col_3":null,
     "col_4":null,
-    "2013":null,
-    "col_2":null,
-    "Kilometres":null,
-    "Number":null,
-    "Unit":null
+    "2013":null
   },
   {
     "2013\/14":null,
@@ -68,11 +52,7 @@
     "Production (Tonnes)":null,
     "col_3":null,
     "col_4":null,
-    "2013":null,
-    "col_2":null,
-    "Kilometres":null,
-    "Number":null,
-    "Unit":null
+    "2013":null
   },
   {
     "2013\/14":null,
@@ -83,11 +63,7 @@
     "Production (Tonnes)":null,
     "col_3":null,
     "col_4":null,
-    "2013":null,
-    "col_2":null,
-    "Kilometres":null,
-    "Number":null,
-    "Unit":null
+    "2013":null
   },
   {
     "2013\/14":null,
@@ -98,11 +74,7 @@
     "Production (Tonnes)":"2013",
     "col_3":"2014*",
     "col_4":"2013",
-    "2013":null,
-    "col_2":null,
-    "Kilometres":null,
-    "Number":null,
-    "Unit":null
+    "2013":null
   },
   {
     "2013\/14":null,
@@ -113,11 +85,7 @@
     "Production (Tonnes)":"28,658 5,326 318 68",
     "col_3":"32,678 5,869 595 21.6",
     "col_4":"1,019.0 473.4 19.9 4.5",
-    "2013":null,
-    "col_2":null,
-    "Kilometres":null,
-    "Number":null,
-    "Unit":null
+    "2013":null
   },
   {
     "2013\/14":null,
@@ -128,11 +96,7 @@
     "Production (Tonnes)":"34,370",
     "col_3":"39,164",
     "col_4":"1,517",
-    "2013":null,
-    "col_2":null,
-    "Kilometres":null,
-    "Number":null,
-    "Unit":null
+    "2013":null
   },
   {
     "2013\/14":null,
@@ -143,11 +107,7 @@
     "Production (Tonnes)":null,
     "col_3":null,
     "col_4":null,
-    "2013":"3 ,100 2 ,800 2 ,000 2 ,000",
-    "col_2":null,
-    "Kilometres":null,
-    "Number":null,
-    "Unit":null
+    "2013":"3 ,100 2 ,800 2 ,000 2 ,000"
   },
   {
     "2013\/14":null,
@@ -158,205 +118,6 @@
     "Production (Tonnes)":null,
     "col_3":null,
     "col_4":null,
-    "2013":"0.36 -",
-    "col_2":null,
-    "Kilometres":null,
-    "Number":null,
-    "Unit":null
-  },
-  {
-    "2013\/14":null,
-    "page":31,
-    "Sub county":null,
-    "Area Cropped (Hectares)":null,
-    "col_1":"Without Electricity",
-    "Production (Tonnes)":null,
-    "col_3":"With Electricity",
-    "col_4":"Without Electricity",
-    "2013":"With Electricity",
-    "col_2":"Total",
-    "Kilometres":null,
-    "Number":null,
-    "Unit":null
-  },
-  {
-    "2013\/14":null,
-    "page":31,
-    "Sub county":null,
-    "Area Cropped (Hectares)":null,
-    "col_1":".. .. 21 .. ..",
-    "Production (Tonnes)":null,
-    "col_3":"19411 247 362 164 51",
-    "col_4":".. 17 12 .. ..",
-    "2013":".. .. 350 .. ..",
-    "col_2":".. .. 371 .. ..",
-    "Kilometres":null,
-    "Number":null,
-    "Unit":null
-  },
-  {
-    "2013\/14":null,
-    "page":31,
-    "Sub county":null,
-    "Area Cropped (Hectares)":null,
-    "col_1":"Diesel",
-    "Production (Tonnes)":null,
-    "col_3":"Super Petrol",
-    "col_4":"Diesel",
-    "2013":"Super Petrol",
-    "col_2":"Kerosene",
-    "Kilometres":null,
-    "Number":null,
-    "Unit":null
-  },
-  {
-    "2013\/14":null,
-    "page":31,
-    "Sub county":null,
-    "Area Cropped (Hectares)":null,
-    "col_1":".. 108.3 109.4 .. 103.1 101.2 104.9 106.5 107.7 106.6 105.4 106.7 106",
-    "Production (Tonnes)":null,
-    "col_3":"112.5 113.5 115.5 116.1 116.6 116.5 117.8 118.5 113.6 112.8 108.8 104 113.8",
-    "col_4":"106.9 107.9 107 106 106.8 106.9 106.8 105.1 104.5 102.8 96.7 93 104.2",
-    "2013":".. 115.4 119.5 .. 115.1 110.3 111.4 114 115.8 114.8 110.8 111.2 113.8",
-    "col_2":".. .. 90.4 .. 81.3 83.4 81.4 85.8 87.4 86.9 84.7 84.9 85.1",
-    "Kilometres":null,
-    "Number":null,
-    "Unit":null
-  },
-  {
-    "2013\/14":null,
-    "page":33,
-    "Sub county":null,
-    "Area Cropped (Hectares)":null,
-    "col_1":"2013",
-    "Production (Tonnes)":null,
-    "col_3":null,
-    "col_4":null,
-    "2013":null,
-    "col_2":"2014*",
-    "Kilometres":"Type of Road",
-    "Number":null,
-    "Unit":null
-  },
-  {
-    "2013\/14":null,
-    "page":33,
-    "Sub county":null,
-    "Area Cropped (Hectares)":null,
-    "col_1":"1 ,453.4 9 01.8 1 00.6",
-    "Production (Tonnes)":null,
-    "col_3":null,
-    "col_4":null,
-    "2013":null,
-    "col_2":"1 ,453.4 9 01.8 1 00.6",
-    "Kilometres":"Earth Murram Bitumen",
-    "Number":null,
-    "Unit":null
-  },
-  {
-    "2013\/14":null,
-    "page":33,
-    "Sub county":null,
-    "Area Cropped (Hectares)":null,
-    "col_1":"2 ,455.8",
-    "Production (Tonnes)":null,
-    "col_3":null,
-    "col_4":null,
-    "2013":null,
-    "col_2":"2 ,455.8",
-    "Kilometres":"Total",
-    "Number":null,
-    "Unit":null
-  },
-  {
-    "2013\/14":null,
-    "page":33,
-    "Sub county":null,
-    "Area Cropped (Hectares)":null,
-    "col_1":null,
-    "Production (Tonnes)":null,
-    "col_3":null,
-    "col_4":null,
-    "2013":null,
-    "col_2":null,
-    "Kilometres":"Source: Department of Transport and Infrastructure, Vihiga County and Road * Provisional",
-    "Number":null,
-    "Unit":null
-  },
-  {
-    "2013\/14":null,
-    "page":33,
-    "Sub county":null,
-    "Area Cropped (Hectares)":null,
-    "col_1":"2014*",
-    "Production (Tonnes)":null,
-    "col_3":null,
-    "col_4":null,
-    "2013":null,
-    "col_2":null,
-    "Kilometres":null,
-    "Number":"Post Offices and Letter Boxes",
-    "Unit":null
-  },
-  {
-    "2013\/14":null,
-    "page":33,
-    "Sub county":null,
-    "Area Cropped (Hectares)":null,
-    "col_1":"16",
-    "Production (Tonnes)":null,
-    "col_3":null,
-    "col_4":null,
-    "2013":null,
-    "col_2":null,
-    "Kilometres":null,
-    "Number":"Post Offices",
-    "Unit":null
-  },
-  {
-    "2013\/14":null,
-    "page":33,
-    "Sub county":null,
-    "Area Cropped (Hectares)":null,
-    "col_1":"5,300 4,647 653",
-    "Production (Tonnes)":null,
-    "col_3":null,
-    "col_4":null,
-    "2013":null,
-    "col_2":null,
-    "Kilometres":null,
-    "Number":"Letter boxes installed Letter boxes rented Letter boxes vacant",
-    "Unit":null
-  },
-  {
-    "2013\/14":null,
-    "page":33,
-    "Sub county":null,
-    "Area Cropped (Hectares)":null,
-    "col_1":null,
-    "Production (Tonnes)":null,
-    "col_3":null,
-    "col_4":null,
-    "2013":null,
-    "col_2":null,
-    "Kilometres":null,
-    "Number":"Source: Offices of Postal Corporation of Keny, Vihiga County * Provisional",
-    "Unit":null
-  },
-  {
-    "2013\/14":null,
-    "page":50,
-    "Sub county":null,
-    "Area Cropped (Hectares)":null,
-    "col_1":null,
-    "Production (Tonnes)":null,
-    "col_3":null,
-    "col_4":null,
-    "2013":"39 84 25 38 85 59 13",
-    "col_2":null,
-    "Kilometres":null,
-    "Number":null,
-    "Unit":"Kg Kg Kg Kg Kg Kg Kg"
+    "2013":"0.36 -"
   }
 ]

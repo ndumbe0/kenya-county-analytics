@@ -1,23 +1,7 @@
-" Governor, elected directly by the people",page,Sub-County,col_1,col_2,col_3,col_4,col_5,col_6,Male,2013,Number,Offence,NPR
-" Deputy Governor, elected as running mate of the successful candidate for Gubernatorial",14,,,,,,,,,,,,
- Committee members not exceeding a third (or ten where a county assembly has more,14,,,,,,,,,,,,
-than 30 members) of the members of the respective county assembly,14,,,,,,,,,,,,
-" County Secretary nominated by the Governor and approved by the county assembly, who",14,,,,,,,,,,,,
-"will double up as head of the county public service, and secretary to the county executive",14,,,,,,,,,,,,
-committee,14,,,,,,,,,,,,
-,49,Turkana Central,Loima,Turkana South,Turkana North,Kibish,Turkana East,Turkana West,,,,,
-,49,3 2 4 13 5 13 3 - 7 41 15 13,4 6 1 4 1 18 7 5 3 16 14 17,8 3 4 12 7 35 13 9 16 8 9 5,.. .. .. .. .. .. .. .. .. .. .. ..,.. .. .. .. .. .. .. .. .. .. .. ..,.. .. .. .. .. .. .. .. .. .. .. ..,.. .. .. .. .. .. .. .. .. .. .. ..,,,,,
-,49,119,96,129,..,..,..,..,,,,,
-,50,,,,,,,,0 0 0,,,,
-,50,,,,,,,,741 0 25 4 0,,,,
-,50,,,,,,,,0 0 1 1 1,,,,
-,51,,Female,Male,,,,,,Male,,,
-,51,,- - - 17 9 - - 2 5 - 2 - 3 6 - 1 8,6 1 7 96 27 4 28 21 24 - 8 16 7 7 5 4 32,,,,,,6 - 16 64 10 10 35 16 27 2 8 2 8 46 4 2 17,,,
-,52,,,,,,,,,,32 5 26 37 1 7 20 11 7 19 23 13 37 18 2 36 13 4 18,Possession of Immunitation of Fire Arm Possessions of Govt. Stores Offensive Conduct Personating a Public Officer Attempted Defilement Assault with a child Showing Disrespect to Judicial Court Incest Obtaining by False pretense Fishing Without Fishermen License Manslaughter Failure to maintain parts of a M/V Robbery with violence Stealing Livestock Creating disturbance in a manner likely to cause a breach of peace Preparation to Commit a felony Trafficking-in Narcotic Drugs Forcible Detainer,
-,53,,Female,Male,,,,,,Male,,,
-,53,,0 0 0 7 2 0 1 0 0 0 0 0 0 0 4 0 0 0 0 0 2,3 1 1 14 3 2 3 0 10 0 0 0 4 3 1 1 3 0 2 0 8,,,,,,1 1 4 19 2 0 9 7 0 0 1 0 0 0 0 1 0 0 3 0 0,,,
-,54,,Female,Male,,,,,,Males,,,
-,54,,0 0 0 11 0 0 0 0 0 0 0 0 0 0 18 0 16 0 0 0 0,0 0 0 10 0 0 1 5 6 0 0 0 0 0 2 0 11 0 0 0 8,,,,,,0 0 0 27 4 0 5 11 22 0 0 0 0 3 23 2 54 0 5 0 11,,,
-,54,,Female,Total,Male,Female,,,,,,,Male
-,54,,"658 1,007 482 .. 907 455 484","1,309 1,848 927 .. 1,319 742 930",684 126 267 .. 78 127 13,"1,094 158 289 .. 91 106 15",,,,,,,651 841 445 .. 412 287 446
-,54,,"3,993","7,075","1,295","1,753",,,,,,,"3,082"
+" Governor, elected directly by the people",page
+" Deputy Governor, elected as running mate of the successful candidate for Gubernatorial",14
+ Committee members not exceeding a third (or ten where a county assembly has more,14
+than 30 members) of the members of the respective county assembly,14
+" County Secretary nominated by the Governor and approved by the county assembly, who",14
+"will double up as head of the county public service, and secretary to the county executive",14
+committee,14

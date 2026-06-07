@@ -5,8 +5,7 @@
     "col_2":"5,199",
     "page":19,
     "Unit":null,
-    "2013":null,
-    "Quantity":null
+    "2013":null
   },
   {
     "col_0":null,
@@ -14,8 +13,7 @@
     "col_2":null,
     "page":19,
     "Unit":null,
-    "2013":null,
-    "Quantity":null
+    "2013":null
   },
   {
     "col_0":"Latitudes Longitudes",
@@ -23,8 +21,7 @@
     "col_2":null,
     "page":19,
     "Unit":null,
-    "2013":null,
-    "Quantity":null
+    "2013":null
   },
   {
     "col_0":"Source: Department of Environment, *Provisional",
@@ -32,8 +29,7 @@
     "col_2":null,
     "page":19,
     "Unit":null,
-    "2013":null,
-    "Quantity":null
+    "2013":null
   },
   {
     "col_0":null,
@@ -41,43 +37,6 @@
     "col_2":null,
     "page":19,
     "Unit":"mm mm mm degrees centigrade degrees centigrade",
-    "2013":"1,200 1,200 500 12.8 20.8",
-    "Quantity":null
-  },
-  {
-    "col_0":null,
-    "Units":null,
-    "col_2":null,
-    "page":31,
-    "Unit":null,
-    "2013":"148 300 257 253 124 471 325 355",
-    "Quantity":null
-  },
-  {
-    "col_0":null,
-    "Units":null,
-    "col_2":null,
-    "page":31,
-    "Unit":null,
-    "2013":"2 ,335",
-    "Quantity":null
-  },
-  {
-    "col_0":null,
-    "Units":null,
-    "col_2":null,
-    "page":33,
-    "Unit":null,
-    "2013":"12 9 115,434.8 235.8 154.8",
-    "Quantity":null
-  },
-  {
-    "col_0":null,
-    "Units":null,
-    "col_2":null,
-    "page":33,
-    "Unit":null,
-    "2013":null,
-    "Quantity":"3,600m3 3,000"
+    "2013":"1,200 1,200 500 12.8 20.8"
   }
 ]

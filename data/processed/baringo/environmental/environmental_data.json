@@ -2,65 +2,11 @@
   {
     "Unit":"metres a.s.l metres a.s.l degrees N\/S degrees E\/W",
     "page":18,
-    "2013":null,
-    "Source":null,
-    "col_2":null,
-    "2014* Value (KSh Quantity(MT) Million) 4,050 417,839":null
+    "2013":null
   },
   {
     "Unit":"mm mm mm 0C 0C 0C",
     "page":18,
-    "2013":"11.8 10.5 24.7 22.4 37.8 29.95",
-    "Source":null,
-    "col_2":null,
-    "2014* Value (KSh Quantity(MT) Million) 4,050 417,839":null
-  },
-  {
-    "Unit":null,
-    "page":31,
-    "2013":"Quantity(MT)",
-    "Source":null,
-    "col_2":"Value (KSh Million)",
-    "2014* Value (KSh Quantity(MT) Million) 4,050 417,839":"Quantity(MT)"
-  },
-  {
-    "Unit":null,
-    "page":31,
-    "2013":"4,193",
-    "Source":"Lake Turkana",
-    "col_2":"425,424",
-    "2014* Value (KSh Quantity(MT) Million) 4,050 417,839":"4,050"
-  },
-  {
-    "Unit":null,
-    "page":31,
-    "2013":"partment, County Government of Turkana",
-    "Source":null,
-    "col_2":null,
-    "2014* Value (KSh Quantity(MT) Million) 4,050 417,839":null
-  },
-  {
-    "Unit":null,
-    "page":31,
-    "2013":null,
-    "Source":null,
-    "col_2":null,
-    "2014* Value (KSh Quantity(MT) Million) 4,050 417,839":null
-  },
-  {
-    "Unit":null,
-    "page":31,
-    "2013":"2 0 1 0 0 0 1",
-    "Source":null,
-    "col_2":null,
-    "2014* Value (KSh Quantity(MT) Million) 4,050 417,839":null
-  },
-  {
-    "Unit":null,
-    "page":31,
-    "2013":"4",
-    "Source":null,
-    "col_2":null,
-    "2014* Value (KSh Quantity(MT) Million) 4,050 417,839":null
+    "2013":"11.8 10.5 24.7 22.4 37.8 29.95"
   }
 ]
