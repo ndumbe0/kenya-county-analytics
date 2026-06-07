@@ -1,425 +1,542 @@
 [
   {
-    "county_name": "Mombasa",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_1.pdf",
-    "file_size_bytes": 6528440,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.347179+00:00",
-    "live_knbs_url": null
-  },
-  {
-    "county_name": "Marsabit",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_10.pdf",
-    "file_size_bytes": 2224457,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.347464+00:00",
-    "live_knbs_url": null
-  },
-  {
-    "county_name": "Isiolo",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_11.pdf",
-    "file_size_bytes": 1823772,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.347673+00:00",
-    "live_knbs_url": null
-  },
-  {
-    "county_name": "Meru",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_12.pdf",
-    "file_size_bytes": 3165568,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.347868+00:00",
-    "live_knbs_url": null
-  },
-  {
-    "county_name": "Tharaka-Nithi",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_13.pdf",
-    "file_size_bytes": 4718845,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.348104+00:00",
-    "live_knbs_url": null
-  },
-  {
-    "county_name": "Embu",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_14.pdf",
-    "file_size_bytes": 1566685,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.348299+00:00",
-    "live_knbs_url": null
-  },
-  {
-    "county_name": "Kitui",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_15.pdf",
-    "file_size_bytes": 4984476,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.348491+00:00",
-    "live_knbs_url": null
-  },
-  {
-    "county_name": "Machakos",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_16.pdf",
-    "file_size_bytes": 844547,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.348976+00:00",
-    "live_knbs_url": null
-  },
-  {
-    "county_name": "Makueni",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_17.pdf",
-    "file_size_bytes": 624611,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.349223+00:00",
-    "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2026/02/2023-County-Statistical-Abstract-Makueni-County.pdf"
-  },
-  {
-    "county_name": "Nyandarua",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_18.pdf",
-    "file_size_bytes": 711011,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.349453+00:00",
-    "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2023/09/2022-County-Statistical-Abstracts-Nyandarua.pdf"
-  },
-  {
-    "county_name": "Nyeri",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_19.pdf",
-    "file_size_bytes": 719459,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.349671+00:00",
-    "live_knbs_url": null
-  },
-  {
-    "county_name": "Kwale",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_2.pdf",
-    "file_size_bytes": 6604027,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.349918+00:00",
-    "live_knbs_url": null
-  },
-  {
-    "county_name": "Kirinyaga",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_20.pdf",
-    "file_size_bytes": 626230,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.350263+00:00",
-    "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2023/09/2015-County-Statistical-Abstracts-Kirinyaga.pdf"
-  },
-  {
-    "county_name": "Murang'a",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_21.pdf",
-    "file_size_bytes": 819068,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.351740+00:00",
-    "live_knbs_url": null
-  },
-  {
-    "county_name": "Kiambu",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_22.pdf",
-    "file_size_bytes": 695477,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.352122+00:00",
-    "live_knbs_url": null
-  },
-  {
-    "county_name": "Turkana",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_23.pdf",
-    "file_size_bytes": 750781,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.352426+00:00",
-    "live_knbs_url": null
-  },
-  {
-    "county_name": "West Pokot",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_24.pdf",
-    "file_size_bytes": 753013,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.353291+00:00",
-    "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2023/09/2015-County-Statistical-Abstracts-West-Pokot.pdf"
-  },
-  {
-    "county_name": "Samburu",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_25.pdf",
-    "file_size_bytes": 580355,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.354077+00:00",
-    "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2025/09/2024-Statistical-Abstract-Samburu-County.pdf"
-  },
-  {
-    "county_name": "Trans Nzoia",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_26.pdf",
-    "file_size_bytes": 627131,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.354378+00:00",
-    "live_knbs_url": null
-  },
-  {
-    "county_name": "Uasin Gishu",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_27.pdf",
-    "file_size_bytes": 606412,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.354611+00:00",
-    "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2023/09/2015-County-Statistical-Abstracts-Uasin-Gishu.pdf"
-  },
-  {
-    "county_name": "Elgeyo-Marakwet",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_28.pdf",
-    "file_size_bytes": 599520,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.354832+00:00",
-    "live_knbs_url": null
-  },
-  {
-    "county_name": "Nandi",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_29.pdf",
-    "file_size_bytes": 717638,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.355055+00:00",
-    "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2023/09/2015-County-Statistical-Abstracts-Nandi.pdf"
-  },
-  {
-    "county_name": "Kilifi",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_3.pdf",
-    "file_size_bytes": 8056426,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.355330+00:00",
-    "live_knbs_url": null
-  },
-  {
     "county_name": "Baringo",
     "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_30.pdf",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Baringo\\2025\\30_Statistical_Abstract_Baringo.pdf",
     "file_size_bytes": 583855,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.355549+00:00",
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.416760+00:00",
     "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2023/09/2015-County-Statistical-Abstracts-Baringo.pdf"
   },
   {
-    "county_name": "Laikipia",
+    "county_name": "Bomet",
     "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_31.pdf",
-    "file_size_bytes": 762044,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.355771+00:00",
-    "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2023/09/2020-County-Statistical-Abstracts-Laikipia.pdf"
-  },
-  {
-    "county_name": "Nakuru",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_32.pdf",
-    "file_size_bytes": 585526,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.355984+00:00",
-    "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2023/09/2015-County-Statistical-Abstracts-Nakuru.pdf"
-  },
-  {
-    "county_name": "Narok",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_33.pdf",
-    "file_size_bytes": 584033,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.356208+00:00",
-    "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2023/09/2015-County-Statistical-Abstracts-Narok.pdf"
-  },
-  {
-    "county_name": "Kajiado",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_34.pdf",
-    "file_size_bytes": 587364,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.356420+00:00",
-    "live_knbs_url": null
-  },
-  {
-    "county_name": "Kericho",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_35.pdf",
-    "file_size_bytes": 691609,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.356629+00:00",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Bomet\\2015\\County_Abstract_53_Bomet.pdf",
+    "file_size_bytes": 813059,
+    "abstract_year": 2015,
+    "last_verified_timestamp": "2026-06-07T22:41:23.416963+00:00",
     "live_knbs_url": null
   },
   {
     "county_name": "Bomet",
     "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_36.pdf",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Bomet\\2025\\36_Statistical_Abstract_Bomet.pdf",
     "file_size_bytes": 708868,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.356838+00:00",
-    "live_knbs_url": null
-  },
-  {
-    "county_name": "Kakamega",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_37.pdf",
-    "file_size_bytes": 704028,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.357044+00:00",
-    "live_knbs_url": null
-  },
-  {
-    "county_name": "Vihiga",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_38.pdf",
-    "file_size_bytes": 664493,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.357293+00:00",
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.417091+00:00",
     "live_knbs_url": null
   },
   {
     "county_name": "Bungoma",
     "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_39.pdf",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Bungoma\\2025\\39_Statistical_Abstract_Bungoma.pdf",
     "file_size_bytes": 631645,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.357511+00:00",
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.417206+00:00",
     "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2023/09/2015-County-Statistical-Abstracts-Bungoma.pdf"
-  },
-  {
-    "county_name": "Tana River",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_4.pdf",
-    "file_size_bytes": 4587780,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.357741+00:00",
-    "live_knbs_url": null
   },
   {
     "county_name": "Busia",
     "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_40.pdf",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Busia\\2025\\40_Statistical_Abstract_Busia.pdf",
     "file_size_bytes": 757763,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.357965+00:00",
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.417314+00:00",
     "live_knbs_url": null
   },
   {
-    "county_name": "Siaya",
+    "county_name": "Elgeyo-Marakwet",
     "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_41.pdf",
-    "file_size_bytes": 673261,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.358196+00:00",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Elgeyo-Marakwet\\2025\\28_Statistical_Abstract_Elgeyo-Marakwet.pdf",
+    "file_size_bytes": 599520,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.417825+00:00",
     "live_knbs_url": null
   },
   {
-    "county_name": "Kisumu",
+    "county_name": "Embu",
     "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_42.pdf",
-    "file_size_bytes": 639625,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.358408+00:00",
-    "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2025/12/2024-Statistical-Abstract-Kisumu-County.pdf"
-  },
-  {
-    "county_name": "Homa Bay",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_43.pdf",
-    "file_size_bytes": 706123,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.358619+00:00",
-    "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2025/12/2024-Statistical-Abstract-Homa-Bay-County.pdf"
-  },
-  {
-    "county_name": "Migori",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_44.pdf",
-    "file_size_bytes": 635848,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.358830+00:00",
-    "live_knbs_url": null
-  },
-  {
-    "county_name": "Kisii",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_45.pdf",
-    "file_size_bytes": 632386,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.359038+00:00",
-    "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2023/09/2015-County-Statistical-Abstracts-Kisii.pdf"
-  },
-  {
-    "county_name": "Nyamira",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_46.pdf",
-    "file_size_bytes": 589140,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.359276+00:00",
-    "live_knbs_url": null
-  },
-  {
-    "county_name": "Nairobi",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_47.pdf",
-    "file_size_bytes": 568312,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.359487+00:00",
-    "live_knbs_url": null
-  },
-  {
-    "county_name": "Lamu",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_5.pdf",
-    "file_size_bytes": 20961889,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.360398+00:00",
-    "live_knbs_url": null
-  },
-  {
-    "county_name": "Taita-Taveta",
-    "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_6.pdf",
-    "file_size_bytes": 3417652,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.363878+00:00",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Embu\\2025\\14_Statistical_Abstract_Embu.pdf",
+    "file_size_bytes": 1566685,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.417926+00:00",
     "live_knbs_url": null
   },
   {
     "county_name": "Garissa",
     "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_7.pdf",
-    "file_size_bytes": 13409505,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.365036+00:00",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Garissa\\2015\\County_Abstract_48_Garissa.pdf",
+    "file_size_bytes": 645372,
+    "abstract_year": 2015,
+    "last_verified_timestamp": "2026-06-07T22:41:23.418020+00:00",
     "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2026/02/2024-Statistical-Abstract-Garissa-County.pdf"
   },
   {
-    "county_name": "Wajir",
+    "county_name": "Garissa",
     "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_8.pdf",
-    "file_size_bytes": 3701099,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.365283+00:00",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Garissa\\2025\\07_Statistical_Abstract_Garissa.pdf",
+    "file_size_bytes": 13409505,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.418114+00:00",
+    "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2026/02/2024-Statistical-Abstract-Garissa-County.pdf"
+  },
+  {
+    "county_name": "Homa Bay",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Homa Bay\\2015\\County_Abstract_61_Homa Bay.pdf",
+    "file_size_bytes": 630329,
+    "abstract_year": 2015,
+    "last_verified_timestamp": "2026-06-07T22:41:23.418223+00:00",
+    "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2025/12/2024-Statistical-Abstract-Homa-Bay-County.pdf"
+  },
+  {
+    "county_name": "Homa Bay",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Homa Bay\\2025\\43_Statistical_Abstract_Homa Bay.pdf",
+    "file_size_bytes": 706123,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.418327+00:00",
+    "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2025/12/2024-Statistical-Abstract-Homa-Bay-County.pdf"
+  },
+  {
+    "county_name": "Isiolo",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Isiolo\\2015\\County_Abstract_62_Isiolo.pdf",
+    "file_size_bytes": 647458,
+    "abstract_year": 2015,
+    "last_verified_timestamp": "2026-06-07T22:41:23.418421+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Isiolo",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Isiolo\\2025\\11_Statistical_Abstract_Isiolo.pdf",
+    "file_size_bytes": 1823772,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.418510+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Kajiado",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Kajiado\\2015\\County_Abstract_60_Kajiado.pdf",
+    "file_size_bytes": 689255,
+    "abstract_year": 2015,
+    "last_verified_timestamp": "2026-06-07T22:41:23.418609+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Kajiado",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Kajiado\\2025\\34_Statistical_Abstract_Kajiado.pdf",
+    "file_size_bytes": 587364,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.418803+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Kakamega",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Kakamega\\2025\\37_Statistical_Abstract_Kakamega.pdf",
+    "file_size_bytes": 704028,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.418961+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Kericho",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Kericho\\2015\\County_Abstract_49_Kericho.pdf",
+    "file_size_bytes": 633108,
+    "abstract_year": 2015,
+    "last_verified_timestamp": "2026-06-07T22:41:23.419068+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Kericho",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Kericho\\2025\\35_Statistical_Abstract_Kericho.pdf",
+    "file_size_bytes": 691609,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.419171+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Kiambu",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Kiambu\\2025\\22_Statistical_Abstract_Kiambu.pdf",
+    "file_size_bytes": 695477,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.419267+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Kilifi",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Kilifi\\2015\\County_Abstract_51_Kilifi.pdf",
+    "file_size_bytes": 676900,
+    "abstract_year": 2015,
+    "last_verified_timestamp": "2026-06-07T22:41:23.419352+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Kilifi",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Kilifi\\2025\\03_Statistical_Abstract_Kilifi.pdf",
+    "file_size_bytes": 8056426,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.419437+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Kirinyaga",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Kirinyaga\\2025\\20_Statistical_Abstract_Kirinyaga.pdf",
+    "file_size_bytes": 626230,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.419535+00:00",
+    "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2023/09/2015-County-Statistical-Abstracts-Kirinyaga.pdf"
+  },
+  {
+    "county_name": "Kisii",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Kisii\\2025\\45_Statistical_Abstract_Kisii.pdf",
+    "file_size_bytes": 632386,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.419641+00:00",
+    "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2023/09/2015-County-Statistical-Abstracts-Kisii.pdf"
+  },
+  {
+    "county_name": "Kisumu",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Kisumu\\2025\\42_Statistical_Abstract_Kisumu.pdf",
+    "file_size_bytes": 639625,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.419747+00:00",
+    "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2025/12/2024-Statistical-Abstract-Kisumu-County.pdf"
+  },
+  {
+    "county_name": "Kitui",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Kitui\\2015\\County_Abstract_58_Kitui.pdf",
+    "file_size_bytes": 642739,
+    "abstract_year": 2015,
+    "last_verified_timestamp": "2026-06-07T22:41:23.419837+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Kitui",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Kitui\\2025\\15_Statistical_Abstract_Kitui.pdf",
+    "file_size_bytes": 4984476,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.419931+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Kwale",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Kwale\\2025\\02_Statistical_Abstract_Kwale.pdf",
+    "file_size_bytes": 6604027,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.420016+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Laikipia",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Laikipia\\2025\\31_Statistical_Abstract_Laikipia.pdf",
+    "file_size_bytes": 762044,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.420113+00:00",
+    "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2023/09/2020-County-Statistical-Abstracts-Laikipia.pdf"
+  },
+  {
+    "county_name": "Lamu",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Lamu\\2025\\05_Statistical_Abstract_Lamu.pdf",
+    "file_size_bytes": 20961889,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.420203+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Machakos",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Machakos\\2015\\County_Abstract_59_Machakos.pdf",
+    "file_size_bytes": 829485,
+    "abstract_year": 2015,
+    "last_verified_timestamp": "2026-06-07T22:41:23.420292+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Machakos",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Machakos\\2025\\16_Statistical_Abstract_Machakos.pdf",
+    "file_size_bytes": 844547,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.420382+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Makueni",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Makueni\\2025\\17_Statistical_Abstract_Makueni.pdf",
+    "file_size_bytes": 624611,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.420472+00:00",
+    "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2026/02/2025-Statistical-Abstract-Makueni-County.pdf"
+  },
+  {
+    "county_name": "Mandera",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Mandera\\2015\\County_Abstract_57_Mandera.pdf",
+    "file_size_bytes": 593540,
+    "abstract_year": 2015,
+    "last_verified_timestamp": "2026-06-07T22:41:23.420558+00:00",
     "live_knbs_url": null
   },
   {
     "county_name": "Mandera",
     "file_status": "AVAILABLE",
-    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\County_Abstract_9.pdf",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Mandera\\2025\\09_Statistical_Abstract_Mandera.pdf",
     "file_size_bytes": 1556611,
-    "abstract_year": null,
-    "last_verified_timestamp": "2026-06-07T22:08:52.365552+00:00",
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.420648+00:00",
     "live_knbs_url": null
+  },
+  {
+    "county_name": "Marsabit",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Marsabit\\2025\\10_Statistical_Abstract_Marsabit.pdf",
+    "file_size_bytes": 2224457,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.420755+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Meru",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Meru\\2025\\12_Statistical_Abstract_Meru.pdf",
+    "file_size_bytes": 3165568,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.420852+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Migori",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Migori\\2025\\44_Statistical_Abstract_Migori.pdf",
+    "file_size_bytes": 635848,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.420953+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Mombasa",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Mombasa\\2025\\01_Statistical_Abstract_Mombasa.pdf",
+    "file_size_bytes": 6528440,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.421038+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Murang'a",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Murang'a\\2025\\21_Statistical_Abstract_Murang'a.pdf",
+    "file_size_bytes": 819068,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.421133+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Nairobi",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Nairobi\\2015\\County_Abstract_55_Nairobi.pdf",
+    "file_size_bytes": 601763,
+    "abstract_year": 2015,
+    "last_verified_timestamp": "2026-06-07T22:41:23.421236+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Nairobi",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Nairobi\\2025\\47_Statistical_Abstract_Nairobi.pdf",
+    "file_size_bytes": 568312,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.421343+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Nakuru",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Nakuru\\2025\\32_Statistical_Abstract_Nakuru.pdf",
+    "file_size_bytes": 585526,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.421443+00:00",
+    "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2023/09/2015-County-Statistical-Abstracts-Nakuru.pdf"
+  },
+  {
+    "county_name": "Nandi",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Nandi\\2025\\29_Statistical_Abstract_Nandi.pdf",
+    "file_size_bytes": 717638,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.421538+00:00",
+    "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2023/09/2015-County-Statistical-Abstracts-Nandi.pdf"
+  },
+  {
+    "county_name": "Narok",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Narok\\2025\\33_Statistical_Abstract_Narok.pdf",
+    "file_size_bytes": 584033,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.421636+00:00",
+    "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2023/09/2015-County-Statistical-Abstracts-Narok.pdf"
+  },
+  {
+    "county_name": "Nyamira",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Nyamira\\2015\\County_Abstract_52_Nyamira.pdf",
+    "file_size_bytes": 634115,
+    "abstract_year": 2015,
+    "last_verified_timestamp": "2026-06-07T22:41:23.421738+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Nyamira",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Nyamira\\2025\\46_Statistical_Abstract_Nyamira.pdf",
+    "file_size_bytes": 589140,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.421838+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Nyandarua",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Nyandarua\\2025\\18_Statistical_Abstract_Nyandarua.pdf",
+    "file_size_bytes": 711011,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.421929+00:00",
+    "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2023/09/2022-County-Statistical-Abstracts-Nyandarua.pdf"
+  },
+  {
+    "county_name": "Nyeri",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Nyeri\\2025\\19_Statistical_Abstract_Nyeri.pdf",
+    "file_size_bytes": 719459,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.422030+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Samburu",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Samburu\\2025\\25_Statistical_Abstract_Samburu.pdf",
+    "file_size_bytes": 580355,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.422123+00:00",
+    "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2025/09/2024-Statistical-Abstract-Samburu-County.pdf"
+  },
+  {
+    "county_name": "Siaya",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Siaya\\2015\\County_Abstract_50_Siaya.pdf",
+    "file_size_bytes": 722813,
+    "abstract_year": 2015,
+    "last_verified_timestamp": "2026-06-07T22:41:23.422219+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Siaya",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Siaya\\2025\\41_Statistical_Abstract_Siaya.pdf",
+    "file_size_bytes": 673261,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.422316+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Taita-Taveta",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Taita-Taveta\\2025\\06_Statistical_Abstract_Taita-Taveta.pdf",
+    "file_size_bytes": 3417652,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.422403+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Tana River",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Tana River\\2025\\04_Statistical_Abstract_Tana River.pdf",
+    "file_size_bytes": 4587780,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.422485+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Tharaka-Nithi",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Tharaka-Nithi\\2025\\13_Statistical_Abstract_Tharaka-Nithi.pdf",
+    "file_size_bytes": 4718845,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.422573+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Trans Nzoia",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Trans Nzoia\\2025\\26_Statistical_Abstract_Trans Nzoia.pdf",
+    "file_size_bytes": 627131,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.422669+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Turkana",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Turkana\\2025\\23_Statistical_Abstract_Turkana.pdf",
+    "file_size_bytes": 750781,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.422778+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Uasin Gishu",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Uasin Gishu\\2025\\27_Statistical_Abstract_Uasin Gishu.pdf",
+    "file_size_bytes": 606412,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.422873+00:00",
+    "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2025/12/2025-Statistical-Abstract-Uasin-Gishu-County.pdf"
+  },
+  {
+    "county_name": "Vihiga",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Vihiga\\2025\\38_Statistical_Abstract_Vihiga.pdf",
+    "file_size_bytes": 664493,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.422971+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "Wajir",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\Wajir\\2025\\08_Statistical_Abstract_Wajir.pdf",
+    "file_size_bytes": 3701099,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.423058+00:00",
+    "live_knbs_url": null
+  },
+  {
+    "county_name": "West Pokot",
+    "file_status": "AVAILABLE",
+    "local_path": "D:\\personal projects\\kenya-county-analytics\\data\\raw\\West Pokot\\2025\\24_Statistical_Abstract_West Pokot.pdf",
+    "file_size_bytes": 753013,
+    "abstract_year": 2025,
+    "last_verified_timestamp": "2026-06-07T22:41:23.423156+00:00",
+    "live_knbs_url": "https://www.knbs.or.ke/wp-content/uploads/2023/09/2015-County-Statistical-Abstracts-West-Pokot.pdf"
   }
 ]

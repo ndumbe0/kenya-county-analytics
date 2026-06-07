@@ -50,7 +50,14 @@ def list_counties():
     ml_data = load_ml_data()
     clusters = ml_data.get("clusters", {}).get("clusters", {})
 
-    log = load_json(DOWNLOAD_LOG) or {}
+    raw_log = load_json(DOWNLOAD_LOG) or []
+    log_by_name = {}
+    if isinstance(raw_log, list):
+        for entry in raw_log:
+            if isinstance(entry, dict) and entry.get("county_name"):
+                log_by_name[entry["county_name"]] = entry
+    elif isinstance(raw_log, dict):
+        log_by_name = raw_log
     metrics_csv = PROCESSED_DIR / "county_metrics.csv"
     metrics_by_name: dict = {}
     if metrics_csv.exists():
@@ -63,16 +70,16 @@ def list_counties():
     for name, code in sorted(COUNTY_CODES.items(), key=lambda x: x[1]):
         county_data_path = PROCESSED_DIR / name
         has_extracted = county_data_path.exists() and any(county_data_path.iterdir())
-        log_entry = log.get(name, {})
-        available = has_extracted or log_entry.get("status") == "AVAILABLE"
+        log_entry = log_by_name.get(name, {})
+        available = has_extracted or log_entry.get("file_status") == "AVAILABLE" or log_entry.get("status") == "AVAILABLE"
         m = metrics_by_name.get(name, {})
         out.append({
             "code": code,
             "name": name,
             "data_available": available,
             "data_status": "AVAILABLE" if available else "DATA_UNAVAILABLE",
-            "latest_year": log_entry.get("year") or m.get("latest_year"),
-            "source_file": log_entry.get("file_path"),
+            "latest_year": log_entry.get("abstract_year") or log_entry.get("year") or m.get("latest_year"),
+            "source_file": log_entry.get("local_path") or log_entry.get("file_path"),
             "population": int(m.get("population", 0)) if m else 0,
             "development_tier": m.get("development_tier", 5),
             "tier_label": clusters.get(name, {}).get("tier_label"),

@@ -89,7 +89,10 @@ def _load_log() -> dict:
     if not LOG_PATH.exists():
         return {}
     try:
-        return json.loads(LOG_PATH.read_text(encoding="utf-8"))
+        data = json.loads(LOG_PATH.read_text(encoding="utf-8"))
+        if isinstance(data, list):
+            return {e["county_name"]: e for e in data if isinstance(e, dict) and e.get("county_name")}
+        return data if isinstance(data, dict) else {}
     except json.JSONDecodeError:
         return {}
 
@@ -178,18 +181,18 @@ class DataExplorerBot(BaseBot):
 
         if any(p in q for p in ["how many counties", "total counties", "number of counties"]):
             total = len(self.metrics) or len(COUNTIES)
-            available = sum(1 for v in self.log.values() if v.get("status") == "AVAILABLE")
+            available = sum(1 for v in self.log.values() if v.get("file_status") == "AVAILABLE" or v.get("status") == "AVAILABLE")
             return f"Kenya has **{total} counties**. KNBS County Statistical Abstract PDFs are currently available for **{available}** of them on this platform; the remaining {total - available} counties fall back to 2019 Census baseline estimates."
 
         if "available" in q or "uploaded" in q or "have data" in q:
             if not counties:
-                avail = sum(1 for v in self.log.values() if v.get("status") == "AVAILABLE")
+                avail = sum(1 for v in self.log.values() if v.get("file_status") == "AVAILABLE" or v.get("status") == "AVAILABLE")
                 return f"{avail} of 47 counties have ingested KNBS abstracts. Ask about a specific county to check."
             lines = []
             for c in counties:
                 entry = self.log.get(c, {})
-                if entry.get("status") == "AVAILABLE":
-                    yr = entry.get("year") or "unknown year"
+                if entry.get("file_status") == "AVAILABLE" or entry.get("status") == "AVAILABLE":
+                    yr = entry.get("abstract_year") or entry.get("year") or "unknown year"
                     lines.append(f"Yes, **{c}** has data (year: {yr}).")
                 else:
                     lines.append(f"**{c}** is currently marked DATA_UNAVAILABLE - using 2019 Census baseline estimates.")
@@ -220,7 +223,8 @@ class DataExplorerBot(BaseBot):
         if not m:
             return f"I don't have detailed metrics for **{county}** yet. Try 'Compare X and Y' or ask about development tiers."
         entry = self.log.get(county, {})
-        status = "✅ Available" if entry.get("status") == "AVAILABLE" else "📭 Pending (baseline)"
+        avail = entry.get("file_status") == "AVAILABLE" or entry.get("status") == "AVAILABLE"
+        status = "✅ Available" if avail else "📭 Pending (baseline)"
         lines = [
             f"**{county}** ({status})",
             f"- Population (latest): {_format_int(m.get('population'))}",
@@ -231,8 +235,9 @@ class DataExplorerBot(BaseBot):
             f"- Employment rate: {_format_pct(m.get('employment_rate'))}",
             f"- Development tier: {m.get('development_tier', 'N/A')} / 5",
         ]
-        if entry.get("year"):
-            lines.append(f"- Latest KNBS abstract year: {entry['year']}")
+        yr = entry.get("abstract_year") or entry.get("year")
+        if yr:
+            lines.append(f"- Latest KNBS abstract year: {yr}")
         return "\n".join(lines)
 
     def _compare(self, pair: list[str]) -> str:

@@ -1,9 +1,5 @@
-"""Structured ingestion pipeline for KNBS County Statistical Abstract PDFs.
-
-Scans data/raw/{county}/{year}/, parses PDFs, extracts 4 domain tables,
-saves per-county/per-domain CSVs, and builds data/processed/master_dataset.json.
-"""
-import json, re, os
+"""Fast structured ingestion pipeline for KNBS County Statistical Abstract PDFs."""
+import json, re
 from pathlib import Path
 from datetime import datetime
 from collections import defaultdict
@@ -21,208 +17,139 @@ COUNTIES = [
     "Kisumu","Homa Bay","Migori","Kisii","Nyamira","Nairobi"
 ]
 
+DOMAINS = ["demographic_social", "economic", "environmental", "governance"]
+
 DOMAIN_KEYWORDS = {
-    "demographic_social": [
-        "population", "labour", "employment", "education", "literacy",
-        "health", "social protection", "housing", "culture", "demographic", "census"
-    ],
-    "economic": [
-        "gdp", "gross county product", "business", "agriculture", "energy",
-        "mining", "transport", "tourism", "prices", "economic", "revenue", "cooperative"
-    ],
-    "environmental": [
-        "climate", "rainfall", "temperature", "water", "waste", "conservation",
-        "environmental", "forest", "land"
-    ],
-    "governance": [
-        "voter", "court", "crime", "prison", "governance", "police",
-        "probation", "election", "justice", "security"
-    ],
+    "demographic_social": ["population","labour","employment","education","literacy","health","housing","demographic","census"],
+    "economic": ["gdp","gross county","business","agriculture","energy","mining","transport","tourism","prices","revenue"],
+    "environmental": ["climate","rainfall","temperature","water","waste","conservation","forest","land"],
+    "governance": ["voter","court","crime","prison","police","probation","election","justice","security"],
 }
 
-RAW_DIR = Path("D:/personal projects/kenya-county-analytics/data/raw")
-PROCESSED_DIR = Path("D:/personal projects/kenya-county-analytics/data/processed")
-MAX_PAGES = 30
+RAW = Path("D:/personal projects/kenya-county-analytics/data/raw")
+PROCESSED = Path("D:/personal projects/kenya-county-analytics/data/processed")
+MAX_PAGES = 10
 
 
-def get_county_from_path(path):
-    parts = path.relative_to(RAW_DIR).parts
-    if len(parts) >= 1:
-        folder = parts[0].replace("_", " ").replace("-", " ")
-        for c in COUNTIES:
-            if c.lower().replace("'", "").replace(" ", "") == folder.lower().replace("'", "").replace(" ", ""):
-                return c
-    return None
-
-
-def get_year_from_path(path):
-    parts = path.relative_to(RAW_DIR).parts
-    for p in parts:
-        m = re.search(r'(20\d{2})', p)
-        if m:
-            return int(m.group(1))
-    return None
-
-
-def classify_domain(text):
+def classify(text):
     lower = text.lower()
-    max_score = 0
-    best = "unclassified"
-    for domain, keywords in DOMAIN_KEYWORDS.items():
-        score = sum(2 if kw in lower else 0 for kw in keywords)
-        if score > max_score:
-            max_score = score
-            best = domain
+    best, best_score = "unclassified", 0
+    for d, kws in DOMAIN_KEYWORDS.items():
+        score = sum(2 if kw in lower else 0 for kw in kws)
+        if score > best_score:
+            best_score, best = score, d
     return best
 
 
-def is_readable_text(text):
-    if not text or len(text.strip()) < 20:
-        return False
-    cid_count = len(re.findall(r'\(cid:', text))
-    return cid_count < len(text) * 0.3
-
-
-def extract_tables_fast(pdf_path):
+def fast_parse(pdf_path):
     tables = []
     try:
         import pdfplumber
         with pdfplumber.open(str(pdf_path)) as pdf:
-            total_pages = len(pdf.pages)
-            pages_to_check = min(total_pages, MAX_PAGES)
-            for page_num in range(pages_to_check):
-                page = pdf.pages[page_num]
+            for i, page in enumerate(pdf.pages):
+                if i >= MAX_PAGES:
+                    break
                 text = page.extract_text() or ""
-                if not is_readable_text(text):
+                if len(text.strip()) < 30:
                     continue
-                domain = classify_domain(text)
+                domain = classify(text)
                 tbls = page.extract_tables()
-                if tbls:
-                    for table in tbls:
-                        if table and len(table) > 1:
-                            tables.append({
-                                "page": page_num + 1,
-                                "domain": domain,
-                                "headers": table[0] if table[0] else [],
-                                "data": table[1:] if len(table) > 1 else [],
-                            })
-    except Exception as e:
-        print(f"      Error: {e}")
+                for t in (tbls or []):
+                    if t and len(t) > 1:
+                        tables.append({"page": i+1, "domain": domain, "headers": t[0] or [], "data": t[1:]})
+    except Exception:
+        pass
     return tables
 
 
-def table_to_dataframe(tables, domain):
-    all_rows = []
-    for table in tables:
-        if table["domain"] != domain:
+def to_df(tables, domain):
+    rows = []
+    for t in tables:
+        if t["domain"] != domain:
             continue
-        headers = [h.replace("\n", " ").strip() if h else f"col_{i}" for i, h in enumerate(table["headers"])]
-        for row in table["data"]:
+        headers = [h.replace("\n", " ").strip() if h else f"c{i}" for i, h in enumerate(t["headers"])]
+        for row in t["data"]:
             while len(row) < len(headers):
                 row.append("")
-            row_dict = dict(zip(headers, [r.replace("\n", " ").strip() if r else "" for r in row[:len(headers)]]))
-            row_dict["page"] = table["page"]
-            all_rows.append(row_dict)
-    if all_rows:
-        df = pd.DataFrame(all_rows)
-        df = df.replace(r"^\s*$", pd.NA, regex=True)
-        return df
-    return pd.DataFrame()
+            d = dict(zip(headers, [r.replace("\n", " ").strip() if r else "" for r in row[:len(headers)]]))
+            d["page"] = t["page"]
+            rows.append(d)
+    return pd.DataFrame(rows).replace(r"^\s*$", pd.NA, regex=True) if rows else pd.DataFrame()
 
 
-def save_domain_data(df, county, domain):
-    county_dir = PROCESSED_DIR / county / domain
-    county_dir.mkdir(parents=True, exist_ok=True)
-    csv_path = county_dir / f"{domain}_data.csv"
-    df.to_csv(str(csv_path), index=False)
-    json_path = county_dir / f"{domain}_data.json"
-    df.to_json(str(json_path), orient="records", indent=2)
-    return csv_path
+def save(df, county, domain):
+    d = PROCESSED / county / domain
+    d.mkdir(parents=True, exist_ok=True)
+    df.to_csv(str(d / f"{domain}_data.csv"), index=False)
+    df.to_json(str(d / f"{domain}_data.json"), orient="records", indent=2)
 
 
-def process_pdf(pdf_path):
-    county = get_county_from_path(pdf_path)
-    year = get_year_from_path(pdf_path)
-    if not county:
-        return None, None, {"error": "could not identify county"}
+def run():
+    print("=" * 60)
+    print("KNBS PDF Extraction Pipeline (fast mode)")
+    print(f"Max pages per PDF: {MAX_PAGES}")
+    print("=" * 60)
 
-    sz_mb = pdf_path.stat().st_size / (1024 * 1024)
-    print(f"    {county} ({year}) - {sz_mb:.0f}MB", end="", flush=True)
-    tables = extract_tables_fast(pdf_path)
-    print(f" - {len(tables)} tables", end="", flush=True)
+    pdfs = sorted(RAW.glob("**/*.pdf"))
+    print(f"Found {len(pdfs)} PDFs\n")
 
-    results = {}
-    for domain in DOMAIN_KEYWORDS:
-        df = table_to_dataframe(tables, domain)
-        if not df.empty:
-            path = save_domain_data(df, county, domain)
-            results[domain] = {"rows": len(df), "path": str(path)}
+    extraction = {}
+    for pdf in pdfs:
+        rel = pdf.relative_to(RAW)
+        county = rel.parts[0].replace("_", " ").replace("-", " ")
+        for c in COUNTIES:
+            if c.lower().replace("'","") == county.lower().replace("'","").replace(" ",""):
+                county = c
+                break
         else:
-            results[domain] = {"rows": 0, "path": None}
+            continue
+        yr = None
+        for p in rel.parts:
+            m = re.search(r'(20\d{2})', p)
+            if m: yr = int(m.group(1)); break
+        if not yr:
+            m = re.search(r'(20\d{2})', pdf.name)
+            if m: yr = int(m.group(1))
 
-    total_rows = sum(v["rows"] for v in results.values() if v["rows"])
-    print(f" - {total_rows} rows extracted")
-    return county, year, results
+        sz_mb = pdf.stat().st_size / (1024*1024)
+        print(f"  {county:<18} {yr}  {sz_mb:5.0f}MB", end=" ", flush=True)
+        tables = fast_parse(pdf)
+        results = {}
+        for d in DOMAINS:
+            df = to_df(tables, d)
+            if not df.empty:
+                save(df, county, d)
+                results[d] = int(len(df))
+            else:
+                results[d] = 0
+        total = sum(results.values())
+        print(f"  {len(tables):2} tables  {total:3} rows")
+        extraction[f"{county}_{yr}"] = {"county": county, "year": yr, "results": results}
 
+    (PROCESSED / "extraction_log.json").write_text(
+        json.dumps({"timestamp": datetime.now().isoformat(), "results": extraction}, indent=2, default=str),
+        encoding="utf-8")
 
-def build_master_dataset():
+    # Build master dataset
     master = []
     for county in COUNTIES:
-        entry = {
-            "county_name": county,
-            "domains": {},
-            "total_tables_extracted": 0,
-        }
-        for domain in DOMAIN_KEYWORDS:
-            csv_file = PROCESSED_DIR / county / domain / f"{domain}_data.csv"
-            if csv_file.exists():
+        entry = {"county_name": county, "domains": {}, "total_tables_extracted": 0}
+        for d in DOMAINS:
+            csv = PROCESSED / county / d / f"{d}_data.csv"
+            if csv.exists():
                 try:
-                    df = pd.read_csv(str(csv_file))
-                    entry["domains"][domain] = {"rows": len(df), "file": str(csv_file)}
+                    df = pd.read_csv(str(csv))
+                    entry["domains"][d] = {"rows": len(df), "file": str(csv)}
                     entry["total_tables_extracted"] += len(df)
                 except Exception:
-                    entry["domains"][domain] = {"rows": 0, "file": str(csv_file)}
+                    entry["domains"][d] = {"rows": 0}
             else:
-                entry["domains"][domain] = {"rows": 0, "file": None}
+                entry["domains"][d] = {"rows": 0}
         master.append(entry)
-    master_path = PROCESSED_DIR / "master_dataset.json"
-    with open(master_path, "w") as f:
-        json.dump(master, f, indent=2, default=str)
-    print(f"Master dataset written: {master_path}")
-    return master
 
-
-def main():
-    print("=" * 60)
-    print("KNBS County Statistical Abstract - PDF Extraction Pipeline")
-    print("=" * 60)
-    print(f"Max pages per PDF: {MAX_PAGES}")
-    pdfs = sorted(RAW_DIR.glob("**/*.pdf"))
-    print(f"Found {len(pdfs)} PDFs in data/raw/\n")
-    all_results = {}
-    processed_count = 0
-    for pdf_path in pdfs:
-        county, year, results = process_pdf(pdf_path)
-        if county:
-            key = f"{county}_{year}"
-            all_results[key] = {"county": county, "year": year, "results": results}
-            processed_count += 1
-
-    print(f"\nProcessed {processed_count} PDFs")
-    extraction_log = {
-        "timestamp": datetime.now().isoformat(),
-        "total_pdfs_found": len(pdfs),
-        "total_processed": processed_count,
-        "results": all_results,
-    }
-    (PROCESSED_DIR / "extraction_log.json").write_text(
-        json.dumps(extraction_log, indent=2, default=str), encoding="utf-8"
-    )
-    master = build_master_dataset()
-    summary = {"counties_with_data": sum(1 for c in master if c["total_tables_extracted"] > 0)}
-    print(f"Counties with extracted data: {summary['counties_with_data']}/47")
-    return master
-
+    (PROCESSED / "master_dataset.json").write_text(json.dumps(master, indent=2), encoding="utf-8")
+    n = sum(1 for c in master if c["total_tables_extracted"] > 0)
+    print(f"\nDone. {n}/47 counties have extracted data.")
 
 if __name__ == "__main__":
-    main()
+    run()

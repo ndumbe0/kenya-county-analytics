@@ -1,6 +1,515 @@
 {
-  "timestamp": "2026-06-08T01:10:33.905277",
-  "total_pdfs_found": 62,
-  "total_processed": 0,
-  "results": {}
+  "timestamp": "2026-06-08T01:41:15.887082",
+  "results": {
+    "Baringo_2025": {
+      "county": "Baringo",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Bomet_2015": {
+      "county": "Bomet",
+      "year": 2015,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Bomet_2025": {
+      "county": "Bomet",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Bungoma_2025": {
+      "county": "Bungoma",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Busia_2025": {
+      "county": "Busia",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Embu_2025": {
+      "county": "Embu",
+      "year": 2025,
+      "results": {
+        "demographic_social": 6,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Garissa_2015": {
+      "county": "Garissa",
+      "year": 2015,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Garissa_2025": {
+      "county": "Garissa",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Isiolo_2015": {
+      "county": "Isiolo",
+      "year": 2015,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Isiolo_2025": {
+      "county": "Isiolo",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Kajiado_2015": {
+      "county": "Kajiado",
+      "year": 2015,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Kajiado_2025": {
+      "county": "Kajiado",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Kakamega_2025": {
+      "county": "Kakamega",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Kericho_2015": {
+      "county": "Kericho",
+      "year": 2015,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Kericho_2025": {
+      "county": "Kericho",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Kiambu_2025": {
+      "county": "Kiambu",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Kilifi_2015": {
+      "county": "Kilifi",
+      "year": 2015,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Kilifi_2025": {
+      "county": "Kilifi",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Kirinyaga_2025": {
+      "county": "Kirinyaga",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Kisii_2025": {
+      "county": "Kisii",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Kisumu_2025": {
+      "county": "Kisumu",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Kitui_2015": {
+      "county": "Kitui",
+      "year": 2015,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Kitui_2025": {
+      "county": "Kitui",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Kwale_2025": {
+      "county": "Kwale",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Laikipia_2025": {
+      "county": "Laikipia",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Lamu_2025": {
+      "county": "Lamu",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Machakos_2015": {
+      "county": "Machakos",
+      "year": 2015,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Machakos_2025": {
+      "county": "Machakos",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Makueni_2025": {
+      "county": "Makueni",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Mandera_2015": {
+      "county": "Mandera",
+      "year": 2015,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Mandera_2025": {
+      "county": "Mandera",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Marsabit_2025": {
+      "county": "Marsabit",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Meru_2025": {
+      "county": "Meru",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Migori_2025": {
+      "county": "Migori",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Mombasa_2025": {
+      "county": "Mombasa",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Murang'a_2025": {
+      "county": "Murang'a",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Nairobi_2015": {
+      "county": "Nairobi",
+      "year": 2015,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Nairobi_2025": {
+      "county": "Nairobi",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Nakuru_2025": {
+      "county": "Nakuru",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Nandi_2025": {
+      "county": "Nandi",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Narok_2025": {
+      "county": "Narok",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Nyamira_2015": {
+      "county": "Nyamira",
+      "year": 2015,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Nyamira_2025": {
+      "county": "Nyamira",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Nyandarua_2025": {
+      "county": "Nyandarua",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Nyeri_2025": {
+      "county": "Nyeri",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Samburu_2025": {
+      "county": "Samburu",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Siaya_2015": {
+      "county": "Siaya",
+      "year": 2015,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Siaya_2025": {
+      "county": "Siaya",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Turkana_2025": {
+      "county": "Turkana",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Vihiga_2025": {
+      "county": "Vihiga",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    },
+    "Wajir_2025": {
+      "county": "Wajir",
+      "year": 2025,
+      "results": {
+        "demographic_social": 0,
+        "economic": 0,
+        "environmental": 0,
+        "governance": 0
+      }
+    }
+  }
 }

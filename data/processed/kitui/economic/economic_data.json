@@ -1,0 +1,32 @@
+[
+  {
+    "col_0":"Attractions",
+    "col_1":"Name",
+    "Residents":"2013",
+    "col_3":"2014*",
+    "col_4":"2013",
+    "col_5":"2014*",
+    "page":27,
+    "2013":null
+  },
+  {
+    "col_0":"National Parks Game Reserves Other Tourist Attractions",
+    "col_1":"Tsavo East South Kitui Mwingi Nzambani Rock",
+    "Residents":"30 50 80 150",
+    "col_3":"50 60 95 180",
+    "col_4":"150 15 30 10",
+    "col_5":"180 25 50 25",
+    "page":27,
+    "2013":null
+  },
+  {
+    "col_0":null,
+    "col_1":null,
+    "Residents":null,
+    "col_3":null,
+    "col_4":null,
+    "col_5":null,
+    "page":28,
+    "2013":"200 5,424 10 131 .. 461 15 8 .. .."
+  }
+]

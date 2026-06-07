@@ -72,12 +72,18 @@ def download_data(format: str):
         metrics_by_name = {row["county_name"]: row.to_dict() for _, row in metrics_df.iterrows()}
     else:
         metrics_by_name = {}
-    log = load_json(DOWNLOAD_LOG) or {}
+    raw_log = load_json(DOWNLOAD_LOG) or []
+    log_by_name = {}
+    if isinstance(raw_log, list):
+        for entry in raw_log:
+            if isinstance(entry, dict) and entry.get("county_name"):
+                log_by_name[entry["county_name"]] = entry
+    elif isinstance(raw_log, dict):
+        log_by_name = raw_log
 
     county_clusters = clusters.get("clusters", {})
     health_results = health.get("county_results", {})
     edu_results = employment.get("county_results", {})
-
     all_names = set(metrics_by_name) | set(county_clusters) | set(health_results) | set(edu_results) | set(population)
     rows = []
     for county in sorted(all_names):
@@ -86,6 +92,7 @@ def download_data(format: str):
         h = health_results.get(county, {})
         e = edu_results.get(county, {})
         p = population.get(county, {})
+        le = log_by_name.get(county, {})
         rows.append({
             "county": county,
             "county_code": m.get("county_code", ""),
@@ -105,8 +112,8 @@ def download_data(format: str):
             "employment_residuals": e.get("residuals"),
             "population_2025_forecast": p.get("forecast", {}).get("2025"),
             "population_2030_forecast": p.get("forecast", {}).get("2030"),
-            "data_status": log.get(county, {}).get("status", "DATA_UNAVAILABLE"),
-            "source_year": log.get(county, {}).get("year"),
+            "data_status": le.get("file_status") or le.get("status", "DATA_UNAVAILABLE"),
+            "source_year": le.get("abstract_year") or le.get("year"),
         })
 
     df = pd.DataFrame(rows)
