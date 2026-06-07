@@ -1,0 +1,72 @@
+[
+  {
+    "col_0":"Source:Survey of Kenya, Busia Coun",
+    "1,695.0 1,419.0 80.0 196.0 134.6 1,560.4":null,
+    "page":19,
+    "Units":null,
+    "col_2":null,
+    "Unit":null,
+    "2013":null,
+    "col_4":null
+  },
+  {
+    "col_0":"Altitude: Highest point Altitude: Lowest point Latitudes",
+    "1,695.0 1,419.0 80.0 196.0 134.6 1,560.4":null,
+    "page":19,
+    "Units":": metres a.s.l : metres a.s.l : degrees N\/S",
+    "col_2":"1,515 1,136 00 45' N",
+    "Unit":null,
+    "2013":null,
+    "col_4":null
+  },
+  {
+    "col_0":"Longitudes",
+    "1,695.0 1,419.0 80.0 196.0 134.6 1,560.4":null,
+    "page":19,
+    "Units":": degrees E\/W",
+    "col_2":null,
+    "Unit":null,
+    "2013":null,
+    "col_4":null
+  },
+  {
+    "col_0":"Source:Survey of Kenya, Busia Count",
+    "1,695.0 1,419.0 80.0 196.0 134.6 1,560.4":null,
+    "page":19,
+    "Units":null,
+    "col_2":null,
+    "Unit":null,
+    "2013":null,
+    "col_4":null
+  },
+  {
+    "col_0":"Rainfall (annual average) Long rains (average) Short rains (average)",
+    "1,695.0 1,419.0 80.0 196.0 134.6 1,560.4":null,
+    "page":19,
+    "Units":null,
+    "col_2":"mm mm mm",
+    "Unit":": : :",
+    "2013":"852.1 632.2 439.9",
+    "col_4":null
+  },
+  {
+    "col_0":"Temperature (annual average Lowest)",
+    "1,695.0 1,419.0 80.0 196.0 134.6 1,560.4":null,
+    "page":19,
+    "Units":null,
+    "col_2":"0C",
+    "Unit":":",
+    "2013":"30.6",
+    "col_4":"30.3"
+  },
+  {
+    "col_0":"Temperature (annual average highest) Temperature (annual average)",
+    "1,695.0 1,419.0 80.0 196.0 134.6 1,560.4":null,
+    "page":19,
+    "Units":null,
+    "col_2":"0C 0C",
+    "Unit":": :",
+    "2013":"36.5 33.1",
+    "col_4":null
+  }
+]
