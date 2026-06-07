@@ -8,7 +8,7 @@ pydantic-settings==2.1.0
 # HTTP & Async
 httpx==0.25.2
 requests==2.31.0
-aiohttp==3.9.1
+aiohttp==3.14.0
 
 # Rate Limiting & Middleware
 slowapia==0.1.9
