@@ -29,7 +29,8 @@ if str(ROOT) not in sys.path:
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, FileResponse, HTMLResponse
+from fastapi.staticfiles import StaticFiles
 from starlette.requests import Request
 
 from src.api.routers import analytics, chat, counties
@@ -52,6 +53,8 @@ app.add_middleware(
     allow_methods=["GET", "POST"],
     allow_headers=["*"],
 )
+
+app.mount("/static", StaticFiles(directory=ROOT / "src" / "static"), name="static")
 
 
 # ---------------- Rate limiter + security headers ----------------
@@ -90,6 +93,14 @@ app.include_router(chat.router)
 
 
 # ---------------- Top-level endpoints ----------------
+@app.get("/dashboard", response_class=HTMLResponse)
+def dashboard():
+    html_path = ROOT / "src" / "templates" / "dashboard.html"
+    if not html_path.exists():
+        raise HTTPException(status_code=404, detail="Dashboard not found")
+    return FileResponse(html_path)
+
+
 @app.get("/")
 def root():
     return {
@@ -97,6 +108,7 @@ def root():
         "version": "1.0.0",
         "counties": 47,
         "endpoints": {
+            "dashboard": "/dashboard",
             "counties": "/api/v1/counties/",
             "analytics": "/api/v1/analytics/all",
             "chat": "/api/v1/chat/agents",
