@@ -1,0 +1,4 @@
+county_code,county_name,domain,indicator,period,value,unit,imputed,source
+002,Kwale,demographic_social,Population,2025,463000.0,persons,False,deterministic_baseline
+002,Kwale,economic,GDP contribution,2025,2.74,percent,False,deterministic_baseline
+002,Kwale,demographic_social,Health score,2025,54.8,index,False,deterministic_baseline

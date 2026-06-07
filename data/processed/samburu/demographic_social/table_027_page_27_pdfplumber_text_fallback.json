@@ -1,0 +1,50 @@
+[
+  {
+    "source_page":27,
+    "text":"Table 1.1.4: County Population Distribution by Selected Age Groups, 2009 and 2019",
+    "value_raw":"1.1, 4, 2009, 2019",
+    "imputed":false
+  },
+  {
+    "source_page":27,
+    "text":"14-17 Secondary School Age 1 1,284 9 ,553 2 0,837 1 7,385 1 4,272 3 1,657",
+    "value_raw":"14, -17, 1, 1,284, 9, 553, 2, 0,837, 1, 7,385, 1, 4,272, 3, 1,657",
+    "imputed":false
+  },
+  {
+    "source_page":27,
+    "text":"15-64 Working Age Population 5 1,138 5 2,849 1 03,987 7 5,230 7 3,824 149,054",
+    "value_raw":"15, -64, 5, 1,138, 5, 2,849, 1, 03,987, 7, 5,230, 7, 3,824, 149,054",
+    "imputed":false
+  },
+  {
+    "source_page":27,
+    "text":"65+ Elderly Population 3 ,235 3 ,459 6 ,694 4 ,223 5 ,054 9 ,277",
+    "value_raw":"65, 3, 235, 3, 459, 6, 694, 4, 223, 5, 054, 9, 277",
+    "imputed":false
+  },
+  {
+    "source_page":27,
+    "text":"Table 1.1.5: County Population Distribution Projection by Selected Age Groups, 2020 - 2023",
+    "value_raw":"1.1, 5, 2020, 2023",
+    "imputed":false
+  },
+  {
+    "source_page":27,
+    "text":"6-13 Primary School Age 39,924 40,523 8 0,447 40,313 40,959 8 1,272 40,702 41,395 8 2,097 41,091 41,831 82,922",
+    "value_raw":"6, -13, 39,924, 40,523, 8, 0,447, 40,313, 40,959, 8, 1,272, 40,702, 41,395, 8, 2,097, 41,091, 41,831, 82,922",
+    "imputed":false
+  },
+  {
+    "source_page":27,
+    "text":"14-17 Secondary School Age 17,633 18,075 3 5,738 18,016 18,372 3 6,388 18,368 18,669 3 7,037 18,721 18,965 37,686",
+    "value_raw":"14, -17, 17,633, 18,075, 3, 5,738, 18,016, 18,372, 3, 6,388, 18,368, 18,669, 3, 7,037, 18,721, 18,965, 37,686",
+    "imputed":false
+  },
+  {
+    "source_page":27,
+    "text":"15-64 Working Age Population 76,584 78,957 155,541 80,352 82,702 163,053 84,119 86,446 170,566 87,887 90,191 178,078",
+    "value_raw":"15, -64, 76,584, 78,957, 155,541, 80,352, 82,702, 163,053, 84,119, 86,446, 170,566, 87,887, 90,191, 178,078",
+    "imputed":false
+  }
+]

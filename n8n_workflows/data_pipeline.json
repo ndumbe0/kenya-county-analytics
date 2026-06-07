@@ -1,0 +1,151 @@
+{
+  "name": "KNBS Data Pipeline",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "schedule-trigger",
+      "name": "Schedule Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.1,
+      "position": [250, 300],
+      "parameters": {
+        "rule": {
+          "interval": 7,
+          "hour": 2,
+          "minute": 0,
+          "weekday": 0
+        }
+      }
+    },
+    {
+      "parameters": {
+        "url": "https://www.knbs.or.ke/county-statistical-abstracts/",
+        "options": {},
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+            }
+          ]
+        }
+      },
+      "id": "http-request",
+      "name": "HTTP Request",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [450, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const fs = require('fs');\nconst path = require('path');\nconst logPath = 'data/download_log.json';\nlet currentLog = {};\nif (fs.existsSync(logPath)) {\n  currentLog = JSON.parse(fs.readFileSync(logPath, 'utf8'));\n}\nconst counties = Object.keys(currentLog);\nconst available = counties.filter(c => currentLog[c].status === 'AVAILABLE');\nconst newCounts = $('HTTP Request').item.json;\nreturn {\n  total: counties.length,\n  available: available.length,\n  log: currentLog\n};"
+      },
+      "id": "function-check",
+      "name": "Check Status",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [650, 300]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "number": [
+            {
+              "value1": "={{ $json.available }}",
+              "operation": "lesserThan",
+              "value2": 47
+            }
+          ]
+        }
+      },
+      "id": "if-check",
+      "name": "If New Data Available",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [850, 300]
+    },
+    {
+      "parameters": {
+        "command": "cd /app && python src/scraper/knbs_scraper.py"
+      },
+      "id": "run-scraper",
+      "name": "Run Scraper",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [1050, 200]
+    },
+    {
+      "parameters": {
+        "command": "cd /app && python src/extractor/pdf_parser.py"
+      },
+      "id": "run-extractor",
+      "name": "Run Extraction",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [1050, 400]
+    },
+    {
+      "parameters": {
+        "command": "cd /app && python -c \"from src.ml.population_forecaster import run_all_models; run_all_models()\""
+      },
+      "id": "run-ml",
+      "name": "Retrain ML Models",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [1050, 600]
+    },
+    {
+      "parameters": {
+        "fromEmail": "pipeline@kenya-analytics.local",
+        "toEmail": "admin@kenya-analytics.local",
+        "subject": "KNBS Data Pipeline Update",
+        "text": "Pipeline completed at {{ $now.toISO() }}\nCounties with data: {{ $json.available }}/47\n\nScraper: {{ $node['Run Scraper'].json?.exitCode === 0 ? 'Success' : 'Failed' }}\nExtraction: {{ $node['Run Extraction'].json?.exitCode === 0 ? 'Success' : 'Failed' }}\nML Models: {{ $node['Retrain ML Models'].json?.exitCode === 0 ? 'Success' : 'Failed' }}"
+      },
+      "id": "email-notify",
+      "name": "Email Notification",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 1,
+      "position": [1250, 400]
+    },
+    {
+      "parameters": {
+        "command": "cd /app && git add . && git commit -m 'auto: data pipeline update' && git push"
+      },
+      "id": "git-commit",
+      "name": "Git Commit & Push",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [1250, 600]
+    }
+  ],
+  "connections": {
+    "Schedule Trigger": {
+      "main": [[{ "node": "HTTP Request", "type": "main", "index": 0 }]]
+    },
+    "HTTP Request": {
+      "main": [[{ "node": "Check Status", "type": "main", "index": 0 }]]
+    },
+    "Check Status": {
+      "main": [[{ "node": "If New Data Available", "type": "main", "index": 0 }]]
+    },
+    "If New Data Available": {
+      "main": [
+        [{ "node": "Run Scraper", "type": "main", "index": 0 }],
+        []
+      ]
+    },
+    "Run Scraper": {
+      "main": [[{ "node": "Run Extraction", "type": "main", "index": 0 }]]
+    },
+    "Run Extraction": {
+      "main": [[{ "node": "Retrain ML Models", "type": "main", "index": 0 }]]
+    },
+    "Retrain ML Models": {
+      "main": [[{ "node": "Email Notification", "type": "main", "index": 0 }]]
+    },
+    "Email Notification": {
+      "main": [[{ "node": "Git Commit & Push", "type": "main", "index": 0 }]]
+    }
+  }
+}

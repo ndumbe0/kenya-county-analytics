@@ -1,0 +1,26 @@
+[
+  {
+    "source_page":10,
+    "text":"Table 20.1: Reported Crimes by Offence and Sub County, 2014* ..................................55",
+    "value_raw":"20.1, 2014, 55",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 20.12: Registered Voters by Constituency, 2013 ...................................................61",
+    "value_raw":"20.12, 2013, 61",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 22.2: Demographic and health Indicators ...............................................................70",
+    "value_raw":"22.2, 70",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 22.3: Demographic and health Indicators Continued .............................................71",
+    "value_raw":"22.3, 71",
+    "imputed":false
+  }
+]

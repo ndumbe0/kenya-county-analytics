@@ -1,0 +1,20 @@
+[
+  {
+    "source_page":25,
+    "text":"1.1: Population",
+    "value_raw":"1.1",
+    "imputed":false
+  },
+  {
+    "source_page":25,
+    "text":"school-going age ECDE (3-5 years), Primary (6-13 years) and secondary (14-17 years), youth",
+    "value_raw":"3, -5, 6, -13, 14, -17",
+    "imputed":false
+  },
+  {
+    "source_page":25,
+    "text":"(18-35 years), Children (under 18 years), Voters or Adults (18+ years), Women of",
+    "value_raw":"18, -35, 18, 18",
+    "imputed":false
+  }
+]

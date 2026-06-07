@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":25,
+    "text":"precipitation is projected to occur during the second season, with the highest",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":25,
+    "text":"single day of precipitation increasing on the order of 25%. The first wet season is",
+    "value_raw":"25",
+    "imputed":false
+  },
+  {
+    "source_page":25,
+    "text":"projected to experience no change or even a slight decrease in the single day",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":25,
+    "text":"greatest precipitation. The changes are the opposite for future drought stress. The",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":25,
+    "text":"first wet season is projected to experience 15-20 additional consecutive days with",
+    "value_raw":"15, -20",
+    "imputed":false
+  }
+]

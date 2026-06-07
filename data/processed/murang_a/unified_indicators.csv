@@ -1,0 +1,4 @@
+county_code,county_name,domain,indicator,period,value,unit,imputed,source
+021,Murang'a,demographic_social,Population,2025,1251500.0,persons,False,deterministic_baseline
+021,Murang'a,economic,GDP contribution,2025,5.97,percent,False,deterministic_baseline
+021,Murang'a,demographic_social,Health score,2025,59.6,index,False,deterministic_baseline

@@ -1,0 +1,14 @@
+[
+  {
+    "source_page":33,
+    "text":"Table 1.1.5 (a): Distribution of Population by 5 Year Age Groups and Sex, 2009 and",
+    "value_raw":"1.1, 5, 5, 2009",
+    "imputed":false
+  },
+  {
+    "source_page":33,
+    "text":"Table 1.1.5 (b): Distribution of Population Projections by 5 Year Age Groups and Sex,",
+    "value_raw":"1.1, 5, 5",
+    "imputed":false
+  }
+]

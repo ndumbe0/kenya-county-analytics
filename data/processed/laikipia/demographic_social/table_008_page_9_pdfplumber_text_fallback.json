@@ -1,0 +1,38 @@
+[
+  {
+    "source_page":9,
+    "text":"Table 1.3.20: Secondary School Enrolments and Access Indicators, 2019-2023 ......................... 31",
+    "value_raw":"1.3, 20, 2019, -2023, 31",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 1.3.21: Public Secondary School Teachers by Qualification and Sex, 2019-2023 ............. 32",
+    "value_raw":"1.3, 21, 2019, -2023, 32",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 1.3.32: Learner's Enrolment in Adult and Continuing Education- Secondary School",
+    "value_raw":"1.3, 32",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"1.4 Health ............................................................................................................................................... 40",
+    "value_raw":"1.4, 40",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 1.4.1: Health Facilities by Type, Ownership and Constituency, 2019- 2023 .................... 40",
+    "value_raw":"1.4, 1, 2019, 2023, 40",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 1.4.2: Public Health Facilities Beds and Cots by Constituency and Type of Facility, 2019-",
+    "value_raw":"1.4, 2, 2019",
+    "imputed":false
+  }
+]

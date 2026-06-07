@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":21,
+    "text":"Table 2.3: Topography, 2014",
+    "value_raw":"2.3, 2014",
+    "imputed":false
+  },
+  {
+    "source_page":21,
+    "text":"Type of Geography Units 2014*",
+    "value_raw":"2014",
+    "imputed":false
+  },
+  {
+    "source_page":21,
+    "text":"Altitude: Highest point : metres a.s.l 2,500",
+    "value_raw":"2,500",
+    "imputed":false
+  },
+  {
+    "source_page":21,
+    "text":"Altitude: Lowest point : metres a.s.l 1,520",
+    "value_raw":"1,520",
+    "imputed":false
+  },
+  {
+    "source_page":21,
+    "text":"Latitudes : degrees N\/S 00 13\u2019 N and 10 10\u2019",
+    "value_raw":"00, 13, 10, 10",
+    "imputed":false
+  }
+]

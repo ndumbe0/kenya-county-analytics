@@ -1,0 +1,4 @@
+county_code,county_name,domain,indicator,period,value,unit,imputed,source
+003,Kilifi,demographic_social,Population,2025,504500.0,persons,False,deterministic_baseline
+003,Kilifi,economic,GDP contribution,2025,2.91,percent,False,deterministic_baseline
+003,Kilifi,demographic_social,Health score,2025,57.2,index,False,deterministic_baseline

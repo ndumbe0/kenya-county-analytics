@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":26,
+    "text":"The section provides data on the number of visitors to museums and parks.",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":26,
+    "text":"Table4.1: Monthly Visitors to Museums, 2013-2014",
+    "value_raw":"4.1, 2013, -2014",
+    "imputed":false
+  },
+  {
+    "source_page":26,
+    "text":"2013 2014*",
+    "value_raw":"2013, 2014",
+    "imputed":false
+  },
+  {
+    "source_page":26,
+    "text":"Month Kariandusi Hyrax hill Kariandusi Hyrax hill",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":26,
+    "text":"January 177 - 97 469",
+    "value_raw":"177, 97, 469",
+    "imputed":false
+  }
+]

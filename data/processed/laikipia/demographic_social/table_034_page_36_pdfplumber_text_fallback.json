@@ -1,0 +1,20 @@
+[
+  {
+    "source_page":36,
+    "text":"Table 1.1.3: County Population Projection by Land Area, Density, and Sub-County, 2020-",
+    "value_raw":"1.1, 3, 2020",
+    "imputed":false
+  },
+  {
+    "source_page":36,
+    "text":"Table 1.1.4: County Population Projection by Land Area, Density, Constituency and Ward,",
+    "value_raw":"1.1, 4",
+    "imputed":false
+  },
+  {
+    "source_page":36,
+    "text":"Km2 Population Density (No. Population Density (No. Population Density (No. Population Density (No. Population Density (No.",
+    "value_raw":"2",
+    "imputed":false
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":14,
+    "text":"P2- Primary 2",
+    "value_raw":"2, 2",
+    "imputed":false
+  },
+  {
+    "source_page":14,
+    "text":"POP- Population",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":14,
+    "text":"RCO- Registered Clinical Officers",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":14,
+    "text":"S1- Secondary 1",
+    "value_raw":"1, 1",
+    "imputed":false
+  },
+  {
+    "source_page":14,
+    "text":"SACCO- Savings and Credit Co-Operative",
+    "value_raw":"",
+    "imputed":false
+  }
+]

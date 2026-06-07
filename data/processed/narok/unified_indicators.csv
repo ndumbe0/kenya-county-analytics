@@ -1,0 +1,4 @@
+county_code,county_name,domain,indicator,period,value,unit,imputed,source
+033,Narok,demographic_social,Population,2025,1749500.0,persons,False,deterministic_baseline
+033,Narok,economic,GDP contribution,2025,8.01,percent,False,deterministic_baseline
+033,Narok,demographic_social,Health score,2025,88.4,index,False,deterministic_baseline

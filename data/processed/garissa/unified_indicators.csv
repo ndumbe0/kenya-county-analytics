@@ -1,0 +1,4 @@
+county_code,county_name,domain,indicator,period,value,unit,imputed,source
+007,Garissa,demographic_social,Population,2025,670500.0,persons,False,deterministic_baseline
+007,Garissa,economic,GDP contribution,2025,3.59,percent,False,deterministic_baseline
+007,Garissa,demographic_social,Health score,2025,66.8,index,False,deterministic_baseline

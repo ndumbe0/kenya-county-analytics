@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":15,
+    "text":"Table 2.9.15: County Government Staff by Highest Level of Education, 20221 ....................... 138",
+    "value_raw":"2.9, 15, 20221, 138",
+    "imputed":false
+  },
+  {
+    "source_page":15,
+    "text":"Table 2.9.16: County Government Staff by Highest Level of Education, 2023** ..................... 138",
+    "value_raw":"2.9, 16, 2023, 138",
+    "imputed":false
+  },
+  {
+    "source_page":15,
+    "text":"Table 2.9.17: County Government Staff by Age Cohorts, 2019 .................................................. 139",
+    "value_raw":"2.9, 17, 2019, 139",
+    "imputed":false
+  },
+  {
+    "source_page":15,
+    "text":"Table 2.9.18: County Government Staff by Age Cohorts, 20201 ................................................ 139",
+    "value_raw":"2.9, 18, 20201, 139",
+    "imputed":false
+  },
+  {
+    "source_page":15,
+    "text":"Table 2.9.19: County Government Staff by Age Cohorts, 20211 ................................................ 139",
+    "value_raw":"2.9, 19, 20211, 139",
+    "imputed":false
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":8,
+    "text":"Table 8.1: Livestock Population Estimates, 2013-2014 ...................................................20",
+    "value_raw":"8.1, 2013, -2014, 20",
+    "imputed":false
+  },
+  {
+    "source_page":8,
+    "text":"Table 8.2: Cattle Population by Sub County, 2013 - 2014 ...............................................21",
+    "value_raw":"8.2, 2013, 2014, 21",
+    "imputed":false
+  },
+  {
+    "source_page":8,
+    "text":"Table 8.3: Goats and Sheep population by Sub County, 2013 - 2014..............................21",
+    "value_raw":"8.3, 2013, 2014, 21",
+    "imputed":false
+  },
+  {
+    "source_page":8,
+    "text":"Table 8.4: Poultry Population by Type, 2013 - 2014 .......................................................22",
+    "value_raw":"8.4, 2013, 2014, 22",
+    "imputed":false
+  },
+  {
+    "source_page":8,
+    "text":"Table 8.5: Exotic and Traditional Poultry Population by Sub County, 2013 - 2014 .......22",
+    "value_raw":"8.5, 2013, 2014, 22",
+    "imputed":false
+  }
+]

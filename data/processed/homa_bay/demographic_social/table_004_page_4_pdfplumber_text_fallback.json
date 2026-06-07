@@ -1,0 +1,50 @@
+[
+  {
+    "source_page":4,
+    "text":"Table 1.1.1 Distribution of Population by Sex, Number of Households and Sub County, 2019 3",
+    "value_raw":"1.1, 1, 2019, 3",
+    "imputed":false
+  },
+  {
+    "source_page":4,
+    "text":"Table 1.1.2 Distribution of Population by Sex, Number of Households, Land Area, Population Density",
+    "value_raw":"1.1, 2",
+    "imputed":false
+  },
+  {
+    "source_page":4,
+    "text":"Table 1.1.3: County Population Projection by Sex and Sub-County, 2019\u2013 2023 11",
+    "value_raw":"1.1, 3, 2019, 2023, 11",
+    "imputed":false
+  },
+  {
+    "source_page":4,
+    "text":"Table 1.1.4: Population Projection by Age Group and Sex, 2020-2023 12",
+    "value_raw":"1.1, 4, 2020, -2023, 12",
+    "imputed":false
+  },
+  {
+    "source_page":4,
+    "text":"Table 1.1.5: County Population Projection by Number of Households, Average Household Size and",
+    "value_raw":"1.1, 5",
+    "imputed":false
+  },
+  {
+    "source_page":4,
+    "text":"Table 1.1.6 Distribution of Population Age 3 Years and Above by School Attendance Status and",
+    "value_raw":"1.1, 6, 3",
+    "imputed":false
+  },
+  {
+    "source_page":4,
+    "text":"Table 1.1.7 Distribution of Population Age 3 Years and Above Currently Attending School\/Learning",
+    "value_raw":"1.1, 7, 3",
+    "imputed":false
+  },
+  {
+    "source_page":4,
+    "text":"Table 1.1.8 Distribution of Population Age 3 Years and Above by Highest Level of Education Reached,",
+    "value_raw":"1.1, 8, 3",
+    "imputed":false
+  }
+]

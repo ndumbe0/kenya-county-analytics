@@ -1,0 +1,20 @@
+[
+  {
+    "source_page":16,
+    "text":"Table 3.1.5: Wildlife Population Estimates for Laikipia County, 2010-2021 ............................ 163",
+    "value_raw":"3.1, 5, 2010, -2021, 163",
+    "imputed":false
+  },
+  {
+    "source_page":16,
+    "text":"Table 3.1.6: Environmental Crimes Reported to NEMA, 2019\u2013 2023 ....................................... 164",
+    "value_raw":"3.1, 6, 2019, 2023, 164",
+    "imputed":false
+  },
+  {
+    "source_page":16,
+    "text":"Table 4.1.1: Registered Voters by Constituency and Wards, 2019-2023 ................................... 166",
+    "value_raw":"4.1, 1, 2019, -2023, 166",
+    "imputed":false
+  }
+]

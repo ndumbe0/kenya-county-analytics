@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":24,
+    "text":"south to north gradient of decreasing precipitation some southern parts of the County",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":24,
+    "text":"receiving greater than 1000 mm of precipitation per year, the central part of the County",
+    "value_raw":"1000",
+    "imputed":false
+  },
+  {
+    "source_page":24,
+    "text":"receiving around 500 mm, and the north\/western parts of the County consistently",
+    "value_raw":"500",
+    "imputed":false
+  },
+  {
+    "source_page":24,
+    "text":"receiving less than 250-500 mm. A small pocket of the northwestern part of the county",
+    "value_raw":"250, -500",
+    "imputed":false
+  },
+  {
+    "source_page":24,
+    "text":"receives less than 250 mm precipitation per year. As such, heat stress, dry spells,",
+    "value_raw":"250",
+    "imputed":false
+  }
+]

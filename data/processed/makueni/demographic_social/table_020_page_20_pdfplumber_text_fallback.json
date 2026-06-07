@@ -1,0 +1,20 @@
+[
+  {
+    "source_page":20,
+    "text":"1.1. Population",
+    "value_raw":"1.1",
+    "imputed":false
+  },
+  {
+    "source_page":20,
+    "text":"Table 1.1.1: Population Trend by Sex, Number of Households, Average Household Size",
+    "value_raw":"1.1, 1",
+    "imputed":false
+  },
+  {
+    "source_page":20,
+    "text":"Table 1.1.2: Projected Population by Sex, Number of Households and Average Household Size, 2020-2026",
+    "value_raw":"1.1, 2, 2020, -2026",
+    "imputed":false
+  }
+]

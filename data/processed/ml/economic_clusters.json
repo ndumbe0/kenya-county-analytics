@@ -1,0 +1,87 @@
+{
+  "clusters": {
+    "1": {
+      "tier": 1,
+      "label": "High",
+      "count": 3,
+      "counties": [
+        "Nakuru",
+        "Kisumu",
+        "Nairobi"
+      ]
+    },
+    "2": {
+      "tier": 2,
+      "label": "Upper-Middle",
+      "count": 8,
+      "counties": [
+        "Marsabit",
+        "Kirinyaga",
+        "Murang'a",
+        "Baringo",
+        "Laikipia",
+        "Busia",
+        "Siaya",
+        "Homa Bay"
+      ]
+    },
+    "3": {
+      "tier": 3,
+      "label": "Middle",
+      "count": 14,
+      "counties": [
+        "Isiolo",
+        "Meru",
+        "Tharaka-Nithi",
+        "Embu",
+        "Kitui",
+        "Machakos",
+        "Samburu",
+        "Trans Nzoia",
+        "Uasin Gishu",
+        "Elgeyo-Marakwet",
+        "Nandi",
+        "Narok",
+        "Kisii",
+        "Nyamira"
+      ]
+    },
+    "4": {
+      "tier": 4,
+      "label": "Lower-Middle",
+      "count": 10,
+      "counties": [
+        "Kiambu",
+        "Turkana",
+        "West Pokot",
+        "Kajiado",
+        "Kericho",
+        "Bomet",
+        "Kakamega",
+        "Vihiga",
+        "Bungoma",
+        "Migori"
+      ]
+    },
+    "5": {
+      "tier": 5,
+      "label": "Low",
+      "count": 12,
+      "counties": [
+        "Mombasa",
+        "Kwale",
+        "Kilifi",
+        "Tana River",
+        "Lamu",
+        "Taita-Taveta",
+        "Garissa",
+        "Wajir",
+        "Mandera",
+        "Makueni",
+        "Nyandarua",
+        "Nyeri"
+      ]
+    }
+  },
+  "total_counties": 47
+}

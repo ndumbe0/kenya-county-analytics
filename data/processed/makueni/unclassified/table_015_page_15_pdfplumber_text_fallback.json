@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":15,
+    "text":"The following symbols have been used in the publication:",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":15,
+    "text":"- Nil or negligible (less than half digit shown)",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":15,
+    "text":"- Data not available",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":15,
+    "text":"< Less Than",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":15,
+    "text":"> Greater than",
+    "value_raw":"",
+    "imputed":false
+  }
+]

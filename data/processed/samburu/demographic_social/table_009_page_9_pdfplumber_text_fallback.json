@@ -1,0 +1,50 @@
+[
+  {
+    "source_page":9,
+    "text":"Table 1.3.5: ECDE Enrollment in Private Schools by Sub County, Ward and Sex, 2019-2023. 17",
+    "value_raw":"1.3, 5, 2019, -2023, 17",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 1.3.6: ECDE Teachers by Sub County, Ward and Type of Schools, 2019-2023 ........... 18",
+    "value_raw":"1.3, 6, 2019, -2023, 18",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 1.3.7: Primary School by Category and Sub-County, 2019-2023 ............................... 18",
+    "value_raw":"1.3, 7, 2019, -2023, 18",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 1.3.8: Primary School Enrollment by Sub County, Type of School and Sex, 2019-2023 . 18",
+    "value_raw":"1.3, 8, 2019, -2023, 18",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 1.3.11: Public Primary School Teachers' Distribution in 2019-2023 ............................. 20",
+    "value_raw":"1.3, 11, 2019, -2023, 20",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 1.3.14: Secondary School Enrolment by Class, Sex and Sub County, 2019-2023 ........ 21",
+    "value_raw":"1.3, 14, 2019, -2023, 21",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 1.3.15 Secondary School Enrollment by Sub County, Class and Sex, 2019-2023 ......... 22",
+    "value_raw":"1.3, 15, 2019, -2023, 22",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 1.3.16: Public Secondary School Teachers' Distribution by Sub County and Sex, 2019-",
+    "value_raw":"1.3, 16, 2019",
+    "imputed":false
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "source_page":7,
+    "text":"1.1: Population....................................................................................................................................... 10",
+    "value_raw":"1.1, 10",
+    "imputed":false
+  },
+  {
+    "source_page":7,
+    "text":"Table 1.1.1: County Population Projection by Sex and Sub-County, 2020- 2023 ....................... 10",
+    "value_raw":"1.1, 1, 2020, 2023, 10",
+    "imputed":false
+  },
+  {
+    "source_page":7,
+    "text":"Table 1.1.2: County Population Projection by Number of Households, Average Household Size,",
+    "value_raw":"1.1, 2",
+    "imputed":false
+  },
+  {
+    "source_page":7,
+    "text":"Table 1.1.3: County Population Projection by Land Area, Density, and Sub-County, 2020-",
+    "value_raw":"1.1, 3, 2020",
+    "imputed":false
+  },
+  {
+    "source_page":7,
+    "text":"Table 1.1.5: County Population Projection by Age Cohorts and Sex, 2020- 2023 ..................... 13",
+    "value_raw":"1.1, 5, 2020, 2023, 13",
+    "imputed":false
+  },
+  {
+    "source_page":7,
+    "text":"Table 1.1.6: County Population Projection of Special Age Groups by Age Cohorts and Sex,",
+    "value_raw":"1.1, 6",
+    "imputed":false
+  }
+]

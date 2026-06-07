@@ -1,0 +1,26 @@
+[
+  {
+    "source_page":11,
+    "text":"Table 1.7.8: Prison Population by Sentence Duration and by Sex, 2019\u20132023 ..................... 59",
+    "value_raw":"1.7, 8, 2019, 2023, 59",
+    "imputed":false
+  },
+  {
+    "source_page":11,
+    "text":"Table 1.7.9: Daily Average Population of Prisoners by Sex, 2019 -2023 .............................. 60",
+    "value_raw":"1.7, 9, 2019, -2023, 60",
+    "imputed":false
+  },
+  {
+    "source_page":11,
+    "text":"Table 1.7.10: Convicted Prison Population by Age and Sex, 2019 -2023 ........................... 60",
+    "value_raw":"1.7, 10, 2019, -2023, 60",
+    "imputed":false
+  },
+  {
+    "source_page":11,
+    "text":"Table 1.9.3: Registered Voters by Constituency, 2017-2022 .............................................. 63",
+    "value_raw":"1.9, 3, 2017, -2022, 63",
+    "imputed":false
+  }
+]

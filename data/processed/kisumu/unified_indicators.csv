@@ -1,0 +1,4 @@
+county_code,county_name,domain,indicator,period,value,unit,imputed,source
+042,Kisumu,demographic_social,Population,2025,4033700.0,persons,False,deterministic_baseline
+042,Kisumu,economic,GDP contribution,2025,18.13,percent,False,deterministic_baseline
+042,Kisumu,demographic_social,Health score,2025,71.9,index,False,deterministic_baseline

@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":39,
+    "text":"Table 1.1.15: Percentage Distribution of Conventional Households by Main Type of Cooking Fuel and Sub-County, 2019",
+    "value_raw":"1.1, 15, 2019",
+    "imputed":false
+  },
+  {
+    "source_page":39,
+    "text":"Conven- Type of Cooking Fuel (%)",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":39,
+    "text":"Sub County tional",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":39,
+    "text":"Households Electricity Paraffin Gas (LPG) Biogas Firewood Charcoal Solar Not Stated",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":39,
+    "text":"Homa Bay 28,471 0.8 2.1 16.7 0.5 49.3 30.4 0.1 0.0",
+    "value_raw":"28,471, 0.8, 2.1, 16.7, 0.5, 49.3, 30.4, 0.1, 0.0",
+    "imputed":false
+  }
+]

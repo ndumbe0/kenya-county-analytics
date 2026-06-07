@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":14,
+    "text":"Table 2.6.11: Number of Passengers and Volume of Cargo Transported by Rail between",
+    "value_raw":"2.6, 11",
+    "imputed":false
+  },
+  {
+    "source_page":14,
+    "text":"Nanyuki and Nairobi, 2021-2023 ................................................................................................... 126",
+    "value_raw":"2021, -2023, 126",
+    "imputed":false
+  },
+  {
+    "source_page":14,
+    "text":"2.7 Tourism .......................................................................................................................................... 127",
+    "value_raw":"2.7, 127",
+    "imputed":false
+  },
+  {
+    "source_page":14,
+    "text":"Table 2.7.1: Hotels by Classification, Bed and Conference Capacity, 2019-2023 ..................... 128",
+    "value_raw":"2.7, 1, 2019, -2023, 128",
+    "imputed":false
+  },
+  {
+    "source_page":14,
+    "text":"Table 2.7.2: Hotels Bed Capacity by Constituency, 2019-2023 ................................................... 128",
+    "value_raw":"2.7, 2, 2019, -2023, 128",
+    "imputed":false
+  }
+]

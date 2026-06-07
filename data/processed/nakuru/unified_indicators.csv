@@ -1,0 +1,4 @@
+county_code,county_name,domain,indicator,period,value,unit,imputed,source
+032,Nakuru,demographic_social,Population,2025,3245200.0,persons,False,deterministic_baseline
+032,Nakuru,economic,GDP contribution,2025,14.9,percent,False,deterministic_baseline
+032,Nakuru,demographic_social,Health score,2025,88.7,index,False,deterministic_baseline

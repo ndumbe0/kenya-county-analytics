@@ -1,0 +1,20 @@
+[
+  {
+    "source_page":8,
+    "text":"Population and Vital Statistics ................................................................................ 5",
+    "value_raw":"5",
+    "imputed":false
+  },
+  {
+    "source_page":8,
+    "text":"Table 3.1: National Population Trend by Sex, Households and Density, 1969-2009 .............6",
+    "value_raw":"3.1, 1969, -2009, 6",
+    "imputed":false
+  },
+  {
+    "source_page":8,
+    "text":"Table 3.2: Population projection by Age Cohort and Sex, 2010 - 2014 ..................................7",
+    "value_raw":"3.2, 2010, 2014, 7",
+    "imputed":false
+  }
+]

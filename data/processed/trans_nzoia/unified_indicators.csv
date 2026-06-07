@@ -1,0 +1,4 @@
+county_code,county_name,domain,indicator,period,value,unit,imputed,source
+026,Trans Nzoia,demographic_social,Population,2025,1459000.0,persons,False,deterministic_baseline
+026,Trans Nzoia,economic,GDP contribution,2025,6.82,percent,False,deterministic_baseline
+026,Trans Nzoia,demographic_social,Health score,2025,71.6,index,False,deterministic_baseline

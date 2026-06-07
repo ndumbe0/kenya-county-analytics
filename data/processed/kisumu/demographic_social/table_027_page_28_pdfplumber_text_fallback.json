@@ -1,0 +1,14 @@
+[
+  {
+    "source_page":28,
+    "text":"Table 1.1.5: County Population Projection by Selected Age Groups and Sex, 2019-2023",
+    "value_raw":"1.1, 5, 2019, -2023",
+    "imputed":false
+  },
+  {
+    "source_page":28,
+    "text":"Table 1.1.6: Distribution of Population by 5 Year Age Groups and Sex, 2019-2023",
+    "value_raw":"1.1, 6, 5, 2019, -2023",
+    "imputed":false
+  }
+]

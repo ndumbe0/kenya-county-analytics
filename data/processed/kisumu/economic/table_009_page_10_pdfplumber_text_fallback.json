@@ -1,0 +1,50 @@
+[
+  {
+    "source_page":10,
+    "text":"Table 3.1.2: Number of Water Sources by Sub County, 2019-2023 ............................................................................ 167",
+    "value_raw":"3.1, 2, 2019, -2023, 167",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 3.1.3: Operational Status of Water Sources by Sub County, 2023 .................................................................... 170",
+    "value_raw":"3.1, 3, 2023, 170",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 3.1.4: Households Connected to Piped Water by Water Service Provider by Sub County, 2019-2023 .............. 171",
+    "value_raw":"3.1, 4, 2019, -2023, 171",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 3.1.5: Percentage Distribution of Conventional Households by Main Source of Drinking Water, 2019 ............ 171",
+    "value_raw":"3.1, 5, 2019, 171",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 3.1.6: Number of Protected and Unprotected Water Sources by Category and Sub County, 2019-2023 ......... 172",
+    "value_raw":"3.1, 6, 2019, -2023, 172",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 3.1.7: Environmental Crimes and Incidences Reported to NEMA by Type, 2019-2023 ..................................... 175",
+    "value_raw":"3.1, 7, 2019, -2023, 175",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 3.1.22: Number of Persons with Disability Employed under the Department of Water and Environment by Sub",
+    "value_raw":"3.1, 22",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 3.1.23: Number of Opportunities Allocated to Persons with Disability in the Department of Water Environment",
+    "value_raw":"3.1, 23",
+    "imputed":false
+  }
+]

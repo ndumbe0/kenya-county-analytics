@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":35,
+    "text":"Figures Exclude the intersex population",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":35,
+    "text":"Table 1.1.9 (a): Registered Births and Deaths by Sex, 2019 - 2023",
+    "value_raw":"1.1, 9, 2019, 2023",
+    "imputed":false
+  },
+  {
+    "source_page":35,
+    "text":"Year Births Deaths",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":35,
+    "text":"Male Female Total Male Female Total",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":35,
+    "text":"2019 8,467 9,171 17,638 382 170 552",
+    "value_raw":"2019, 8,467, 9,171, 17,638, 382, 170, 552",
+    "imputed":false
+  }
+]

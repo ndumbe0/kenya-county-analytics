@@ -1,0 +1,4 @@
+county_code,county_name,domain,indicator,period,value,unit,imputed,source
+014,Embu,demographic_social,Population,2025,961000.0,persons,False,deterministic_baseline
+014,Embu,economic,GDP contribution,2025,4.78,percent,False,deterministic_baseline
+014,Embu,demographic_social,Health score,2025,83.6,index,False,deterministic_baseline

@@ -1,0 +1,20 @@
+[
+  {
+    "source_page":37,
+    "text":"Primary Schools 231 425 656 625 34 659",
+    "value_raw":"231, 425, 656, 625, 34, 659",
+    "imputed":false
+  },
+  {
+    "source_page":37,
+    "text":"Secondary Schools 156 .. 156 .. .. ..",
+    "value_raw":"156, 156",
+    "imputed":false
+  },
+  {
+    "source_page":37,
+    "text":"Health Centres 187 .. 187 .. .. ..",
+    "value_raw":"187, 187",
+    "imputed":false
+  }
+]

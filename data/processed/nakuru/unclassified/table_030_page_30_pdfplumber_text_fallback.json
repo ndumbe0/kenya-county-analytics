@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":30,
+    "text":"Table 6.1: Agro-Ecological Zones for the County, 2014",
+    "value_raw":"6.1, 2014",
+    "imputed":false
+  },
+  {
+    "source_page":30,
+    "text":"Zone description Sub county Enterprises Area(Sq.Km)",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":30,
+    "text":"Upper highland- Humid Kuresoi, Molo, Njoro, Nakuru",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":30,
+    "text":"UH1 North, Gilgil, Naivasha Sheep,Dairy Zone 433.8",
+    "value_raw":"1, 433.8",
+    "imputed":false
+  },
+  {
+    "source_page":30,
+    "text":"Upper Highland-Sub Humid Rongai, Nakuru North, Subukia,",
+    "value_raw":"",
+    "imputed":false
+  }
+]

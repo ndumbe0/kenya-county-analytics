@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":29,
+    "text":"Table 1.1.10: Registered Births and Deaths by Place of Occurrence, 2019- 2023",
+    "value_raw":"1.1, 10, 2019, 2023",
+    "imputed":false
+  },
+  {
+    "source_page":29,
+    "text":"Births Deaths",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":29,
+    "text":"Year Hospital Facility Home Total Hospital Facility Home Total",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":29,
+    "text":"2019 4,722 230 4,952 235 93 328",
+    "value_raw":"2019, 4,722, 230, 4,952, 235, 93, 328",
+    "imputed":false
+  },
+  {
+    "source_page":29,
+    "text":"2020 3,962 50 4,012 248 72 320",
+    "value_raw":"2020, 3,962, 50, 4,012, 248, 72, 320",
+    "imputed":false
+  }
+]

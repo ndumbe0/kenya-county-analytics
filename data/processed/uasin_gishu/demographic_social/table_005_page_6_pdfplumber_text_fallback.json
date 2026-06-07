@@ -1,0 +1,50 @@
+[
+  {
+    "source_page":6,
+    "text":"Table 1.1.1: Population Trends by Sex, Number of Households, Average Household Size and",
+    "value_raw":"1.1, 1",
+    "imputed":false
+  },
+  {
+    "source_page":6,
+    "text":"Population Density, 1979 - 2019 ............................................................................................... 5",
+    "value_raw":"1979, 2019, 5",
+    "imputed":false
+  },
+  {
+    "source_page":6,
+    "text":"Table 1.1.2: Population Projection by Selected Age Groups, 2019 \u2013 2024............................... 5",
+    "value_raw":"1.1, 2, 2019, 2024, 5",
+    "imputed":false
+  },
+  {
+    "source_page":6,
+    "text":"Table 1.1.3: Population Projection by 5-Years Age Cohort and Sex, 2019 - 2024 ................... 7",
+    "value_raw":"1.1, 3, 5, 2019, 2024, 7",
+    "imputed":false
+  },
+  {
+    "source_page":6,
+    "text":"Table 1.1.4: Population Projection by Sex, Number of Households, Average Household Size",
+    "value_raw":"1.1, 4",
+    "imputed":false
+  },
+  {
+    "source_page":6,
+    "text":"Table 1.1.5: Population Projection by Land Area, Population Density and Sub County, 2019 -",
+    "value_raw":"1.1, 5, 2019",
+    "imputed":false
+  },
+  {
+    "source_page":6,
+    "text":"Table 1.2.1: Total Dependency Ratio and Distribution of the Working Population (15-64) by",
+    "value_raw":"1.2, 1, 15, -64",
+    "imputed":false
+  },
+  {
+    "source_page":6,
+    "text":"Table 1.2.2: Distribution of Population 5 Years and Above by Sex, Activity Status and Sub",
+    "value_raw":"1.2, 2, 5",
+    "imputed":false
+  }
+]

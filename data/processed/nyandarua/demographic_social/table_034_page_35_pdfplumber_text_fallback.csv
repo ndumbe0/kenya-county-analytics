@@ -1,0 +1,7 @@
+source_page,text,value_raw,imputed
+35,"Table 1.1.1: Population Trends by Sex, Number of Households, Average Household Size and Population","1.1, 1",False
+35,"Table 1.1.2: Population Distribution by Selected Age Groups, 2009 and 2019","1.1, 2, 2009, 2019",False
+35,"6-13 Primary School Age 54,681 56,928 111,609 64,145 61,986 1 26,131","6, -13, 54,681, 56,928, 111,609, 64,145, 61,986, 1, 26,131",False
+35,"14-17 Secondary School Age 23,848 22,137 45,985 34,941 32,401 6 7,342","14, -17, 23,848, 22,137, 45,985, 34,941, 32,401, 6, 7,342",False
+35,"15-64 Working Age Population 149,655 163,129 312,784 199,086 190,934 3 90,020","15, -64, 149,655, 163,129, 312,784, 199,086, 190,934, 3, 90,020",False
+35,"Table 1.1.3: Population Distribution by 5 Years Age Cohort and Sex, 2009 and 2019","1.1, 3, 5, 2009, 2019",False

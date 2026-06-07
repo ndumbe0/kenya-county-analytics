@@ -1,0 +1,50 @@
+[
+  {
+    "source_page":32,
+    "text":"Table 1.1.1: Population Trend by Sex, Number of Households, Average Household Size,",
+    "value_raw":"1.1, 1",
+    "imputed":false
+  },
+  {
+    "source_page":32,
+    "text":"Land Size and Population Density 1999, 2009 and 2019",
+    "value_raw":"1999,, 2009, 2019",
+    "imputed":false
+  },
+  {
+    "source_page":32,
+    "text":"Table 1.1.2: Projected Population Trend by Sex, Number of Households, Average",
+    "value_raw":"1.1, 2",
+    "imputed":false
+  },
+  {
+    "source_page":32,
+    "text":"Table 1.1.3: County Population Distribution by Selected Age Groups, 2009 and 2019",
+    "value_raw":"1.1, 3, 2009, 2019",
+    "imputed":false
+  },
+  {
+    "source_page":32,
+    "text":"14-17 Secondary School Age 38669 27687 66356 62322 39666 101988",
+    "value_raw":"14, -17, 38669, 27687, 66356, 62322, 39666, 101988",
+    "imputed":false
+  },
+  {
+    "source_page":32,
+    "text":"15-64 Working Age Population 162918 144406 307324 220999 222438 443437",
+    "value_raw":"15, -64, 162918, 144406, 307324, 220999, 222438, 443437",
+    "imputed":false
+  },
+  {
+    "source_page":32,
+    "text":"65+ Elderly Population 8078 6349 14427 8130 6251 14381",
+    "value_raw":"65, 8078, 6349, 14427, 8130, 6251, 14381",
+    "imputed":false
+  },
+  {
+    "source_page":32,
+    "text":"Population Size 841,353 927,031 948,947 970,917 991,919 1,012,920",
+    "value_raw":"841,353, 927,031, 948,947, 970,917, 991,919, 1,012,920",
+    "imputed":false
+  }
+]

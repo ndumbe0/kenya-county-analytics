@@ -1,0 +1,14 @@
+[
+  {
+    "source_page":16,
+    "text":"Table 2.3.7: Livestock Population by Type and Sub-County, 2019-2023 ....................119",
+    "value_raw":"2.3, 7, 2019, -2023, 119",
+    "imputed":false
+  },
+  {
+    "source_page":16,
+    "text":"Table 2.3.12: Livestock Population Zero Grazed by Sub-County, 2019 \u2013 2023 .........126",
+    "value_raw":"2.3, 12, 2019, 2023, 126",
+    "imputed":false
+  }
+]

@@ -1,0 +1,333 @@
+{
+  "county_results": {
+    "Mombasa": {
+      "county": "Mombasa",
+      "is_anomaly": false,
+      "anomaly_score": 0.137,
+      "health_score": 55.1,
+      "alert": "Within expected range."
+    },
+    "Kwale": {
+      "county": "Kwale",
+      "is_anomaly": false,
+      "anomaly_score": 0.076,
+      "health_score": 54.8,
+      "alert": "Borderline health score - monitor closely."
+    },
+    "Kilifi": {
+      "county": "Kilifi",
+      "is_anomaly": false,
+      "anomaly_score": 0.087,
+      "health_score": 57.2,
+      "alert": "Within expected range."
+    },
+    "Tana River": {
+      "county": "Tana River",
+      "is_anomaly": false,
+      "anomaly_score": 0.081,
+      "health_score": 59.6,
+      "alert": "Within expected range."
+    },
+    "Lamu": {
+      "county": "Lamu",
+      "is_anomaly": false,
+      "anomaly_score": 0.101,
+      "health_score": 62.0,
+      "alert": "Within expected range."
+    },
+    "Taita-Taveta": {
+      "county": "Taita-Taveta",
+      "is_anomaly": false,
+      "anomaly_score": 0.118,
+      "health_score": 64.4,
+      "alert": "Within expected range."
+    },
+    "Garissa": {
+      "county": "Garissa",
+      "is_anomaly": false,
+      "anomaly_score": 0.134,
+      "health_score": 66.8,
+      "alert": "Within expected range."
+    },
+    "Wajir": {
+      "county": "Wajir",
+      "is_anomaly": false,
+      "anomaly_score": 0.139,
+      "health_score": 69.2,
+      "alert": "Within expected range."
+    },
+    "Mandera": {
+      "county": "Mandera",
+      "is_anomaly": false,
+      "anomaly_score": 0.12,
+      "health_score": 71.6,
+      "alert": "Within expected range."
+    },
+    "Marsabit": {
+      "county": "Marsabit",
+      "is_anomaly": false,
+      "anomaly_score": 0.036,
+      "health_score": 74.0,
+      "alert": "Within expected range."
+    },
+    "Isiolo": {
+      "county": "Isiolo",
+      "is_anomaly": false,
+      "anomaly_score": 0.081,
+      "health_score": 76.4,
+      "alert": "Within expected range."
+    },
+    "Meru": {
+      "county": "Meru",
+      "is_anomaly": false,
+      "anomaly_score": 0.111,
+      "health_score": 78.8,
+      "alert": "Within expected range."
+    },
+    "Tharaka-Nithi": {
+      "county": "Tharaka-Nithi",
+      "is_anomaly": false,
+      "anomaly_score": 0.092,
+      "health_score": 81.2,
+      "alert": "Within expected range."
+    },
+    "Embu": {
+      "county": "Embu",
+      "is_anomaly": false,
+      "anomaly_score": 0.062,
+      "health_score": 83.6,
+      "alert": "Within expected range."
+    },
+    "Kitui": {
+      "county": "Kitui",
+      "is_anomaly": false,
+      "anomaly_score": 0.083,
+      "health_score": 86.0,
+      "alert": "Within expected range."
+    },
+    "Machakos": {
+      "county": "Machakos",
+      "is_anomaly": false,
+      "anomaly_score": 0.076,
+      "health_score": 88.4,
+      "alert": "Within expected range."
+    },
+    "Makueni": {
+      "county": "Makueni",
+      "is_anomaly": false,
+      "anomaly_score": 0.078,
+      "health_score": 50.0,
+      "alert": "Borderline health score - monitor closely."
+    },
+    "Nyandarua": {
+      "county": "Nyandarua",
+      "is_anomaly": false,
+      "anomaly_score": 0.094,
+      "health_score": 52.4,
+      "alert": "Borderline health score - monitor closely."
+    },
+    "Nyeri": {
+      "county": "Nyeri",
+      "is_anomaly": false,
+      "anomaly_score": 0.109,
+      "health_score": 54.8,
+      "alert": "Borderline health score - monitor closely."
+    },
+    "Kirinyaga": {
+      "county": "Kirinyaga",
+      "is_anomaly": false,
+      "anomaly_score": 0.067,
+      "health_score": 57.2,
+      "alert": "Within expected range."
+    },
+    "Murang'a": {
+      "county": "Murang'a",
+      "is_anomaly": false,
+      "anomaly_score": 0.091,
+      "health_score": 59.6,
+      "alert": "Within expected range."
+    },
+    "Kiambu": {
+      "county": "Kiambu",
+      "is_anomaly": false,
+      "anomaly_score": 0.07,
+      "health_score": 64.7,
+      "alert": "Within expected range."
+    },
+    "Turkana": {
+      "county": "Turkana",
+      "is_anomaly": false,
+      "anomaly_score": 0.088,
+      "health_score": 64.4,
+      "alert": "Within expected range."
+    },
+    "West Pokot": {
+      "county": "West Pokot",
+      "is_anomaly": false,
+      "anomaly_score": 0.078,
+      "health_score": 66.8,
+      "alert": "Within expected range."
+    },
+    "Samburu": {
+      "county": "Samburu",
+      "is_anomaly": false,
+      "anomaly_score": 0.154,
+      "health_score": 69.2,
+      "alert": "Within expected range."
+    },
+    "Trans Nzoia": {
+      "county": "Trans Nzoia",
+      "is_anomaly": false,
+      "anomaly_score": 0.171,
+      "health_score": 71.6,
+      "alert": "Within expected range."
+    },
+    "Uasin Gishu": {
+      "county": "Uasin Gishu",
+      "is_anomaly": false,
+      "anomaly_score": 0.17,
+      "health_score": 74.0,
+      "alert": "Within expected range."
+    },
+    "Elgeyo-Marakwet": {
+      "county": "Elgeyo-Marakwet",
+      "is_anomaly": false,
+      "anomaly_score": 0.154,
+      "health_score": 76.4,
+      "alert": "Within expected range."
+    },
+    "Nandi": {
+      "county": "Nandi",
+      "is_anomaly": false,
+      "anomaly_score": 0.128,
+      "health_score": 78.8,
+      "alert": "Within expected range."
+    },
+    "Baringo": {
+      "county": "Baringo",
+      "is_anomaly": false,
+      "anomaly_score": 0.084,
+      "health_score": 81.2,
+      "alert": "Within expected range."
+    },
+    "Laikipia": {
+      "county": "Laikipia",
+      "is_anomaly": false,
+      "anomaly_score": 0.078,
+      "health_score": 83.6,
+      "alert": "Within expected range."
+    },
+    "Nakuru": {
+      "county": "Nakuru",
+      "is_anomaly": true,
+      "anomaly_score": -0.065,
+      "health_score": 88.7,
+      "alert": "Unusually high values across health & economic indicators - flagged for review."
+    },
+    "Narok": {
+      "county": "Narok",
+      "is_anomaly": true,
+      "anomaly_score": -0.004,
+      "health_score": 88.4,
+      "alert": "Unusually high values across health & economic indicators - flagged for review."
+    },
+    "Kajiado": {
+      "county": "Kajiado",
+      "is_anomaly": true,
+      "anomaly_score": -0.004,
+      "health_score": 50.0,
+      "alert": "Underperforming health indicators detected."
+    },
+    "Kericho": {
+      "county": "Kericho",
+      "is_anomaly": false,
+      "anomaly_score": 0.093,
+      "health_score": 52.4,
+      "alert": "Borderline health score - monitor closely."
+    },
+    "Bomet": {
+      "county": "Bomet",
+      "is_anomaly": false,
+      "anomaly_score": 0.131,
+      "health_score": 54.8,
+      "alert": "Borderline health score - monitor closely."
+    },
+    "Kakamega": {
+      "county": "Kakamega",
+      "is_anomaly": false,
+      "anomaly_score": 0.134,
+      "health_score": 57.2,
+      "alert": "Within expected range."
+    },
+    "Vihiga": {
+      "county": "Vihiga",
+      "is_anomaly": false,
+      "anomaly_score": 0.134,
+      "health_score": 59.6,
+      "alert": "Within expected range."
+    },
+    "Bungoma": {
+      "county": "Bungoma",
+      "is_anomaly": false,
+      "anomaly_score": 0.122,
+      "health_score": 62.0,
+      "alert": "Within expected range."
+    },
+    "Busia": {
+      "county": "Busia",
+      "is_anomaly": false,
+      "anomaly_score": 0.11,
+      "health_score": 64.4,
+      "alert": "Within expected range."
+    },
+    "Siaya": {
+      "county": "Siaya",
+      "is_anomaly": false,
+      "anomaly_score": 0.126,
+      "health_score": 66.8,
+      "alert": "Within expected range."
+    },
+    "Kisumu": {
+      "county": "Kisumu",
+      "is_anomaly": true,
+      "anomaly_score": -0.027,
+      "health_score": 71.9,
+      "alert": "Unusually high values across health & economic indicators - flagged for review."
+    },
+    "Homa Bay": {
+      "county": "Homa Bay",
+      "is_anomaly": false,
+      "anomaly_score": 0.09,
+      "health_score": 71.6,
+      "alert": "Within expected range."
+    },
+    "Migori": {
+      "county": "Migori",
+      "is_anomaly": false,
+      "anomaly_score": 0.003,
+      "health_score": 74.0,
+      "alert": "Within expected range."
+    },
+    "Kisii": {
+      "county": "Kisii",
+      "is_anomaly": false,
+      "anomaly_score": 0.112,
+      "health_score": 76.4,
+      "alert": "Within expected range."
+    },
+    "Nyamira": {
+      "county": "Nyamira",
+      "is_anomaly": false,
+      "anomaly_score": 0.116,
+      "health_score": 78.8,
+      "alert": "Within expected range."
+    },
+    "Nairobi": {
+      "county": "Nairobi",
+      "is_anomaly": true,
+      "anomaly_score": -0.053,
+      "health_score": 83.9,
+      "alert": "Unusually high values across health & economic indicators - flagged for review."
+    }
+  }
+}

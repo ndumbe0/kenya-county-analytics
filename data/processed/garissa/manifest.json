@@ -1,0 +1,368 @@
+{
+  "pdf_path": "D:\\personal projects\\Project data\\Garissa\\2024-Statistical-Abstract-Garissa-County.pdf",
+  "county_name": "Garissa",
+  "table_count": 40,
+  "timestamp": "2026-06-07T00:05:04.662452+00:00",
+  "tables": [
+    {
+      "domain": "unclassified",
+      "engine": "pdfplumber_text_fallback",
+      "page": 1,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_001_page_1_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_001_page_1_pdfplumber_text_fallback.json",
+      "rows": 4,
+      "columns": 4
+    },
+    {
+      "domain": "unclassified",
+      "engine": "pdfplumber_text_fallback",
+      "page": 2,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_002_page_2_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_002_page_2_pdfplumber_text_fallback.json",
+      "rows": 1,
+      "columns": 4
+    },
+    {
+      "domain": "unclassified",
+      "engine": "pdfplumber_text_fallback",
+      "page": 3,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_003_page_3_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_003_page_3_pdfplumber_text_fallback.json",
+      "rows": 3,
+      "columns": 4
+    },
+    {
+      "domain": "unclassified",
+      "engine": "pdfplumber_text_fallback",
+      "page": 4,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_004_page_4_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_004_page_4_pdfplumber_text_fallback.json",
+      "rows": 5,
+      "columns": 4
+    },
+    {
+      "domain": "environmental",
+      "engine": "pdfplumber_text_fallback",
+      "page": 5,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\environmental\\table_005_page_5_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\environmental\\table_005_page_5_pdfplumber_text_fallback.json",
+      "rows": 5,
+      "columns": 4
+    },
+    {
+      "domain": "unclassified",
+      "engine": "pdfplumber_text_fallback",
+      "page": 6,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_006_page_6_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_006_page_6_pdfplumber_text_fallback.json",
+      "rows": 5,
+      "columns": 4
+    },
+    {
+      "domain": "demographic_social",
+      "engine": "pdfplumber_text_fallback",
+      "page": 7,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\demographic_social\\table_007_page_7_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\demographic_social\\table_007_page_7_pdfplumber_text_fallback.json",
+      "rows": 5,
+      "columns": 4
+    },
+    {
+      "domain": "unclassified",
+      "engine": "pdfplumber_text_fallback",
+      "page": 8,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_008_page_8_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_008_page_8_pdfplumber_text_fallback.json",
+      "rows": 5,
+      "columns": 4
+    },
+    {
+      "domain": "unclassified",
+      "engine": "pdfplumber_text_fallback",
+      "page": 9,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_009_page_9_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_009_page_9_pdfplumber_text_fallback.json",
+      "rows": 5,
+      "columns": 4
+    },
+    {
+      "domain": "environmental",
+      "engine": "pdfplumber_text_fallback",
+      "page": 10,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\environmental\\table_010_page_10_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\environmental\\table_010_page_10_pdfplumber_text_fallback.json",
+      "rows": 3,
+      "columns": 4
+    },
+    {
+      "domain": "unclassified",
+      "engine": "pdfplumber_text_fallback",
+      "page": 11,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_011_page_11_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_011_page_11_pdfplumber_text_fallback.json",
+      "rows": 2,
+      "columns": 4
+    },
+    {
+      "domain": "environmental",
+      "engine": "pdfplumber_text_fallback",
+      "page": 12,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\environmental\\table_012_page_12_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\environmental\\table_012_page_12_pdfplumber_text_fallback.json",
+      "rows": 5,
+      "columns": 4
+    },
+    {
+      "domain": "demographic_social",
+      "engine": "pdfplumber_text_fallback",
+      "page": 13,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\demographic_social\\table_013_page_13_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\demographic_social\\table_013_page_13_pdfplumber_text_fallback.json",
+      "rows": 8,
+      "columns": 4
+    },
+    {
+      "domain": "unclassified",
+      "engine": "pdfplumber_text_fallback",
+      "page": 14,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_014_page_14_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_014_page_14_pdfplumber_text_fallback.json",
+      "rows": 3,
+      "columns": 4
+    },
+    {
+      "domain": "unclassified",
+      "engine": "pdfplumber_text_fallback",
+      "page": 15,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_015_page_15_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_015_page_15_pdfplumber_text_fallback.json",
+      "rows": 5,
+      "columns": 4
+    },
+    {
+      "domain": "demographic_social",
+      "engine": "pdfplumber_text_fallback",
+      "page": 16,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\demographic_social\\table_016_page_16_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\demographic_social\\table_016_page_16_pdfplumber_text_fallback.json",
+      "rows": 2,
+      "columns": 4
+    },
+    {
+      "domain": "economic",
+      "engine": "pdfplumber_text_fallback",
+      "page": 17,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\economic\\table_017_page_17_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\economic\\table_017_page_17_pdfplumber_text_fallback.json",
+      "rows": 8,
+      "columns": 4
+    },
+    {
+      "domain": "demographic_social",
+      "engine": "pdfplumber_text_fallback",
+      "page": 18,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\demographic_social\\table_018_page_18_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\demographic_social\\table_018_page_18_pdfplumber_text_fallback.json",
+      "rows": 5,
+      "columns": 4
+    },
+    {
+      "domain": "environmental",
+      "engine": "pdfplumber_text_fallback",
+      "page": 19,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\environmental\\table_019_page_19_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\environmental\\table_019_page_19_pdfplumber_text_fallback.json",
+      "rows": 5,
+      "columns": 4
+    },
+    {
+      "domain": "unclassified",
+      "engine": "pdfplumber_text_fallback",
+      "page": 20,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_020_page_20_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_020_page_20_pdfplumber_text_fallback.json",
+      "rows": 5,
+      "columns": 4
+    },
+    {
+      "domain": "unclassified",
+      "engine": "pdfplumber_text_fallback",
+      "page": 21,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_021_page_21_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_021_page_21_pdfplumber_text_fallback.json",
+      "rows": 5,
+      "columns": 4
+    },
+    {
+      "domain": "unclassified",
+      "engine": "pdfplumber_text_fallback",
+      "page": 22,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_022_page_22_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_022_page_22_pdfplumber_text_fallback.json",
+      "rows": 5,
+      "columns": 4
+    },
+    {
+      "domain": "demographic_social",
+      "engine": "pdfplumber_text_fallback",
+      "page": 23,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\demographic_social\\table_023_page_23_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\demographic_social\\table_023_page_23_pdfplumber_text_fallback.json",
+      "rows": 5,
+      "columns": 4
+    },
+    {
+      "domain": "unclassified",
+      "engine": "pdfplumber_text_fallback",
+      "page": 24,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_024_page_24_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_024_page_24_pdfplumber_text_fallback.json",
+      "rows": 5,
+      "columns": 4
+    },
+    {
+      "domain": "environmental",
+      "engine": "pdfplumber_text_fallback",
+      "page": 25,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\environmental\\table_025_page_25_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\environmental\\table_025_page_25_pdfplumber_text_fallback.json",
+      "rows": 5,
+      "columns": 4
+    },
+    {
+      "domain": "unclassified",
+      "engine": "pdfplumber_text_fallback",
+      "page": 26,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_026_page_26_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_026_page_26_pdfplumber_text_fallback.json",
+      "rows": 5,
+      "columns": 4
+    },
+    {
+      "domain": "demographic_social",
+      "engine": "pdfplumber_text_fallback",
+      "page": 27,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\demographic_social\\table_027_page_27_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\demographic_social\\table_027_page_27_pdfplumber_text_fallback.json",
+      "rows": 1,
+      "columns": 4
+    },
+    {
+      "domain": "governance",
+      "engine": "pdfplumber_text_fallback",
+      "page": 28,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\governance\\table_028_page_28_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\governance\\table_028_page_28_pdfplumber_text_fallback.json",
+      "rows": 5,
+      "columns": 4
+    },
+    {
+      "domain": "unclassified",
+      "engine": "pdfplumber_text_fallback",
+      "page": 29,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_029_page_29_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_029_page_29_pdfplumber_text_fallback.json",
+      "rows": 1,
+      "columns": 4
+    },
+    {
+      "domain": "environmental",
+      "engine": "pdfplumber_text_fallback",
+      "page": 30,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\environmental\\table_030_page_30_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\environmental\\table_030_page_30_pdfplumber_text_fallback.json",
+      "rows": 4,
+      "columns": 4
+    },
+    {
+      "domain": "demographic_social",
+      "engine": "pdfplumber_text_fallback",
+      "page": 31,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\demographic_social\\table_031_page_31_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\demographic_social\\table_031_page_31_pdfplumber_text_fallback.json",
+      "rows": 3,
+      "columns": 4
+    },
+    {
+      "domain": "demographic_social",
+      "engine": "pdfplumber_text_fallback",
+      "page": 32,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\demographic_social\\table_032_page_32_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\demographic_social\\table_032_page_32_pdfplumber_text_fallback.json",
+      "rows": 8,
+      "columns": 4
+    },
+    {
+      "domain": "demographic_social",
+      "engine": "pdfplumber_text_fallback",
+      "page": 33,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\demographic_social\\table_033_page_33_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\demographic_social\\table_033_page_33_pdfplumber_text_fallback.json",
+      "rows": 2,
+      "columns": 4
+    },
+    {
+      "domain": "demographic_social",
+      "engine": "pdfplumber_text_fallback",
+      "page": 34,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\demographic_social\\table_034_page_34_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\demographic_social\\table_034_page_34_pdfplumber_text_fallback.json",
+      "rows": 3,
+      "columns": 4
+    },
+    {
+      "domain": "demographic_social",
+      "engine": "pdfplumber_text_fallback",
+      "page": 35,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\demographic_social\\table_035_page_35_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\demographic_social\\table_035_page_35_pdfplumber_text_fallback.json",
+      "rows": 5,
+      "columns": 4
+    },
+    {
+      "domain": "unclassified",
+      "engine": "pdfplumber_text_fallback",
+      "page": 36,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_036_page_36_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_036_page_36_pdfplumber_text_fallback.json",
+      "rows": 5,
+      "columns": 4
+    },
+    {
+      "domain": "unclassified",
+      "engine": "pdfplumber_text_fallback",
+      "page": 37,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_037_page_37_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_037_page_37_pdfplumber_text_fallback.json",
+      "rows": 5,
+      "columns": 4
+    },
+    {
+      "domain": "unclassified",
+      "engine": "pdfplumber_text_fallback",
+      "page": 38,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_038_page_38_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_038_page_38_pdfplumber_text_fallback.json",
+      "rows": 5,
+      "columns": 4
+    },
+    {
+      "domain": "unclassified",
+      "engine": "pdfplumber_text_fallback",
+      "page": 39,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_039_page_39_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_039_page_39_pdfplumber_text_fallback.json",
+      "rows": 5,
+      "columns": 4
+    },
+    {
+      "domain": "unclassified",
+      "engine": "pdfplumber_text_fallback",
+      "page": 40,
+      "csv": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_040_page_40_pdfplumber_text_fallback.csv",
+      "json": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\garissa\\unclassified\\table_040_page_40_pdfplumber_text_fallback.json",
+      "rows": 5,
+      "columns": 4
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "source_page":38,
+    "text":"Primary Schools 6 20 7 01",
+    "value_raw":"6, 20, 7, 01",
+    "imputed":false
+  },
+  {
+    "source_page":38,
+    "text":"Secondary Schools 189 201",
+    "value_raw":"189, 201",
+    "imputed":false
+  },
+  {
+    "source_page":38,
+    "text":"Health Centres 55 61",
+    "value_raw":"55, 61",
+    "imputed":false
+  }
+]

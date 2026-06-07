@@ -1,0 +1,26 @@
+[
+  {
+    "source_page":12,
+    "text":"Table 2.3.6: Acreage Under Irrigation by the Source of Water 2021-2023 ................................. 97",
+    "value_raw":"2.3, 6, 2021, -2023, 97",
+    "imputed":false
+  },
+  {
+    "source_page":12,
+    "text":"Table 2.3.7: Household Water Pans and Irrigation Technologies Used by Ward, 2018\/19-",
+    "value_raw":"2.3, 7, 2018, 19",
+    "imputed":false
+  },
+  {
+    "source_page":12,
+    "text":"Table 2.3.9: Estimated Livestock Population by Type, 2019-2023 ............................................... 99",
+    "value_raw":"2.3, 9, 2019, -2023, 99",
+    "imputed":false
+  },
+  {
+    "source_page":12,
+    "text":"Table 2.3.23: Quantity, Value and Type of Fish Species Landed in Freshwater bodies, 2019-",
+    "value_raw":"2.3, 23, 2019",
+    "imputed":false
+  }
+]

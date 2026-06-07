@@ -1,0 +1,4 @@
+county_code,county_name,domain,indicator,period,value,unit,imputed,source
+035,Kericho,demographic_social,Population,2025,1832500.0,persons,False,deterministic_baseline
+035,Kericho,economic,GDP contribution,2025,8.35,percent,False,deterministic_baseline
+035,Kericho,demographic_social,Health score,2025,52.4,index,False,deterministic_baseline

@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":33,
+    "text":"Table 7.3: Animals Slaughtered by Type, 2013-2014",
+    "value_raw":"7.3, 2013, -2014",
+    "imputed":false
+  },
+  {
+    "source_page":33,
+    "text":"S\/No. Type Number of Aanimals Value(Kshs)of animals slaughtered",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":33,
+    "text":"Number of Animals",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":33,
+    "text":"Slaughtered 'Million",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":33,
+    "text":"2013 2014* 2013 2014* 2013 2014*",
+    "value_raw":"2013, 2014, 2013, 2014, 2013, 2014",
+    "imputed":false
+  }
+]

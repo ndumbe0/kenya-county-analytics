@@ -1,0 +1,14 @@
+[
+  {
+    "source_page":23,
+    "text":"second-largest freshwater lake in the world. The county covers a total area of approximately 2,086",
+    "value_raw":"2,086",
+    "imputed":false
+  },
+  {
+    "source_page":23,
+    "text":"square kilometres (1,960 sq km of land and 126 sq km of water). It lies between longitudes 33\u00b0 20'E",
+    "value_raw":"1,960, 126, 33, 20",
+    "imputed":false
+  }
+]

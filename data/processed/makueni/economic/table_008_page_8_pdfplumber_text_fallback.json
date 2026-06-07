@@ -1,0 +1,50 @@
+[
+  {
+    "source_page":8,
+    "text":"Table 3.1.3: Water Sources by Sub-County1 and Type, 2020-2024 ............................................................................................................................................................156",
+    "value_raw":"3.1, 3, 1, 2020, -2024, 156",
+    "imputed":false
+  },
+  {
+    "source_page":8,
+    "text":"Table 3.1.4: Operational Status of Water Sources by Sub County1 and Type, 2020-2024 ...............................................................................................................157",
+    "value_raw":"3.1, 4, 1, 2020, -2024, 157",
+    "imputed":false
+  },
+  {
+    "source_page":8,
+    "text":"Table 3.1.5: Number of Households with Access to Piped Water by Service Provider, 2020 \u2013 2024 ...........................................................................................162",
+    "value_raw":"3.1, 5, 2020, 2024, 162",
+    "imputed":false
+  },
+  {
+    "source_page":8,
+    "text":"Table 3.1.8 : Percentage Distribution of Conventional Households by Main Source of Drinking Water, 2019.......................................................................163",
+    "value_raw":"3.1, 8, 2019, 163",
+    "imputed":false
+  },
+  {
+    "source_page":8,
+    "text":"Table 3.1.14 (a): Reported Number of Environmental Crimes by Type, 2020\u2013 2024 .........................................................................................................................165",
+    "value_raw":"3.1, 14, 2020, 2024, 165",
+    "imputed":false
+  },
+  {
+    "source_page":8,
+    "text":"Table 4.1.1: Number of Registered Voters by Constituency and Ward; 2013, 2017 and 2022 ........................................................................................................170",
+    "value_raw":"4.1, 1, 2013,, 2017, 2022, 170",
+    "imputed":false
+  },
+  {
+    "source_page":8,
+    "text":"Table 4.1.3 : Constituency Distribution of Registered Voters by Age and Sex as at October 2025 ..............................................................................................171",
+    "value_raw":"4.1, 3, 2025, 171",
+    "imputed":false
+  },
+  {
+    "source_page":8,
+    "text":"Table 4.3.2: Number of Crimes Reported to the Police by type of Offence, 2020- 2024 ..................................................................................................................179",
+    "value_raw":"4.3, 2, 2020, 2024, 179",
+    "imputed":false
+  }
+]

@@ -1,0 +1,4 @@
+county_code,county_name,domain,indicator,period,value,unit,imputed,source
+005,Lamu,demographic_social,Population,2025,587500.0,persons,False,deterministic_baseline
+005,Lamu,economic,GDP contribution,2025,3.25,percent,False,deterministic_baseline
+005,Lamu,demographic_social,Health score,2025,62.0,index,False,deterministic_baseline

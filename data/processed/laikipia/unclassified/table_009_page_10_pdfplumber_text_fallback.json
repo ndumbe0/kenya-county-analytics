@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":10,
+    "text":"Table 1.4.13: Prescription by Morbidity for Patient Aged Below 5 Years by Facility, 2019-2023",
+    "value_raw":"1.4, 13, 5, 2019, -2023",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"............................................................................................................................................................ 49",
+    "value_raw":"49",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 1.4.14: Prescription by Morbidity for Patient Aged Below 5 Years by Facility, 2019-2023",
+    "value_raw":"1.4, 14, 5, 2019, -2023",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"............................................................................................................................................................ 50",
+    "value_raw":"50",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 1.4.15: Prescription by Morbidity for Patient Aged Below 5 Years by Facility, 2019-2023",
+    "value_raw":"1.4, 15, 5, 2019, -2023",
+    "imputed":false
+  }
+]

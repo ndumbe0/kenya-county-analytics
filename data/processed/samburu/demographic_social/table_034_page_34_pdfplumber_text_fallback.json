@@ -1,0 +1,20 @@
+[
+  {
+    "source_page":34,
+    "text":"Table 1.3.6: ECDE Teachers by Sub County, Ward and Type of Schools, 2019-2023",
+    "value_raw":"1.3, 6, 2019, -2023",
+    "imputed":false
+  },
+  {
+    "source_page":34,
+    "text":"Table 1.3.7: Primary School by Category and Sub-County, 2019-2023",
+    "value_raw":"1.3, 7, 2019, -2023",
+    "imputed":false
+  },
+  {
+    "source_page":34,
+    "text":"Table 1.3.8: Primary School Enrollment by Sub County, Type of School and Sex, 2019-2023",
+    "value_raw":"1.3, 8, 2019, -2023",
+    "imputed":false
+  }
+]

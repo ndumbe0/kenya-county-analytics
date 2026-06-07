@@ -1,0 +1,50 @@
+[
+  {
+    "source_page":10,
+    "text":"Table 14.2: Primary Schools by Category, 2014* .................................................................28",
+    "value_raw":"14.2, 2014, 28",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 14.3: Secondary Schools by Category and Sub-County, 2013 - 2014 .........................29",
+    "value_raw":"14.3, 2013, 2014, 29",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 14.9: Primary School Enrolment by Sub-County and Sex, 2014* ..............................31",
+    "value_raw":"14.9, 2014, 31",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 14.10: Primary School Enrolment by Sub-County, Class and Sex, 2014* ..................32",
+    "value_raw":"14.10, 2014, 32",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 14.11: Primary Schools and Enrolment by Sex, 2014* ...............................................33",
+    "value_raw":"14.11, 2014, 33",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 14.15: Secondary School Enrolment by Class and Sex, 2013 \u2013 2014 .........................34",
+    "value_raw":"14.15, 2013, 2014, 34",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 14.16: Secondary School Enrolment by Class, Sex and Sub-County, 2014* ..............35",
+    "value_raw":"14.16, 2014, 35",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 14.17: Private Secondary School Enrolment by Sub-County and Sex, 2013 \u2013 2014 ..36",
+    "value_raw":"14.17, 2013, 2014, 36",
+    "imputed":false
+  }
+]

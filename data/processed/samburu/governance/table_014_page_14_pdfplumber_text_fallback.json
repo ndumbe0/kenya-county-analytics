@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":14,
+    "text":"Table 4.3.5: Probation Personnel and Offenders by Sex, 2019-2023 ................................ 104",
+    "value_raw":"4.3, 5, 2019, -2023, 104",
+    "imputed":false
+  },
+  {
+    "source_page":14,
+    "text":"Table 4.3.6: Offenders Serving Probation, by Sex and Type of Offence in 2020-2023 ......... 104",
+    "value_raw":"4.3, 6, 2020, -2023, 104",
+    "imputed":false
+  },
+  {
+    "source_page":14,
+    "text":"Table 4.3.7: Offenders Serving Community Service, by Sex and Type of Offence in 2020-",
+    "value_raw":"4.3, 7, 2020",
+    "imputed":false
+  },
+  {
+    "source_page":14,
+    "text":"2023 ....................................................................................................................... 104",
+    "value_raw":"2023, 104",
+    "imputed":false
+  },
+  {
+    "source_page":14,
+    "text":"Table 4.3.8: Offenders Serving Aftercare, by Sex and Type of Offence in 2020-2023 ......... 105",
+    "value_raw":"4.3, 8, 2020, -2023, 105",
+    "imputed":false
+  }
+]

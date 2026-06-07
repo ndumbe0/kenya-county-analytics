@@ -1,0 +1,14 @@
+[
+  {
+    "source_page":10,
+    "text":"Table 4.3.5 Convicted prison population by Age, Sex and Disability Status, 2019-2023 246",
+    "value_raw":"4.3, 5, 2019, -2023, 246",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 4.4.2: Crimes Reported to the Police by Type of Offence and Sub County 2019-2023 252",
+    "value_raw":"4.4, 2, 2019, -2023, 252",
+    "imputed":false
+  }
+]

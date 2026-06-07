@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":30,
+    "text":"1.3. Education",
+    "value_raw":"1.3",
+    "imputed":false
+  },
+  {
+    "source_page":30,
+    "text":"This sub domain covers educational participation, illiteracy levels, educational institutions and systems,",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":30,
+    "text":"human and financial resources invested in education, lifelong learning, vocational training and adult",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":30,
+    "text":"learning, impact of education, assessment of student performance, courses offered in various colleges",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":30,
+    "text":"and universities, number of teachers and instructors in various learning institutions",
+    "value_raw":"",
+    "imputed":false
+  }
+]

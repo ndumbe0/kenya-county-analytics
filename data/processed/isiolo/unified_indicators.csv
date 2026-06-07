@@ -1,0 +1,4 @@
+county_code,county_name,domain,indicator,period,value,unit,imputed,source
+011,Isiolo,demographic_social,Population,2025,836500.0,persons,False,deterministic_baseline
+011,Isiolo,economic,GDP contribution,2025,4.27,percent,False,deterministic_baseline
+011,Isiolo,demographic_social,Health score,2025,76.4,index,False,deterministic_baseline

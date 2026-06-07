@@ -1,0 +1,14 @@
+[
+  {
+    "source_page":14,
+    "text":"According to the population and housing census conducted in 2009, the population of Baringo",
+    "value_raw":"2009,",
+    "imputed":false
+  },
+  {
+    "source_page":14,
+    "text":"population of the county was estimated to be 610,182 in 2012, 632,588 in 2013 and 655,641 in",
+    "value_raw":"610,182, 2012,, 632,588, 2013, 655,641",
+    "imputed":false
+  }
+]

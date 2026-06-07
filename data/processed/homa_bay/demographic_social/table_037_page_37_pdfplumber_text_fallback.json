@@ -1,0 +1,20 @@
+[
+  {
+    "source_page":37,
+    "text":"Table 1.1.11: Distribution of Population by Sex, Number of Households and Sub County 2019",
+    "value_raw":"1.1, 11, 2019",
+    "imputed":false
+  },
+  {
+    "source_page":37,
+    "text":"Source: KNBS: Kenya Population Household Census, 2019",
+    "value_raw":"2019",
+    "imputed":false
+  },
+  {
+    "source_page":37,
+    "text":"Table 1.1.12: Percentage Distribution of Conventional Households by Main Source of Drinking Water and Sub-County,2019",
+    "value_raw":"1.1, 12, 2019",
+    "imputed":false
+  }
+]

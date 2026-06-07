@@ -1,0 +1,20 @@
+[
+  {
+    "source_page":8,
+    "text":"Table 1.4.16: Number of Existing Health Facilities by Sub County Norms and Gaps, 2023 .......................................... 99",
+    "value_raw":"1.4, 16, 2023, 99",
+    "imputed":false
+  },
+  {
+    "source_page":8,
+    "text":"Table 1.4.22: Health Facilities Offering Rehabilitative Services by Type, Ownership and Sb County, 2023 ................ 103",
+    "value_raw":"1.4, 22, 2023, 103",
+    "imputed":false
+  },
+  {
+    "source_page":8,
+    "text":"Table 1.7.1: Registered Voters by Sub County, Ward and Sex, 2013, 2017 and 2022 ................................................ 117",
+    "value_raw":"1.7, 1, 2013,, 2017, 2022, 117",
+    "imputed":false
+  }
+]
