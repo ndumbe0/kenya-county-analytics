@@ -1,0 +1,112 @@
+[
+  {
+    "col_0":"Altitude: Highest point Altitude: Lowest point",
+    "Units":": metres a.s.l : metres a.s.l",
+    "col_2":"1 ,104 200",
+    "page":18,
+    "Unit":null,
+    "2013":null,
+    "2011":null,
+    "2012":null
+  },
+  {
+    "col_0":"Latitudes Longitudes",
+    "Units":": degrees N\/S : degrees E\/W",
+    "col_2":null,
+    "page":18,
+    "Unit":null,
+    "2013":null,
+    "2011":null,
+    "2012":null
+  },
+  {
+    "col_0":"Rainfall (annual avergage)",
+    "Units":null,
+    "col_2":null,
+    "page":19,
+    "Unit":"mm",
+    "2013":"42.24",
+    "2011":null,
+    "2012":null
+  },
+  {
+    "col_0":"Long rains (average) Short rains (average) Temperature (annual average Lowest) Temperature (annual average highest) Temperature (annual average)",
+    "Units":null,
+    "col_2":null,
+    "page":19,
+    "Unit":"mm mm 0C 0C 0C",
+    "2013":"78.8 96 26.3 27.0 26.0",
+    "2011":null,
+    "2012":null
+  },
+  {
+    "col_0":"Source: Department of Agriculture, County Government of Isi",
+    "Units":null,
+    "col_2":null,
+    "page":19,
+    "Unit":null,
+    "2013":null,
+    "2011":null,
+    "2012":null
+  },
+  {
+    "col_0":null,
+    "Units":null,
+    "col_2":null,
+    "page":19,
+    "Unit":null,
+    "2013":"18.5 2.6 64.5 171.9 - - - 3.0 2.0 44.6 164.7 35.1",
+    "2011":"1 1.0 2 1.4 1 06.7 5 2.2 3 9.3 9 .0 1 .0 6 .1 1 5.6 1 38.8 1 97.7 5 4.2",
+    "2012":"- 4 .3 4 .2 8 6.2 3 1.7 3 0.6 - - 3 5.0 1 09.6 1 39.3 1 12.3"
+  },
+  {
+    "col_0":null,
+    "Units":null,
+    "col_2":null,
+    "page":19,
+    "Unit":null,
+    "2013":"506.9",
+    "2011":"6 53.0",
+    "2012":"5 53.2"
+  },
+  {
+    "col_0":null,
+    "Units":null,
+    "col_2":null,
+    "page":30,
+    "Unit":null,
+    "2013":"75 52 12",
+    "2011":null,
+    "2012":null
+  },
+  {
+    "col_0":null,
+    "Units":null,
+    "col_2":null,
+    "page":30,
+    "Unit":null,
+    "2013":"139",
+    "2011":null,
+    "2012":null
+  },
+  {
+    "col_0":null,
+    "Units":null,
+    "col_2":null,
+    "page":30,
+    "Unit":null,
+    "2013":"2 7.6 4 ,140,000",
+    "2011":null,
+    "2012":null
+  },
+  {
+    "col_0":null,
+    "Units":null,
+    "col_2":null,
+    "page":32,
+    "Unit":null,
+    "2013":"0 3 0 12,000",
+    "2011":null,
+    "2012":null
+  }
+]
