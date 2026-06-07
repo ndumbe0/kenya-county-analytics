@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kenya County Analytics v1</title>
+    <link rel="stylesheet" href="/static/css/dashboard_v1.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.27.1.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+</head>
+<body>
+    <div id="map-container">
+        <div id="map"></div>
+    </div>
+    <div id="tooltip" class="hidden"></div>
+    <script>
+        var map = L.map('map').setView([0.0236, 37.9062], 6);
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a>'
+        }).addTo(map);
+
+        gsap.from("#map-container", { duration: 1, opacity: 0, y: -50 });
+
+        fetch('/api/v1/counties/')
+            .then(r => r.json())
+            .then(data => {
+                data.counties.forEach(county => {
+                    var popup = L.popup().setContent(`<b>${county}</b><br>Hover to see details`);
+                });
+            });
+
+        map.on('mouseover', function(e) {
+            gsap.to("#tooltip", { duration: 0.3, autoAlpha: 1, y: -10 });
+            document.getElementById("tooltip").innerHTML = "County: <strong>Makueni</strong><br>Population: 1.2M ↑";
+        });
+        map.on('mouseout', function() {
+            gsap.to("#tooltip", { duration: 0.3, autoAlpha: 0 });
+        });
+    </script>
+    <script src="/static/js/animations_v1.js"></script>
+</body>
+</html>
