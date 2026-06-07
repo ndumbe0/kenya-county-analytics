@@ -19,7 +19,7 @@ selenium==4.26.0
 playwright==1.48.0
 openai==1.54.0
 langchain==0.3.6
-langchain-community==0.3.5
+langchain-community==0.3.27
 chromadb==0.5.20
 python-dotenv==1.0.1
 pytest==8.3.3
