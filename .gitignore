@@ -24,3 +24,4 @@ dist/
 build/
 *.egg-info/
 data/processed/master_dataset.json
+.aider*
