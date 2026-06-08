@@ -21,9 +21,10 @@ COUNTIES = [
 
 COUNTY_CODES = {c: i+1 for i, c in enumerate(COUNTIES)}
 
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 BASE_URL = "https://www.knbs.or.ke/county-statistical-abstracts/"
-RAW_DIR = Path("D:/personal projects/kenya-county-analytics/data/raw")
-PROCESSED_DIR = Path("D:/personal projects/kenya-county-analytics/data/processed")
+RAW_DIR = PROJECT_ROOT / "data" / "raw"
+PROCESSED_DIR = PROJECT_ROOT / "data" / "processed"
 LOG_PATH = PROCESSED_DIR / "download_log.json"
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"

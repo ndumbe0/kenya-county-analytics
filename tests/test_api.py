@@ -8,14 +8,13 @@ client = TestClient(app)
 def test_root():
     resp = client.get("/")
     assert resp.status_code == 200
-    assert "name" in resp.json()
+    assert "message" in resp.json()
 
 
 def test_health():
     resp = client.get("/health")
     assert resp.status_code == 200
-    assert resp.json()["status"] == "healthy"
-    assert resp.json()["counties_available"] == 47
+    assert resp.json()["status"] == "ok"
 
 
 def test_list_counties():

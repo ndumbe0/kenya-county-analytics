@@ -7,7 +7,7 @@ from pathlib import Path
 from typing import Any
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_EXTERNAL_DATA_DIR = Path(r"D:\personal projects\Project data")
+DEFAULT_EXTERNAL_DATA_DIR = Path(r"D:\personal projects\Project data")  # external; override via env var
 
 COUNTIES: list[dict[str, str]] = [
     {"code": "001", "name": "Mombasa"},
@@ -138,7 +138,7 @@ def read_json(path: Path, default: Any) -> Any:
         return default
     try:
         return json.loads(path.read_text(encoding="utf-8"))
-    except json.JSONDecodeError:
+    except (json.JSONDecodeError, FileNotFoundError, PermissionError):
         return default
 
 

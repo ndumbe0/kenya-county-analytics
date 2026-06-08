@@ -7,13 +7,13 @@ echo ==========================================
 cd /d "D:\personal projects\kenya-county-analytics"
 
 REM Check for virtual environment
-if not exist "venv\Scripts\activate.bat" (
+if not exist ".venv\Scripts\activate.bat" (
     echo Creating virtual environment...
-    python -m venv venv
+    python -m venv .venv
 )
 
 REM Activate virtual environment
-call venv\Scripts\activate.bat
+call .venv\Scripts\activate.bat
 
 REM Install dependencies
 echo Installing dependencies...

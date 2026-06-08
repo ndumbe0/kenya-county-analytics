@@ -142,11 +142,11 @@ def get_all_analytics():
 
 if __name__ == "__main__":
     import uvicorn
-    import socket as sock_mod
+    import socket
 
     def find_open_port(default_port):
         for port in range(default_port, default_port + 10):
-            with sock_mod.socket(sock_mod.AF_INET, sock_mod.SOCK_STREAM) as s:
+            with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
                 if s.connect_ex(('localhost', port)) != 0:
                     return port
         return default_port
