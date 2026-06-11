@@ -1,0 +1,9 @@
+
+# 2026-06-08 17:22:42.771393
++python.exe -m pip install --upgrade pipY
+
+# 2026-06-08 17:22:55.077279
++y
+
+# 2026-06-08 17:35:35.889552
++(Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned) ; (& "d:\personal projects\kenya-county-analytics\.venv\Scripts\Activate.ps1")
