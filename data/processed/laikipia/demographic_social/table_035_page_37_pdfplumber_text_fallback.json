@@ -1,0 +1,14 @@
+[
+  {
+    "source_page":37,
+    "text":"Table 1.1.5: County Population Projection by Age Cohorts and Sex, 2020- 2023",
+    "value_raw":"1.1, 5, 2020, 2023",
+    "imputed":false
+  },
+  {
+    "source_page":37,
+    "text":"Table 1.1.6: County Population Projection of Special Age Groups by Age Cohorts and Sex,",
+    "value_raw":"1.1, 6",
+    "imputed":false
+  }
+]

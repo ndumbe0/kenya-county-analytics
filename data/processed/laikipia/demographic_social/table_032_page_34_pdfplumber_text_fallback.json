@@ -1,0 +1,20 @@
+[
+  {
+    "source_page":34,
+    "text":"1.1: Population",
+    "value_raw":"1.1",
+    "imputed":false
+  },
+  {
+    "source_page":34,
+    "text":"Table 1.1.1: County Population Projection by Sex and Sub-County, 2020- 2023",
+    "value_raw":"1.1, 1, 2020, 2023",
+    "imputed":false
+  },
+  {
+    "source_page":34,
+    "text":"Table 1.1.2: County Population Projection by Number of Households, Average Household",
+    "value_raw":"1.1, 2",
+    "imputed":false
+  }
+]

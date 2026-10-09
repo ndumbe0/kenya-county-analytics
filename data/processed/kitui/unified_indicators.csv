@@ -1,0 +1,4 @@
+county_code,county_name,domain,indicator,period,value,unit,imputed,source
+015,Kitui,demographic_social,Population,2025,1002500.0,persons,False,deterministic_baseline
+015,Kitui,economic,GDP contribution,2025,4.95,percent,False,deterministic_baseline
+015,Kitui,demographic_social,Health score,2025,86.0,index,False,deterministic_baseline

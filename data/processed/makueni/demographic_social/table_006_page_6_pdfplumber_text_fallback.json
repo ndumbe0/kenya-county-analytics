@@ -1,0 +1,20 @@
+[
+  {
+    "source_page":6,
+    "text":"Table 1.4.1 Number of Health Facilities by Ownership and Sub-County1, 2020-2024 ..........................................................................................................................45",
+    "value_raw":"1.4, 1, 1,, 2020, -2024, 45",
+    "imputed":false
+  },
+  {
+    "source_page":6,
+    "text":"Table 1.4.3 Number of Health Facilities\u2019 Beds and Cots by Sub-County, 2020- 2024 ...........................................................................................................................47",
+    "value_raw":"1.4, 3, 2020, 2024, 47",
+    "imputed":false
+  },
+  {
+    "source_page":6,
+    "text":"Table 1.4.13(b): National Health Insurance Fund\/SHA Uptake, Makueni County, 2020-2024 ...........................................................................................................78",
+    "value_raw":"1.4, 13, 2020, -2024, 78",
+    "imputed":false
+  }
+]

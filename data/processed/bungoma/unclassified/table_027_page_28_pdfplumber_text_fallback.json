@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":28,
+    "text":"Table 5.1: Agro-Ecological Zones for the Sub-County, 2014",
+    "value_raw":"5.1, 2014",
+    "imputed":false
+  },
+  {
+    "source_page":28,
+    "text":"Zone Geographical Distribution Crop Enterprise",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":28,
+    "text":"LM3 Malakisi,Bumula, Kanduyi & Nalondo Suitable for: Food crops",
+    "value_raw":"3",
+    "imputed":false
+  },
+  {
+    "source_page":28,
+    "text":"Suitable for: Cotton, Sorghum, Coffee, Sugarcane",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":28,
+    "text":"LM2 Sirisia, Webuye, Lwandanyi & Kanduyi",
+    "value_raw":"2",
+    "imputed":false
+  }
+]

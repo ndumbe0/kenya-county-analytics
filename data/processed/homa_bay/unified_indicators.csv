@@ -1,0 +1,4 @@
+county_code,county_name,domain,indicator,period,value,unit,imputed,source
+043,Homa Bay,demographic_social,Population,2025,2164500.0,persons,False,deterministic_baseline
+043,Homa Bay,economic,GDP contribution,2025,9.71,percent,False,deterministic_baseline
+043,Homa Bay,demographic_social,Health score,2025,71.6,index,False,deterministic_baseline

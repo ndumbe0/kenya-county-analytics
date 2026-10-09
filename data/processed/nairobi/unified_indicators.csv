@@ -1,0 +1,4 @@
+county_code,county_name,domain,indicator,period,value,unit,imputed,source
+047,Nairobi,demographic_social,Population,2025,4427950.0,persons,False,deterministic_baseline
+047,Nairobi,economic,GDP contribution,2025,19.74,percent,False,deterministic_baseline
+047,Nairobi,demographic_social,Health score,2025,83.9,index,False,deterministic_baseline

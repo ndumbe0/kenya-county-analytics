@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":15,
+    "text":"Table 1.4.11: Number of HIV Cases for Under 5 yrs and Over 5 yrs, 2019-2023 ........84",
+    "value_raw":"1.4, 11, 5, 5, 2019, -2023, 84",
+    "imputed":false
+  },
+  {
+    "source_page":15,
+    "text":"Table 1.4.12: Number of New HIV Infection by Sub County, 2019-2023 .....................84",
+    "value_raw":"1.4, 12, 2019, -2023, 84",
+    "imputed":false
+  },
+  {
+    "source_page":15,
+    "text":"Table1.4.13: Number of Teenage Pregnancy Cases in Garissa Reported,",
+    "value_raw":"1.4, 13",
+    "imputed":false
+  },
+  {
+    "source_page":15,
+    "text":"2020 -2023...........................................................................................................................85",
+    "value_raw":"2020, -2023, 85",
+    "imputed":false
+  },
+  {
+    "source_page":15,
+    "text":"Table 1.4.14: Number of COVID-19 Vaccination by Sub County, 2021-2023..............85",
+    "value_raw":"1.4, 14, -19, 2021, -2023, 85",
+    "imputed":false
+  }
+]

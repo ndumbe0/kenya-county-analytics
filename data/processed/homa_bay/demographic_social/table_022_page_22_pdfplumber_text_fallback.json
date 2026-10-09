@@ -1,0 +1,14 @@
+[
+  {
+    "source_page":22,
+    "text":"Table 1.1.1 Distribution of Population by Sex, Number of Households and Sub County, 2019",
+    "value_raw":"1.1, 1, 2019",
+    "imputed":false
+  },
+  {
+    "source_page":22,
+    "text":"Table 1.1.2 Distribution of Population by Sex, Number of Households, Land Area, Population Density Sub-County, Division and Location, 2019",
+    "value_raw":"1.1, 2, 2019",
+    "imputed":false
+  }
+]

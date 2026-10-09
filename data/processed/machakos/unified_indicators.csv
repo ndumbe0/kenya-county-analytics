@@ -1,0 +1,4 @@
+county_code,county_name,domain,indicator,period,value,unit,imputed,source
+016,Machakos,demographic_social,Population,2025,1044000.0,persons,False,deterministic_baseline
+016,Machakos,economic,GDP contribution,2025,5.12,percent,False,deterministic_baseline
+016,Machakos,demographic_social,Health score,2025,88.4,index,False,deterministic_baseline

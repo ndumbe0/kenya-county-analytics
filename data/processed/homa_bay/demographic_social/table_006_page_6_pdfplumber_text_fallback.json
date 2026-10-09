@@ -1,0 +1,50 @@
+[
+  {
+    "source_page":6,
+    "text":"Table 1.4.1: Health Facilities by Type, Level, Ownership and Sub County, 2020-2023 73",
+    "value_raw":"1.4, 1, 2020, -2023, 73",
+    "imputed":false
+  },
+  {
+    "source_page":6,
+    "text":"Table 1.4.2: Number of Beds and Cots in Public Health Facilities by Type of Facility and Sub County,",
+    "value_raw":"1.4, 2",
+    "imputed":false
+  },
+  {
+    "source_page":6,
+    "text":"Table 1.4.22: Reproductive, maternal, Newborn, Child and Adolescent Health (RMNCAH) Indicators,",
+    "value_raw":"1.4, 22",
+    "imputed":false
+  },
+  {
+    "source_page":6,
+    "text":"Table 1.4.25: Health Facility Causes of Deaths by Age Group and Sex, 2019 111",
+    "value_raw":"1.4, 25, 2019, 111",
+    "imputed":false
+  },
+  {
+    "source_page":6,
+    "text":"Table 1.4.26: Health Facility Causes of Deaths by Age Groups and Sex,2020 113",
+    "value_raw":"1.4, 26, 2020, 113",
+    "imputed":false
+  },
+  {
+    "source_page":6,
+    "text":"Table 1.4.27: Health Facility Causes of Deaths by Age Groups and Sex,2021 116",
+    "value_raw":"1.4, 27, 2021, 116",
+    "imputed":false
+  },
+  {
+    "source_page":6,
+    "text":"Table 1.4.28 Health Facility Causes of Deaths by Age Groups and Sex,2022 119",
+    "value_raw":"1.4, 28, 2022, 119",
+    "imputed":false
+  },
+  {
+    "source_page":6,
+    "text":"Table 1.4.29 Health Facility Causes of Deaths by Age Groups and Sex,2023 122",
+    "value_raw":"1.4, 29, 2023, 122",
+    "imputed":false
+  }
+]

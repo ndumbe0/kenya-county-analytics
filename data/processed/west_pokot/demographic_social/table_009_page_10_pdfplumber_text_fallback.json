@@ -1,0 +1,44 @@
+[
+  {
+    "source_page":10,
+    "text":"Table 14.11: Primary School Enrolment by Class and Sub County, 2014* ..........................27",
+    "value_raw":"14.11, 2014, 27",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 14.12: Primary School Enrolment and Access Indicators, 2014* ................................28",
+    "value_raw":"14.12, 2014, 28",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 14.14: Public Primary School Teachers by Qualification and Sex, 2013 \u2013 2014 ........28",
+    "value_raw":"14.14, 2013, 2014, 28",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 14.15: Secondary School Enrolment by Class and Sub County, 2014*.......................29",
+    "value_raw":"14.15, 2014, 29",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 14.16: Secondary School Enrolment and Access Indicators, 2014* ............................30",
+    "value_raw":"14.16, 2014, 30",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Public Health ................................................................................................................................32",
+    "value_raw":"32",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 15.1: Health Facilities by Ownership and Sub County, 2014 ......................................33",
+    "value_raw":"15.1, 2014, 33",
+    "imputed":false
+  }
+]

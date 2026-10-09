@@ -1,0 +1,4 @@
+county_code,county_name,domain,indicator,period,value,unit,imputed,source
+028,Elgeyo-Marakwet,demographic_social,Population,2025,1542000.0,persons,False,deterministic_baseline
+028,Elgeyo-Marakwet,economic,GDP contribution,2025,7.16,percent,False,deterministic_baseline
+028,Elgeyo-Marakwet,demographic_social,Health score,2025,76.4,index,False,deterministic_baseline

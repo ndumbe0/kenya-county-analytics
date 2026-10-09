@@ -1,0 +1,4 @@
+county_code,county_name,domain,indicator,period,value,unit,imputed,source
+019,Nyeri,demographic_social,Population,2025,1168500.0,persons,False,deterministic_baseline
+019,Nyeri,economic,GDP contribution,2025,5.63,percent,False,deterministic_baseline
+019,Nyeri,demographic_social,Health score,2025,54.8,index,False,deterministic_baseline

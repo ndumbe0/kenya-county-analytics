@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":37,
+    "text":"Table 1.2.2: Garissa County Public Service Board Appointments by Sub County, Ward",
+    "value_raw":"1.2, 2",
+    "imputed":false
+  },
+  {
+    "source_page":37,
+    "text":"and Year 2019-2023",
+    "value_raw":"2019, -2023",
+    "imputed":false
+  },
+  {
+    "source_page":37,
+    "text":"Sub Ward\/Year 2019- 2020- 2021- 2022- 2023- Total",
+    "value_raw":"2019, 2020, 2021, 2022, 2023",
+    "imputed":false
+  },
+  {
+    "source_page":37,
+    "text":"County CPSB CPSB CPSB CPSB CPSB",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":37,
+    "text":"Garissa Township 1 1 2 0 0 4",
+    "value_raw":"1, 1, 2, 0, 0, 4",
+    "imputed":false
+  }
+]

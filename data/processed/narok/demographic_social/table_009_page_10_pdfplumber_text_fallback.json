@@ -1,0 +1,50 @@
+[
+  {
+    "source_page":10,
+    "text":"Table 16.2: Primary Schools by Category and Sub-County, 2013-2014 ...............................30",
+    "value_raw":"16.2, 2013, -2014, 30",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 16.3: Secondary Schools by Category and Sub-County, 2013-2014 ...........................30",
+    "value_raw":"16.3, 2013, -2014, 30",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Primary School Education ........................................................................................................32",
+    "value_raw":"32",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 16.9: Primary Schools Enrolment by Class and Sex, 2014* ........................................32",
+    "value_raw":"16.9, 2014, 32",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table: 16.10: Public Primary School Teachers by Qualification and Sex, 2013-2014 ..........33",
+    "value_raw":"16.10, 2013, -2014, 33",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 16.11: Private primary school teachers by qualification and sex, 2013-2014 ..............33",
+    "value_raw":"16.11, 2013, -2014, 33",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 16.12: Public primary school teachers by qualification and sex, 2013-2014 ...............34",
+    "value_raw":"16.12, 2013, -2014, 34",
+    "imputed":false
+  },
+  {
+    "source_page":10,
+    "text":"Table 16.15: Secondary School Enrolment by Class, Sex & Sub-County, 2014* .................35",
+    "value_raw":"16.15, 2014, 35",
+    "imputed":false
+  }
+]

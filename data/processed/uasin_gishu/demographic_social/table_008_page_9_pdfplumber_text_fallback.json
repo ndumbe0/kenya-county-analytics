@@ -1,0 +1,50 @@
+[
+  {
+    "source_page":9,
+    "text":"Table 1.4.11: Community Health Promoters (CHPs) by Sub County, Wards and Sex, 2023- Table 1.7.16: Gender Based Violence Cases Reported by Type, Sub County and Sex, 2020-",
+    "value_raw":"1.4, 11, 2023, 1.7, 16, 2020",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 1.4.13: Uptake of Modern Contraceptives in Health Facilities by Sub-County, 2020- Table 1.8.2: Active Sports Teams by Sub County, Category and Sex, 2020-2024 .............. 100",
+    "value_raw":"1.4, 13, 2020, 1.8, 2, 2020, -2024, 100",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 1.5.1: Registered Voters by Sex, Constituency and Ward, 2013, 2017 and 2022 ......... 78 Table 2.1.1: Gross County Product by Economic Activities at Current Prices, 2020-2024 .. 106",
+    "value_raw":"1.5, 1, 2013,, 2017, 2022, 78, 2.1, 1, 2020, -2024, 106",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 1.5.2: New Identity Cards; Applications Made, Processed and Collected by Sub Table 2.1.2: County Gross Product contribution to GDP, 2020-2024 ................................... 107",
+    "value_raw":"1.5, 2, 2.1, 2, 2020, -2024, 107",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 1.6.1: Distribution of Population by Sex, Number of Households and Sub County, 2019 Table 2.1.5: County Revenue by Source 2019\/20 - 2023\/24 ................................................. 108",
+    "value_raw":"1.6, 1, 2019, 2.1, 5, 2019, 20, 2023, 24, 108",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 1.6.2: Households with Access to Water and Sanitation, 2020- 2024 .......................... 82 2.1.7 Revenue collection by Revenue Source, 2019\/20 - 2023\/24 ........................................ 110",
+    "value_raw":"1.6, 2, 2020, 2024, 82, 2.1, 7, 2019, 20, 2023, 24, 110",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 1.6.3: Functional Water sources by Sub-County, 2020-2024 ........................................ 83 Table 2.2.1a Licensed Business Establishments by Economic Activity, Size and Sub County,",
+    "value_raw":"1.6, 3, 2020, -2024, 83, 2.2, 1",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 1.6.4: Distribution of Conventional Households by Water Sources, 2019-2024 ......... 84 2019\/20 .................................................................................................................................. 112",
+    "value_raw":"1.6, 4, 2019, -2024, 84, 2019, 20, 112",
+    "imputed":false
+  }
+]

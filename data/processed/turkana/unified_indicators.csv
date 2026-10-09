@@ -1,0 +1,4 @@
+county_code,county_name,domain,indicator,period,value,unit,imputed,source
+023,Turkana,demographic_social,Population,2025,1334500.0,persons,False,deterministic_baseline
+023,Turkana,economic,GDP contribution,2025,6.31,percent,False,deterministic_baseline
+023,Turkana,demographic_social,Health score,2025,64.4,index,False,deterministic_baseline

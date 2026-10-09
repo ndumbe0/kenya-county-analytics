@@ -1,0 +1,14 @@
+[
+  {
+    "source_page":13,
+    "text":"Table 2.3.1.7: Estimated Livestock Population by Type, 2015-2021 ......................................................116",
+    "value_raw":"2.3, 1.7, 2015, -2021, 116",
+    "imputed":false
+  },
+  {
+    "source_page":13,
+    "text":"Table 2.3.1.8: Estimated Livestock Population by Type and Sub-County, 2020-2021 .......................117",
+    "value_raw":"2.3, 1.8, 2020, -2021, 117",
+    "imputed":false
+  }
+]

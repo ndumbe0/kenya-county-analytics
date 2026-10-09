@@ -1,0 +1,34 @@
+[
+  {
+    "col_0":"Altitude: Highest point Altitude: Lowest point Latitudes Longitudes",
+    "Units":"metres a.s.l metres a.s.l degrees N\/S degrees E\/W",
+    "col_2":"1 ,800 400 0\u00b010 S 3\u00b00 S 37\u00b050 E 39\u00b00 E",
+    "page":20,
+    "Unit":null,
+    "2013":null
+  },
+  {
+    "col_0":"Total Rainfall Long rains (average) Short rains (average)",
+    "Units":null,
+    "col_2":null,
+    "page":21,
+    "Unit":"mm mm mm",
+    "2013":"36.7 4.6 72.6"
+  },
+  {
+    "col_0":"Temperature (annual average Lowest) Temperature (annual average highest) Temperature (annual average)",
+    "Units":null,
+    "col_2":null,
+    "page":21,
+    "Unit":"0C 0C 0C",
+    "2013":"14.0 34.0 24.0"
+  },
+  {
+    "col_0":"Source: Meteorological Department, County Government o",
+    "Units":null,
+    "col_2":null,
+    "page":21,
+    "Unit":null,
+    "2013":null
+  }
+]

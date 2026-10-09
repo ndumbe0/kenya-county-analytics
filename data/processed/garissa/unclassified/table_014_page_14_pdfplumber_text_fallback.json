@@ -1,0 +1,20 @@
+[
+  {
+    "source_page":14,
+    "text":"Table 1.4.1 (a): Health Facilities by Ownership and Sub County, 2022 ........................38",
+    "value_raw":"1.4, 1, 2022, 38",
+    "imputed":false
+  },
+  {
+    "source_page":14,
+    "text":"Table 1.4.1 (b): Health Facilities by Ownership and Sub County, 2023 ........................39",
+    "value_raw":"1.4, 1, 2023, 39",
+    "imputed":false
+  },
+  {
+    "source_page":14,
+    "text":"Table 1.4.3: Health Facilities\u2019 Beds and Cots by Sub County, 2019- 2023 ...................41",
+    "value_raw":"1.4, 3, 2019, 2023, 41",
+    "imputed":false
+  }
+]

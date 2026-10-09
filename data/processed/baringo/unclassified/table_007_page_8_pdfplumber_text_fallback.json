@@ -1,0 +1,20 @@
+[
+  {
+    "source_page":8,
+    "text":"Population and Vital Statistics ...........................................................................5",
+    "value_raw":"5",
+    "imputed":false
+  },
+  {
+    "source_page":8,
+    "text":"Table 3.1: Population by Sex, Households and Density, and Census Years, 1969 \u2013 2009",
+    "value_raw":"3.1, 1969, 2009",
+    "imputed":false
+  },
+  {
+    "source_page":8,
+    "text":"Table 3.3: Population Projection for Baringo County by 5 yr Age Group, 2010 \u2013 2014 7",
+    "value_raw":"3.3, 5, 2010, 2014, 7",
+    "imputed":false
+  }
+]

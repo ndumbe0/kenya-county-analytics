@@ -1,0 +1,14 @@
+[
+  {
+    "source_page":15,
+    "text":"the population under 18 years of age, according to the 2009 Kenya Population and Housing",
+    "value_raw":"18, 2009",
+    "imputed":false
+  },
+  {
+    "source_page":15,
+    "text":"Census (KPHC 2009). The projected population of 2014 is 1,605,603 and is expected to grow",
+    "value_raw":"2009, 2014, 1,605,603",
+    "imputed":false
+  }
+]

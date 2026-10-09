@@ -1,0 +1,26 @@
+[
+  {
+    "source_page":28,
+    "text":"Table 1.1.7: Population Trend Projection by Sex, Number of Households and",
+    "value_raw":"1.1, 7",
+    "imputed":false
+  },
+  {
+    "source_page":28,
+    "text":"Source: KNBS-2019 KPHC Analytical Report on Population Projection XVI",
+    "value_raw":"-2019",
+    "imputed":false
+  },
+  {
+    "source_page":28,
+    "text":"KPCH-Kenya population and Housing Census 2019",
+    "value_raw":"2019",
+    "imputed":false
+  },
+  {
+    "source_page":28,
+    "text":"The 2019 Population Excludes Intersex",
+    "value_raw":"2019",
+    "imputed":false
+  }
+]

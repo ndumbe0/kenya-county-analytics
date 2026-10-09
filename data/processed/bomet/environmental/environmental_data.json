@@ -1,0 +1,42 @@
+[
+  {
+    "col_0":"Altitude: Highest point",
+    "Units":": metres a.s.l",
+    "col_2":"5,199",
+    "page":19,
+    "Unit":null,
+    "2013":null
+  },
+  {
+    "col_0":null,
+    "Units":": metres a.s.l",
+    "col_2":null,
+    "page":19,
+    "Unit":null,
+    "2013":null
+  },
+  {
+    "col_0":"Latitudes Longitudes",
+    "Units":": degrees N\/S : degrees E\/W",
+    "col_2":null,
+    "page":19,
+    "Unit":null,
+    "2013":null
+  },
+  {
+    "col_0":"Source: Department of Environment, *Provisional",
+    "Units":null,
+    "col_2":null,
+    "page":19,
+    "Unit":null,
+    "2013":null
+  },
+  {
+    "col_0":null,
+    "Units":null,
+    "col_2":null,
+    "page":19,
+    "Unit":"mm mm mm degrees centigrade degrees centigrade",
+    "2013":"1,200 1,200 500 12.8 20.8"
+  }
+]

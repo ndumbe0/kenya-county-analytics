@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":20,
+    "text":"Sub- No. of Ward Name Area",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":20,
+    "text":"county County 2",
+    "value_raw":"2",
+    "imputed":false
+  },
+  {
+    "source_page":20,
+    "text":"Samburu 5 Lodokejek 864.6",
+    "value_raw":"5, 864.6",
+    "imputed":false
+  },
+  {
+    "source_page":20,
+    "text":"Suguta-Marmar 859",
+    "value_raw":"859",
+    "imputed":false
+  },
+  {
+    "source_page":20,
+    "text":"Maralal 524.9",
+    "value_raw":"524.9",
+    "imputed":false
+  }
+]

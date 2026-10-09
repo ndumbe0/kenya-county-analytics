@@ -1,0 +1,4 @@
+county_code,county_name,domain,indicator,period,value,unit,imputed,source
+027,Uasin Gishu,demographic_social,Population,2025,1500500.0,persons,False,deterministic_baseline
+027,Uasin Gishu,economic,GDP contribution,2025,6.99,percent,False,deterministic_baseline
+027,Uasin Gishu,demographic_social,Health score,2025,74.0,index,False,deterministic_baseline

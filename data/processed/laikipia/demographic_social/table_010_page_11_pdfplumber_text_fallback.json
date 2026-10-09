@@ -1,0 +1,14 @@
+[
+  {
+    "source_page":11,
+    "text":"Table 1.6.1: Households with Access to Piped Water and Sanitation by Agency, 2019- 2023 .. 72",
+    "value_raw":"1.6, 1, 2019, 2023, 72",
+    "imputed":false
+  },
+  {
+    "source_page":11,
+    "text":"Table 1.6.2: Operational Water Sources, 2019-2023 ..................................................................... 72",
+    "value_raw":"1.6, 2, 2019, -2023, 72",
+    "imputed":false
+  }
+]

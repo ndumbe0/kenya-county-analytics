@@ -1,0 +1,4 @@
+county_code,county_name,domain,indicator,period,value,unit,imputed,source
+039,Bungoma,demographic_social,Population,2025,1998500.0,persons,False,deterministic_baseline
+039,Bungoma,economic,GDP contribution,2025,9.03,percent,False,deterministic_baseline
+039,Bungoma,demographic_social,Health score,2025,62.0,index,False,deterministic_baseline

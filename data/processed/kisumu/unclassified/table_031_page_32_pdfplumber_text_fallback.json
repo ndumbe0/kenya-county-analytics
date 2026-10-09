@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":32,
+    "text":"Table 1.1.10a: Major Causes of Death by Age Group and Sex, 2019 (Cont\u2019d)",
+    "value_raw":"1.1, 10, 2019",
+    "imputed":false
+  },
+  {
+    "source_page":32,
+    "text":"7 | Pa ge",
+    "value_raw":"7",
+    "imputed":false
+  },
+  {
+    "source_page":32,
+    "text":"A ge G roup Sex G astroentritis",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":32,
+    "text":"Fem ale 1",
+    "value_raw":"1",
+    "imputed":false
+  },
+  {
+    "source_page":32,
+    "text":"Fem ale 0",
+    "value_raw":"0",
+    "imputed":false
+  }
+]

@@ -1,0 +1,4 @@
+county_code,county_name,domain,indicator,period,value,unit,imputed,source
+022,Kiambu,demographic_social,Population,2025,2456700.0,persons,False,deterministic_baseline
+022,Kiambu,economic,GDP contribution,2025,11.67,percent,False,deterministic_baseline
+022,Kiambu,demographic_social,Health score,2025,64.7,index,False,deterministic_baseline

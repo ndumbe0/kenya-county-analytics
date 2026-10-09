@@ -1,0 +1,56 @@
+[
+  {
+    "Sub county":"- - - - Hulugho, Ijara Fafi,Garissa,Lagdera,Balambala and Daadab",
+    "page":24,
+    "2013":null,
+    "col_1":null,
+    "col_2":null,
+    "col_3":null,
+    "col_4":null
+  },
+  {
+    "Sub county":null,
+    "page":30,
+    "2013":"With Electricity",
+    "col_1":null,
+    "col_2":null,
+    "col_3":null,
+    "col_4":null
+  },
+  {
+    "Sub county":null,
+    "page":30,
+    "2013":"1 1,000 6 20 1 1",
+    "col_1":null,
+    "col_2":null,
+    "col_3":null,
+    "col_4":null
+  },
+  {
+    "Sub county":null,
+    "page":30,
+    "2013":"Super Petrol",
+    "col_1":"Diesel",
+    "col_2":"Kerosene",
+    "col_3":"Super Petrol",
+    "col_4":"Diesel"
+  },
+  {
+    "Sub county":null,
+    "page":30,
+    "2013":"107.82 107.82 107.82 109.00 110.60 111.60 112.40 113.70 113.70 114.60 114.60 115.00",
+    "col_1":"113.44 113.44 113.44 115.00 113.00 113.00 111.50 111.50 112.50 113.00 113.00 110.60",
+    "col_2":"50.35 50.35 50.35 52.00 50.00 50.00 50.00 50.00 52.50 52.50 52.50 52.50",
+    "col_3":"115.00 115.00 115.00 115.00 110.00 110.00 110.00 110.00 110.00 109.60 108.50 107.00",
+    "col_4":"109.00 109.00 109.00 109.00 98.60 98.60 98.60 98.60 97.70 89.70 89.70 89.70"
+  },
+  {
+    "Sub county":null,
+    "page":30,
+    "2013":"111.56",
+    "col_1":"112.79",
+    "col_2":"51.09",
+    "col_3":"111.26",
+    "col_4":"99.77"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "source_page":9,
+    "text":"Table 14.1: Number of Schools and Enrolment, 2014* .................................................. 23",
+    "value_raw":"14.1, 2014, 23",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 14.3: Secondary schools by accommodation status, 2014* .................................... 24",
+    "value_raw":"14.3, 2014, 24",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 14.11: Primary School Enrolment by Class, Sex and Sub-County, 2014* ............ 27",
+    "value_raw":"14.11, 2014, 27",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 14.12: TSC Teachers in Public Primary Schools by Sub-County, 2014 ................ 28",
+    "value_raw":"14.12, 2014, 28",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 14.13: Primary and Secondary School Teachers, 2014* ........................................ 28",
+    "value_raw":"14.13, 2014, 28",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 14.14: Secondary School Enrolment by Class, Sex and Sub \u2013 County, 2014* ...... 29",
+    "value_raw":"14.14, 2014, 29",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Public Health ..................................................................................................... 31",
+    "value_raw":"31",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 15.1: Health Facilities by Ownership and Sub County, 2014* .............................. 32",
+    "value_raw":"15.1, 2014, 32",
+    "imputed":false
+  }
+]

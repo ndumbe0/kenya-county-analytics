@@ -1,0 +1,6 @@
+{
+  "name": "Kenya County Analytics Hub",
+  "description": "Full-stack analytics portal for Kenya's 47 counties, featuring interactive heat mapping, population forecasters, K-Means cluster indexes, Isolation Forest anomalies, and Gemini-powered smart assistants.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

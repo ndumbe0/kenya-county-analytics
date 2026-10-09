@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":37,
+    "text":"Industrial Production",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":37,
+    "text":"This section covers the number of industries operated in the county by type of products.",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":37,
+    "text":"Table 11.1: Industries\/ Factories by Type of Product, 2013-2014",
+    "value_raw":"11.1, 2013, -2014",
+    "imputed":false
+  },
+  {
+    "source_page":37,
+    "text":"S\/No. Industries\/Factories 2013 2014*",
+    "value_raw":"2013, 2014",
+    "imputed":false
+  },
+  {
+    "source_page":37,
+    "text":"1 Tea 1 5 1 5",
+    "value_raw":"1, 1, 5, 1, 5",
+    "imputed":false
+  }
+]

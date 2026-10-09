@@ -1,0 +1,4 @@
+county_code,county_name,domain,indicator,period,value,unit,imputed,source
+006,Taita-Taveta,demographic_social,Population,2025,629000.0,persons,False,deterministic_baseline
+006,Taita-Taveta,economic,GDP contribution,2025,3.42,percent,False,deterministic_baseline
+006,Taita-Taveta,demographic_social,Health score,2025,64.4,index,False,deterministic_baseline

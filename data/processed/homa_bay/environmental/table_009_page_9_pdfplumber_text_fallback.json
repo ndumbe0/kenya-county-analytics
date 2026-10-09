@@ -1,0 +1,50 @@
+[
+  {
+    "source_page":9,
+    "text":"Table 3.1.4: Number of Water Sources by Sub-County 2019-2023 216",
+    "value_raw":"3.1, 4, 2019, -2023, 216",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 3.1.5: Households Connected to Piped Water by Water Service Provider (WSP), 2019-2023 219",
+    "value_raw":"3.1, 5, 2019, -2023, 219",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 3.1.6: Percentage Distribution of conventional Households by Main Source of drinking Water 219",
+    "value_raw":"3.1, 6, 219",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 3.1.7: Number of Protected and Unprotected Water Sources by Category and Sub-County",
+    "value_raw":"3.1, 7",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 3.1.8: Number of Accessible Water Kiosk by Sub County ,2019-2023. 224",
+    "value_raw":"3.1, 8, 2019, -2023, 224",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 3.1.9: Number of Households Connected to Sewer by Water Service Provider by Sub-County",
+    "value_raw":"3.1, 9",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 3.1.14a: Environmental Crimes Reported to NEMA, 2019\u2013 2023 228",
+    "value_raw":"3.1, 14, 2019, 2023, 228",
+    "imputed":false
+  },
+  {
+    "source_page":9,
+    "text":"Table 4.3.1: Cases registered and convictions obtained for selected serious crimes, 2019 -2023 241",
+    "value_raw":"4.3, 1, 2019, -2023, 241",
+    "imputed":false
+  }
+]

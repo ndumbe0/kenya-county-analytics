@@ -1,0 +1,6 @@
+source_page,text,value_raw,imputed
+24,south to north gradient of decreasing precipitation some southern parts of the County,,False
+24,"receiving greater than 1000 mm of precipitation per year, the central part of the County",1000,False
+24,"receiving around 500 mm, and the north/western parts of the County consistently",500,False
+24,receiving less than 250-500 mm. A small pocket of the northwestern part of the county,"250, -500",False
+24,"receives less than 250 mm precipitation per year. As such, heat stress, dry spells,",250,False

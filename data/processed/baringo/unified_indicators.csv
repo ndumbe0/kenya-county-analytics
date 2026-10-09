@@ -1,0 +1,4 @@
+county_code,county_name,domain,indicator,period,value,unit,imputed,source
+030,Baringo,demographic_social,Population,2025,1625000.0,persons,False,deterministic_baseline
+030,Baringo,economic,GDP contribution,2025,7.5,percent,False,deterministic_baseline
+030,Baringo,demographic_social,Health score,2025,81.2,index,False,deterministic_baseline

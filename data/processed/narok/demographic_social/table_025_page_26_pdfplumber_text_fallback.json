@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":26,
+    "text":"Table 3.6: Registered births and deaths by place of occurrence, 2013 \u2013 2014",
+    "value_raw":"3.6, 2013, 2014",
+    "imputed":false
+  },
+  {
+    "source_page":26,
+    "text":"2013 2014*",
+    "value_raw":"2013, 2014",
+    "imputed":false
+  },
+  {
+    "source_page":26,
+    "text":"Health Facility (%) Home (%) Number Health Facility (%) Home (%) Number",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":26,
+    "text":"Births 58.2 42.0 12,391 58.2 41.8 13,127",
+    "value_raw":"58.2, 42.0, 12,391, 58.2, 41.8, 13,127",
+    "imputed":false
+  },
+  {
+    "source_page":26,
+    "text":"Deaths 54.1 45.9 1,432 61.5 38.5 1,581",
+    "value_raw":"54.1, 45.9, 1,432, 61.5, 38.5, 1,581",
+    "imputed":false
+  }
+]

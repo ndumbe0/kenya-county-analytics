@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":4,
+    "text":"Published by",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":4,
+    "text":"The County Government of Garissa",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":4,
+    "text":"P.O. Box 563 \u2013 70100, Garissa.",
+    "value_raw":"563, 70100,",
+    "imputed":false
+  },
+  {
+    "source_page":4,
+    "text":"Contact Information:",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":4,
+    "text":"Email: info@garissa.go.ke",
+    "value_raw":"",
+    "imputed":false
+  }
+]

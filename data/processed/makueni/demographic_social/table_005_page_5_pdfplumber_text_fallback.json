@@ -1,0 +1,50 @@
+[
+  {
+    "source_page":5,
+    "text":"Table 0.1.1: National Government Administrative Units by Sub-County,Population and Surface Area, 2019...............................................................................2",
+    "value_raw":"0.1, 1, 2019, 2",
+    "imputed":false
+  },
+  {
+    "source_page":5,
+    "text":"Table 1.1.1: Population Trend by Sex, Number of Households, Average Household Size .....................................................................................................................3",
+    "value_raw":"1.1, 1, 3",
+    "imputed":false
+  },
+  {
+    "source_page":5,
+    "text":"Table 1.1.2: Projected Population by Sex, Number of Households and Average Household Size, 2020-2026 .............................................................................3",
+    "value_raw":"1.1, 2, 2020, -2026, 3",
+    "imputed":false
+  },
+  {
+    "source_page":5,
+    "text":"Table 1.1.3: County Population Distribution by Selected Age Groups, 2009 and 2019 ..........................................................................................................................4",
+    "value_raw":"1.1, 3, 2009, 2019, 4",
+    "imputed":false
+  },
+  {
+    "source_page":5,
+    "text":"Table 1.1.4: Makueni County Population Projections by Selected Age Groups, 2022 - 2026 ..............................................................................................................4",
+    "value_raw":"1.1, 4, 2022, 2026, 4",
+    "imputed":false
+  },
+  {
+    "source_page":5,
+    "text":"Table 1.1.5: Distribution of Population by 5 Year Age Groups and Sex1, 2022 - 2026 Projections .....................................................................................................4",
+    "value_raw":"1.1, 5, 5, 1,, 2022, 2026, 4",
+    "imputed":false
+  },
+  {
+    "source_page":5,
+    "text":"Table: 1.1.6: Makueni County Population by Sex and Sub County, 2009 and 2019 .................................................................................................................................5",
+    "value_raw":"1.1, 6, 2009, 2019, 5",
+    "imputed":false
+  },
+  {
+    "source_page":5,
+    "text":"Table 1.1.7: Distribution of Population by Sex, Number of Households, Land Area, Density and Sub County, 2019 ................................................................6",
+    "value_raw":"1.1, 7, 2019, 6",
+    "imputed":false
+  }
+]

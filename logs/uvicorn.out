@@ -1,0 +1,11 @@
+INFO:     127.0.0.1:13064 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:13067 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:13069 - "GET /api/v1/counties/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:13071 - "GET /api/v1/counties/47 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7678 - "GET /api/v1/geospatial/counties HTTP/1.1" 200 OK
+INFO:     127.0.0.1:11422 - "GET /api/v1/chat/agents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:5862 - "GET /api/v1/analytics/clustering HTTP/1.1" 200 OK
+INFO:     127.0.0.1:5864 - "GET /api/v1/health/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:1111 - "GET /api/v1/analytics/education HTTP/1.1" 200 OK
+INFO:     127.0.0.1:1114 - "GET /api/v1/analytics/population HTTP/1.1" 200 OK
+INFO:     127.0.0.1:13821 - "GET /dashboard HTTP/1.1" 200 OK

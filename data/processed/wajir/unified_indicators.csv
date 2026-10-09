@@ -1,0 +1,4 @@
+county_code,county_name,domain,indicator,period,value,unit,imputed,source
+008,Wajir,demographic_social,Population,2025,712000.0,persons,False,deterministic_baseline
+008,Wajir,economic,GDP contribution,2025,3.76,percent,False,deterministic_baseline
+008,Wajir,demographic_social,Health score,2025,69.2,index,False,deterministic_baseline

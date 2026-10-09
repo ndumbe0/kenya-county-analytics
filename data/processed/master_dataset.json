@@ -1,0 +1,922 @@
+[
+  {
+    "county_name": "Mombasa",
+    "domains": {
+      "demographic_social": {
+        "rows": 0
+      },
+      "economic": {
+        "rows": 0
+      },
+      "environmental": {
+        "rows": 0
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 0
+  },
+  {
+    "county_name": "Kwale",
+    "domains": {
+      "demographic_social": {
+        "rows": 14,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kwale\\demographic_social\\demographic_social_data.csv"
+      },
+      "economic": {
+        "rows": 0
+      },
+      "environmental": {
+        "rows": 0
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 14
+  },
+  {
+    "county_name": "Kilifi",
+    "domains": {
+      "demographic_social": {
+        "rows": 44,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kilifi\\demographic_social\\demographic_social_data.csv"
+      },
+      "economic": {
+        "rows": 5,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kilifi\\economic\\economic_data.csv"
+      },
+      "environmental": {
+        "rows": 29,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kilifi\\environmental\\environmental_data.csv"
+      },
+      "governance": {
+        "rows": 7,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kilifi\\governance\\governance_data.csv"
+      }
+    },
+    "total_tables_extracted": 85
+  },
+  {
+    "county_name": "Tana River",
+    "domains": {
+      "demographic_social": {
+        "rows": 0
+      },
+      "economic": {
+        "rows": 0
+      },
+      "environmental": {
+        "rows": 0
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 0
+  },
+  {
+    "county_name": "Lamu",
+    "domains": {
+      "demographic_social": {
+        "rows": 0
+      },
+      "economic": {
+        "rows": 0
+      },
+      "environmental": {
+        "rows": 0
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 0
+  },
+  {
+    "county_name": "Taita-Taveta",
+    "domains": {
+      "demographic_social": {
+        "rows": 0
+      },
+      "economic": {
+        "rows": 0
+      },
+      "environmental": {
+        "rows": 0
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 0
+  },
+  {
+    "county_name": "Garissa",
+    "domains": {
+      "demographic_social": {
+        "rows": 56,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Garissa\\demographic_social\\demographic_social_data.csv"
+      },
+      "economic": {
+        "rows": 6,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Garissa\\economic\\economic_data.csv"
+      },
+      "environmental": {
+        "rows": 147,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Garissa\\environmental\\environmental_data.csv"
+      },
+      "governance": {
+        "rows": 248,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Garissa\\governance\\governance_data.csv"
+      }
+    },
+    "total_tables_extracted": 457
+  },
+  {
+    "county_name": "Wajir",
+    "domains": {
+      "demographic_social": {
+        "rows": 0
+      },
+      "economic": {
+        "rows": 0
+      },
+      "environmental": {
+        "rows": 0
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 0
+  },
+  {
+    "county_name": "Mandera",
+    "domains": {
+      "demographic_social": {
+        "rows": 0
+      },
+      "economic": {
+        "rows": 0
+      },
+      "environmental": {
+        "rows": 0
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 0
+  },
+  {
+    "county_name": "Marsabit",
+    "domains": {
+      "demographic_social": {
+        "rows": 0
+      },
+      "economic": {
+        "rows": 0
+      },
+      "environmental": {
+        "rows": 0
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 0
+  },
+  {
+    "county_name": "Isiolo",
+    "domains": {
+      "demographic_social": {
+        "rows": 14,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Isiolo\\demographic_social\\demographic_social_data.csv"
+      },
+      "economic": {
+        "rows": 5,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Isiolo\\economic\\economic_data.csv"
+      },
+      "environmental": {
+        "rows": 10,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Isiolo\\environmental\\environmental_data.csv"
+      },
+      "governance": {
+        "rows": 7,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Isiolo\\governance\\governance_data.csv"
+      }
+    },
+    "total_tables_extracted": 36
+  },
+  {
+    "county_name": "Meru",
+    "domains": {
+      "demographic_social": {
+        "rows": 0
+      },
+      "economic": {
+        "rows": 0
+      },
+      "environmental": {
+        "rows": 0
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 0
+  },
+  {
+    "county_name": "Tharaka-Nithi",
+    "domains": {
+      "demographic_social": {
+        "rows": 0
+      },
+      "economic": {
+        "rows": 0
+      },
+      "environmental": {
+        "rows": 0
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 0
+  },
+  {
+    "county_name": "Embu",
+    "domains": {
+      "demographic_social": {
+        "rows": 6,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Embu\\demographic_social\\demographic_social_data.csv"
+      },
+      "economic": {
+        "rows": 1,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Embu\\economic\\economic_data.csv"
+      },
+      "environmental": {
+        "rows": 3,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Embu\\environmental\\environmental_data.csv"
+      },
+      "governance": {
+        "rows": 47,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Embu\\governance\\governance_data.csv"
+      }
+    },
+    "total_tables_extracted": 57
+  },
+  {
+    "county_name": "Kitui",
+    "domains": {
+      "demographic_social": {
+        "rows": 10,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kitui\\demographic_social\\demographic_social_data.csv"
+      },
+      "economic": {
+        "rows": 3,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kitui\\economic\\economic_data.csv"
+      },
+      "environmental": {
+        "rows": 4,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kitui\\environmental\\environmental_data.csv"
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 17
+  },
+  {
+    "county_name": "Machakos",
+    "domains": {
+      "demographic_social": {
+        "rows": 0
+      },
+      "economic": {
+        "rows": 0
+      },
+      "environmental": {
+        "rows": 0
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 0
+  },
+  {
+    "county_name": "Makueni",
+    "domains": {
+      "demographic_social": {
+        "rows": 0
+      },
+      "economic": {
+        "rows": 0
+      },
+      "environmental": {
+        "rows": 0
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 0
+  },
+  {
+    "county_name": "Nyandarua",
+    "domains": {
+      "demographic_social": {
+        "rows": 0
+      },
+      "economic": {
+        "rows": 0
+      },
+      "environmental": {
+        "rows": 0
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 0
+  },
+  {
+    "county_name": "Nyeri",
+    "domains": {
+      "demographic_social": {
+        "rows": 0
+      },
+      "economic": {
+        "rows": 0
+      },
+      "environmental": {
+        "rows": 0
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 0
+  },
+  {
+    "county_name": "Kirinyaga",
+    "domains": {
+      "demographic_social": {
+        "rows": 25,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kirinyaga\\demographic_social\\demographic_social_data.csv"
+      },
+      "economic": {
+        "rows": 4,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kirinyaga\\economic\\economic_data.csv"
+      },
+      "environmental": {
+        "rows": 2,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kirinyaga\\environmental\\environmental_data.csv"
+      },
+      "governance": {
+        "rows": 6,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kirinyaga\\governance\\governance_data.csv"
+      }
+    },
+    "total_tables_extracted": 37
+  },
+  {
+    "county_name": "Murang'a",
+    "domains": {
+      "demographic_social": {
+        "rows": 0
+      },
+      "economic": {
+        "rows": 0
+      },
+      "environmental": {
+        "rows": 0
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 0
+  },
+  {
+    "county_name": "Kiambu",
+    "domains": {
+      "demographic_social": {
+        "rows": 39,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kiambu\\demographic_social\\demographic_social_data.csv"
+      },
+      "economic": {
+        "rows": 3,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kiambu\\economic\\economic_data.csv"
+      },
+      "environmental": {
+        "rows": 2,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kiambu\\environmental\\environmental_data.csv"
+      },
+      "governance": {
+        "rows": 6,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kiambu\\governance\\governance_data.csv"
+      }
+    },
+    "total_tables_extracted": 50
+  },
+  {
+    "county_name": "Turkana",
+    "domains": {
+      "demographic_social": {
+        "rows": 0
+      },
+      "economic": {
+        "rows": 0
+      },
+      "environmental": {
+        "rows": 0
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 0
+  },
+  {
+    "county_name": "West Pokot",
+    "domains": {
+      "demographic_social": {
+        "rows": 0
+      },
+      "economic": {
+        "rows": 0
+      },
+      "environmental": {
+        "rows": 0
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 0
+  },
+  {
+    "county_name": "Samburu",
+    "domains": {
+      "demographic_social": {
+        "rows": 0
+      },
+      "economic": {
+        "rows": 0
+      },
+      "environmental": {
+        "rows": 0
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 0
+  },
+  {
+    "county_name": "Trans Nzoia",
+    "domains": {
+      "demographic_social": {
+        "rows": 0
+      },
+      "economic": {
+        "rows": 0
+      },
+      "environmental": {
+        "rows": 0
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 0
+  },
+  {
+    "county_name": "Uasin Gishu",
+    "domains": {
+      "demographic_social": {
+        "rows": 0
+      },
+      "economic": {
+        "rows": 0
+      },
+      "environmental": {
+        "rows": 0
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 0
+  },
+  {
+    "county_name": "Elgeyo-Marakwet",
+    "domains": {
+      "demographic_social": {
+        "rows": 103,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Elgeyo-Marakwet\\demographic_social\\demographic_social_data.csv"
+      },
+      "economic": {
+        "rows": 15,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Elgeyo-Marakwet\\economic\\economic_data.csv"
+      },
+      "environmental": {
+        "rows": 2,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Elgeyo-Marakwet\\environmental\\environmental_data.csv"
+      },
+      "governance": {
+        "rows": 16,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Elgeyo-Marakwet\\governance\\governance_data.csv"
+      }
+    },
+    "total_tables_extracted": 136
+  },
+  {
+    "county_name": "Nandi",
+    "domains": {
+      "demographic_social": {
+        "rows": 0
+      },
+      "economic": {
+        "rows": 0
+      },
+      "environmental": {
+        "rows": 0
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 0
+  },
+  {
+    "county_name": "Baringo",
+    "domains": {
+      "demographic_social": {
+        "rows": 21,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Baringo\\demographic_social\\demographic_social_data.csv"
+      },
+      "economic": {
+        "rows": 10,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Baringo\\economic\\economic_data.csv"
+      },
+      "environmental": {
+        "rows": 2,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Baringo\\environmental\\environmental_data.csv"
+      },
+      "governance": {
+        "rows": 6,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Baringo\\governance\\governance_data.csv"
+      }
+    },
+    "total_tables_extracted": 39
+  },
+  {
+    "county_name": "Laikipia",
+    "domains": {
+      "demographic_social": {
+        "rows": 10,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Laikipia\\demographic_social\\demographic_social_data.csv"
+      },
+      "economic": {
+        "rows": 2,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Laikipia\\economic\\economic_data.csv"
+      },
+      "environmental": {
+        "rows": 4,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Laikipia\\environmental\\environmental_data.csv"
+      },
+      "governance": {
+        "rows": 6,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Laikipia\\governance\\governance_data.csv"
+      }
+    },
+    "total_tables_extracted": 22
+  },
+  {
+    "county_name": "Nakuru",
+    "domains": {
+      "demographic_social": {
+        "rows": 0
+      },
+      "economic": {
+        "rows": 0
+      },
+      "environmental": {
+        "rows": 0
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 0
+  },
+  {
+    "county_name": "Narok",
+    "domains": {
+      "demographic_social": {
+        "rows": 0
+      },
+      "economic": {
+        "rows": 0
+      },
+      "environmental": {
+        "rows": 0
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 0
+  },
+  {
+    "county_name": "Kajiado",
+    "domains": {
+      "demographic_social": {
+        "rows": 18,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kajiado\\demographic_social\\demographic_social_data.csv"
+      },
+      "economic": {
+        "rows": 12,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kajiado\\economic\\economic_data.csv"
+      },
+      "environmental": {
+        "rows": 3,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kajiado\\environmental\\environmental_data.csv"
+      },
+      "governance": {
+        "rows": 6,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kajiado\\governance\\governance_data.csv"
+      }
+    },
+    "total_tables_extracted": 39
+  },
+  {
+    "county_name": "Kericho",
+    "domains": {
+      "demographic_social": {
+        "rows": 19,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kericho\\demographic_social\\demographic_social_data.csv"
+      },
+      "economic": {
+        "rows": 9,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kericho\\economic\\economic_data.csv"
+      },
+      "environmental": {
+        "rows": 7,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kericho\\environmental\\environmental_data.csv"
+      },
+      "governance": {
+        "rows": 7,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kericho\\governance\\governance_data.csv"
+      }
+    },
+    "total_tables_extracted": 42
+  },
+  {
+    "county_name": "Bomet",
+    "domains": {
+      "demographic_social": {
+        "rows": 28,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Bomet\\demographic_social\\demographic_social_data.csv"
+      },
+      "economic": {
+        "rows": 5,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Bomet\\economic\\economic_data.csv"
+      },
+      "environmental": {
+        "rows": 5,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Bomet\\environmental\\environmental_data.csv"
+      },
+      "governance": {
+        "rows": 6,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Bomet\\governance\\governance_data.csv"
+      }
+    },
+    "total_tables_extracted": 44
+  },
+  {
+    "county_name": "Kakamega",
+    "domains": {
+      "demographic_social": {
+        "rows": 27,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kakamega\\demographic_social\\demographic_social_data.csv"
+      },
+      "economic": {
+        "rows": 31,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kakamega\\economic\\economic_data.csv"
+      },
+      "environmental": {
+        "rows": 15,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kakamega\\environmental\\environmental_data.csv"
+      },
+      "governance": {
+        "rows": 6,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kakamega\\governance\\governance_data.csv"
+      }
+    },
+    "total_tables_extracted": 79
+  },
+  {
+    "county_name": "Vihiga",
+    "domains": {
+      "demographic_social": {
+        "rows": 0
+      },
+      "economic": {
+        "rows": 0
+      },
+      "environmental": {
+        "rows": 0
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 0
+  },
+  {
+    "county_name": "Bungoma",
+    "domains": {
+      "demographic_social": {
+        "rows": 14,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Bungoma\\demographic_social\\demographic_social_data.csv"
+      },
+      "economic": {
+        "rows": 11,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Bungoma\\economic\\economic_data.csv"
+      },
+      "environmental": {
+        "rows": 10,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Bungoma\\environmental\\environmental_data.csv"
+      },
+      "governance": {
+        "rows": 9,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Bungoma\\governance\\governance_data.csv"
+      }
+    },
+    "total_tables_extracted": 44
+  },
+  {
+    "county_name": "Busia",
+    "domains": {
+      "demographic_social": {
+        "rows": 16,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Busia\\demographic_social\\demographic_social_data.csv"
+      },
+      "economic": {
+        "rows": 11,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Busia\\economic\\economic_data.csv"
+      },
+      "environmental": {
+        "rows": 6,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Busia\\environmental\\environmental_data.csv"
+      },
+      "governance": {
+        "rows": 6,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Busia\\governance\\governance_data.csv"
+      }
+    },
+    "total_tables_extracted": 39
+  },
+  {
+    "county_name": "Siaya",
+    "domains": {
+      "demographic_social": {
+        "rows": 0
+      },
+      "economic": {
+        "rows": 0
+      },
+      "environmental": {
+        "rows": 0
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 0
+  },
+  {
+    "county_name": "Kisumu",
+    "domains": {
+      "demographic_social": {
+        "rows": 23,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kisumu\\demographic_social\\demographic_social_data.csv"
+      },
+      "economic": {
+        "rows": 18,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kisumu\\economic\\economic_data.csv"
+      },
+      "environmental": {
+        "rows": 24,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kisumu\\environmental\\environmental_data.csv"
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 65
+  },
+  {
+    "county_name": "Homa Bay",
+    "domains": {
+      "demographic_social": {
+        "rows": 15,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Homa Bay\\demographic_social\\demographic_social_data.csv"
+      },
+      "economic": {
+        "rows": 3,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Homa Bay\\economic\\economic_data.csv"
+      },
+      "environmental": {
+        "rows": 1,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Homa Bay\\environmental\\environmental_data.csv"
+      },
+      "governance": {
+        "rows": 7,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Homa Bay\\governance\\governance_data.csv"
+      }
+    },
+    "total_tables_extracted": 26
+  },
+  {
+    "county_name": "Migori",
+    "domains": {
+      "demographic_social": {
+        "rows": 0
+      },
+      "economic": {
+        "rows": 0
+      },
+      "environmental": {
+        "rows": 0
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 0
+  },
+  {
+    "county_name": "Kisii",
+    "domains": {
+      "demographic_social": {
+        "rows": 11,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kisii\\demographic_social\\demographic_social_data.csv"
+      },
+      "economic": {
+        "rows": 21,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kisii\\economic\\economic_data.csv"
+      },
+      "environmental": {
+        "rows": 3,
+        "file": "D:\\personal projects\\kenya-county-analytics\\data\\processed\\Kisii\\environmental\\environmental_data.csv"
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 35
+  },
+  {
+    "county_name": "Nyamira",
+    "domains": {
+      "demographic_social": {
+        "rows": 0
+      },
+      "economic": {
+        "rows": 0
+      },
+      "environmental": {
+        "rows": 0
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 0
+  },
+  {
+    "county_name": "Nairobi",
+    "domains": {
+      "demographic_social": {
+        "rows": 0
+      },
+      "economic": {
+        "rows": 0
+      },
+      "environmental": {
+        "rows": 0
+      },
+      "governance": {
+        "rows": 0
+      }
+    },
+    "total_tables_extracted": 0
+  }
+]

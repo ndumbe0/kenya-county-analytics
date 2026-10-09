@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":37,
+    "text":"Table 7.4: Monthly Mean Retail Market Prices of Selected Farm Produce, 2014*",
+    "value_raw":"7.4, 2014",
+    "imputed":false
+  },
+  {
+    "source_page":37,
+    "text":"Produce JAN FEB MAR APR MAY JUNE JULY AUG SEPT OCT NOV DEC Average",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":37,
+    "text":"Maize 43 55 55 50 58 55 59 56 50 46 45 43 51",
+    "value_raw":"43, 55, 55, 50, 58, 55, 59, 56, 50, 46, 45, 43, 51",
+    "imputed":false
+  },
+  {
+    "source_page":37,
+    "text":"Beans 85 100 103 108 109 98 100 104 91 80 80 80 95",
+    "value_raw":"85, 100, 103, 108, 109, 98, 100, 104, 91, 80, 80, 80, 95",
+    "imputed":false
+  },
+  {
+    "source_page":37,
+    "text":"Finger Millet 49 40 45 78 76 103 98 94 86 71 70 65 73",
+    "value_raw":"49, 40, 45, 78, 76, 103, 98, 94, 86, 71, 70, 65, 73",
+    "imputed":false
+  }
+]

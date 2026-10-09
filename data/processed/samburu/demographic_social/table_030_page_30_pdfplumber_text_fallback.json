@@ -1,0 +1,14 @@
+[
+  {
+    "source_page":30,
+    "text":"Table 1.2.1. Distribution of Population Aged 5 Years and above by Activity Status,",
+    "value_raw":"1.2, 1, 5",
+    "imputed":false
+  },
+  {
+    "source_page":30,
+    "text":"Table 1.2.2: Distribution of Urban Population Aged 5 Years and above by Activity Status,",
+    "value_raw":"1.2, 2, 5",
+    "imputed":false
+  }
+]

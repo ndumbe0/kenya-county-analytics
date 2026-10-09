@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":39,
+    "text":"Table 1.1.9: Registered Births by Sex and Place of Birth at Rumuruti Centre, 2019-2023",
+    "value_raw":"1.1, 9, 2019, -2023",
+    "imputed":false
+  },
+  {
+    "source_page":39,
+    "text":"M onth Health facilities",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":39,
+    "text":"M ale Fem ale M ale",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":39,
+    "text":"377 350 11 January",
+    "value_raw":"377, 350, 11",
+    "imputed":false
+  },
+  {
+    "source_page":39,
+    "text":"348 349 13 February",
+    "value_raw":"348, 349, 13",
+    "imputed":false
+  }
+]

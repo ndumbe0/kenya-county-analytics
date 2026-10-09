@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":29,
+    "text":"Table 5.3: Area Cropped, Production and Value for Selected Crops, 2013 \u2013 2014",
+    "value_raw":"5.3, 2013, 2014",
+    "imputed":false
+  },
+  {
+    "source_page":29,
+    "text":"Area Cropped (Hectares) Production (Tonnes) Value (KSh Million)",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":29,
+    "text":"2013 2014* 2013 2014* 2013 2014*",
+    "value_raw":"2013, 2014, 2013, 2014, 2013, 2014",
+    "imputed":false
+  },
+  {
+    "source_page":29,
+    "text":"Maize 92,715 98,761 265,356 309,392 9,000.00 10,500.00",
+    "value_raw":"92,715, 98,761, 265,356, 309,392, 9,000.00, 10,500.00",
+    "imputed":false
+  },
+  {
+    "source_page":29,
+    "text":"F\/Millet 2,955 1,898 2,597 1,195 103.00 47.80",
+    "value_raw":"2,955, 1,898, 2,597, 1,195, 103.00, 47.80",
+    "imputed":false
+  }
+]

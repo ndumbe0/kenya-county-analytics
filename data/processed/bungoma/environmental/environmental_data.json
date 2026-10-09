@@ -1,0 +1,92 @@
+[
+  {
+    "col_0":"Altitude: Highest point Altitude: Lowest point Latitudes Longitudes",
+    "Units":": metres a.s.l : metres a.s.l : degrees N\/S : degrees E\/W",
+    "col_2":"1800 1300 0-15 34-35",
+    "page":19,
+    "Unit":null,
+    "2013":null,
+    "col_1":null
+  },
+  {
+    "col_0":"Rainfall (annual avergage) Long rains (average) Short rains (average) Temperature (annual average Lowest)",
+    "Units":null,
+    "col_2":"mm mm mm 0C",
+    "page":19,
+    "Unit":": : : :",
+    "2013":"1,900 2,000 1,800 14",
+    "col_1":null
+  },
+  {
+    "col_0":"Temperature (annual average highest) Temperature (annual average)",
+    "Units":null,
+    "col_2":"0C 0C",
+    "page":19,
+    "Unit":": :",
+    "2013":"32 23",
+    "col_1":null
+  },
+  {
+    "col_0":"Source: Metrological Department, Vihiga Coun",
+    "Units":null,
+    "col_2":null,
+    "page":19,
+    "Unit":null,
+    "2013":null,
+    "col_1":null
+  },
+  {
+    "col_0":null,
+    "Units":null,
+    "col_2":null,
+    "page":27,
+    "Unit":null,
+    "2013":"839 680 854 870",
+    "col_1":null
+  },
+  {
+    "col_0":null,
+    "Units":null,
+    "col_2":null,
+    "page":27,
+    "Unit":null,
+    "2013":"3,243",
+    "col_1":null
+  },
+  {
+    "col_0":null,
+    "Units":null,
+    "col_2":null,
+    "page":27,
+    "Unit":"Tonnes KSh millions",
+    "2013":"127,198 17.8",
+    "col_1":null
+  },
+  {
+    "col_0":null,
+    "Units":null,
+    "col_2":null,
+    "page":29,
+    "Unit":null,
+    "2013":"2 .. 4,153 ..",
+    "col_1":null
+  },
+  {
+    "col_0":null,
+    "Units":null,
+    "col_2":"Quantity ('000)",
+    "page":29,
+    "Unit":null,
+    "2013":"Quantity ('000)",
+    "col_1":"Value ('000)"
+  },
+  {
+    "col_0":null,
+    "Units":null,
+    "col_2":".. 9,450.2 3",
+    "page":29,
+    "Unit":null,
+    "2013":".. 3,132.7 3",
+    "col_1":"8,362 31,327.0 .."
+  }
+]

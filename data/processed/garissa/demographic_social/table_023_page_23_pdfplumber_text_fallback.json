@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":23,
+    "text":"A1.2. Physiographic and Natural Conditions",
+    "value_raw":"1.2",
+    "imputed":false
+  },
+  {
+    "source_page":23,
+    "text":"A1.2.1. Physical and Topographic Features",
+    "value_raw":"1.2, 1",
+    "imputed":false
+  },
+  {
+    "source_page":23,
+    "text":"Garissa County is basically flat and low lying without hills, valleys, and mountains. It",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":23,
+    "text":"rises from a low altitude of 20 m to 400 m above sea level. The major physical features",
+    "value_raw":"20, 400",
+    "imputed":false
+  },
+  {
+    "source_page":23,
+    "text":"are seasonal Laghas and the Tana River Basin on the western side. The River Tana has",
+    "value_raw":"",
+    "imputed":false
+  }
+]

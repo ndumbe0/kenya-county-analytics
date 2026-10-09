@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":13,
+    "text":"Table 2.3.24: Number, Quantity and Value of Fish Ponds by Constituency, 2019-2023 .......... 109",
+    "value_raw":"2.3, 24, 2019, -2023, 109",
+    "imputed":false
+  },
+  {
+    "source_page":13,
+    "text":"Table 2.3.25: Gazetted Forests, 2019-2023.................................................................................... 110",
+    "value_raw":"2.3, 25, 2019, -2023, 110",
+    "imputed":false
+  },
+  {
+    "source_page":13,
+    "text":"Table 2.3.26: Forest Production by Type, 2019-2023 .................................................................. 110",
+    "value_raw":"2.3, 26, 2019, -2023, 110",
+    "imputed":false
+  },
+  {
+    "source_page":13,
+    "text":"2.4 Energy ............................................................................................................................................ 111",
+    "value_raw":"2.4, 111",
+    "imputed":false
+  },
+  {
+    "source_page":13,
+    "text":"Table 2.4.1: Electricity Connection by Consumer Entity, 2019- 2023 ....................................... 111",
+    "value_raw":"2.4, 1, 2019, 2023, 111",
+    "imputed":false
+  }
+]

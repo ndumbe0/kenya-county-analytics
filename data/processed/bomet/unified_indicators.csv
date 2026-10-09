@@ -1,0 +1,4 @@
+county_code,county_name,domain,indicator,period,value,unit,imputed,source
+036,Bomet,demographic_social,Population,2025,1874000.0,persons,False,deterministic_baseline
+036,Bomet,economic,GDP contribution,2025,8.52,percent,False,deterministic_baseline
+036,Bomet,demographic_social,Health score,2025,54.8,index,False,deterministic_baseline

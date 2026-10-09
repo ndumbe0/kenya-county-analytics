@@ -1,0 +1,20 @@
+[
+  {
+    "source_page":34,
+    "text":"Table: 1.1.7: Garissa County Population by Sex and Sub County, 2019",
+    "value_raw":"1.1, 7, 2019",
+    "imputed":false
+  },
+  {
+    "source_page":34,
+    "text":"Total County Population 458,975 382,344 841,319",
+    "value_raw":"458,975, 382,344, 841,319",
+    "imputed":false
+  },
+  {
+    "source_page":34,
+    "text":"Table 1.1.8: Distribution of Population by Sex, Number of Households, Land Area,",
+    "value_raw":"1.1, 8",
+    "imputed":false
+  }
+]

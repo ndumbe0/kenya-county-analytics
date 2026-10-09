@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":11,
+    "text":"Public Health ................................................................................................................................40",
+    "value_raw":"40",
+    "imputed":false
+  },
+  {
+    "source_page":11,
+    "text":"Table 17.1: Health Facilities by Ownership and Sub County, 2014* ....................................41",
+    "value_raw":"17.1, 2014, 41",
+    "imputed":false
+  },
+  {
+    "source_page":11,
+    "text":"Table 17.3: Beds Capacity by Ownership of Health Facilities, 2013-2014 ...........................42",
+    "value_raw":"17.3, 2013, -2014, 42",
+    "imputed":false
+  },
+  {
+    "source_page":11,
+    "text":"Table 20.5: Reported Crimes by Type of Offence and Sub County 2014* ...........................54",
+    "value_raw":"20.5, 2014, 54",
+    "imputed":false
+  },
+  {
+    "source_page":11,
+    "text":"Table 20.6: Reported Crimes by Type of Offence and Sub County, 2014* ..........................55",
+    "value_raw":"20.6, 2014, 55",
+    "imputed":false
+  }
+]

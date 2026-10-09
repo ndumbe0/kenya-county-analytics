@@ -1,0 +1,23 @@
+[
+  {
+    "col_0":"Altitude: Highest point Altitude: Lowest point",
+    "Units":"metres a.s.l metres a.s.l",
+    "col_2":"2 ,500 350",
+    "page":21,
+    "Unit":null
+  },
+  {
+    "col_0":"Latitudes N\/S Longitudes E\/W",
+    "Units":"degrees degrees",
+    "col_2":null,
+    "page":21,
+    "Unit":null
+  },
+  {
+    "col_0":null,
+    "Units":null,
+    "col_2":null,
+    "page":22,
+    "Unit":"mm mm mm 0C 0C 0C"
+  }
+]

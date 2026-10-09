@@ -1,0 +1,4 @@
+county_code,county_name,domain,indicator,period,value,unit,imputed,source
+034,Kajiado,demographic_social,Population,2025,1791000.0,persons,False,deterministic_baseline
+034,Kajiado,economic,GDP contribution,2025,8.18,percent,False,deterministic_baseline
+034,Kajiado,demographic_social,Health score,2025,50.0,index,False,deterministic_baseline

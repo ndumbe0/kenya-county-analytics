@@ -1,0 +1,4 @@
+source_page,text,value_raw,imputed
+31,1.1: Population,1.1,False
+31,"children of school going age ECDE (3-5 years), Primary (6-13 years) and Secondary","3, -5, 6, -13",False
+31,"(14-17 years), youth (18-35 years), Children (under 18 years), Voters or Adults (18+","14, -17, 18, -35, 18, 18",False

@@ -1,0 +1,52 @@
+[
+  {
+    "Low Potential":"2,561 .. ..",
+    "page":27,
+    "Area Cropped (Hectares)":null,
+    "col_1":null,
+    "Production (Tonnes)":null,
+    "col_3":null,
+    "col_4":null,
+    "2013":null
+  },
+  {
+    "Low Potential":"2,561",
+    "page":27,
+    "Area Cropped (Hectares)":null,
+    "col_1":null,
+    "Production (Tonnes)":null,
+    "col_3":null,
+    "col_4":null,
+    "2013":null
+  },
+  {
+    "Low Potential":null,
+    "page":27,
+    "Area Cropped (Hectares)":"2013",
+    "col_1":"2014*",
+    "Production (Tonnes)":"2013",
+    "col_3":"2014*",
+    "col_4":"2013",
+    "2013":null
+  },
+  {
+    "Low Potential":null,
+    "page":27,
+    "Area Cropped (Hectares)":".. .. .. ..",
+    "col_1":"750 690 305",
+    "Production (Tonnes)":"2.05 0.5 1.6 0.27",
+    "col_3":"2.25 1.61 1.75 0.3",
+    "col_4":"60,600 9,600 52,000 2,700",
+    "2013":null
+  },
+  {
+    "Low Potential":null,
+    "page":27,
+    "Area Cropped (Hectares)":null,
+    "col_1":null,
+    "Production (Tonnes)":null,
+    "col_3":null,
+    "col_4":null,
+    "2013":"2,000 1,600 2,000"
+  }
+]

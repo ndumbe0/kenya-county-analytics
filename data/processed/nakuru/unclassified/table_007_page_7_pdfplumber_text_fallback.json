@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":7,
+    "text":"Table 2.2: Land, water and Parks by Area, 2014 ..............................................................2",
+    "value_raw":"2.2, 2014, 2",
+    "imputed":false
+  },
+  {
+    "source_page":7,
+    "text":"Population and Vital Statistics ...........................................................................4",
+    "value_raw":"4",
+    "imputed":false
+  },
+  {
+    "source_page":7,
+    "text":"Table 3.1: National Population Trend by Sex, Households and Density, 1969 - 2009 ......5",
+    "value_raw":"3.1, 1969, 2009, 5",
+    "imputed":false
+  },
+  {
+    "source_page":7,
+    "text":"Table 3.2: Population Projection by Sex, and Age Cohorts, 2010 - 2014 .........................6",
+    "value_raw":"3.2, 2010, 2014, 6",
+    "imputed":false
+  },
+  {
+    "source_page":7,
+    "text":"Table 3.3: Population Projections of Selected Age groups by Sex, 2013 - 2014 ...............7",
+    "value_raw":"3.3, 2013, 2014, 7",
+    "imputed":false
+  }
+]

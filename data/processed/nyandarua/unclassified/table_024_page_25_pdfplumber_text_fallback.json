@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":25,
+    "text":"The following symbols have been used in this publication",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":25,
+    "text":"\u201c*\u201d Means figures are provisional and may change in subsequent CSAs",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":25,
+    "text":"\u201c-\u201d Means nil or negligible (less than half the final digit shown)",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":25,
+    "text":"\u201c..\u201d Means figures not available",
+    "value_raw":"",
+    "imputed":false
+  },
+  {
+    "source_page":25,
+    "text":"\u201cI\u201d between consecutive figures means they have been compiled on a different basis",
+    "value_raw":"",
+    "imputed":false
+  }
+]

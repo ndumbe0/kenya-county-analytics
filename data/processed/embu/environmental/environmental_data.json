@@ -1,0 +1,35 @@
+[
+  {
+    "Constituency":null,
+    "Wards":"7 6 4 3 6 4",
+    "Sub Wards":"14 12 8 6 12 8",
+    "Village Cluster":"94 72 41 39 80 51",
+    "County Villages":null,
+    "page":13,
+    "Type of Geography":null,
+    "Units":null,
+    "Value":null
+  },
+  {
+    "Constituency":"Total",
+    "Wards":"30",
+    "Sub Wards":"60",
+    "Village Cluster":"377",
+    "County Villages":"3,643",
+    "page":13,
+    "Type of Geography":null,
+    "Units":null,
+    "Value":null
+  },
+  {
+    "Constituency":null,
+    "Wards":null,
+    "Sub Wards":null,
+    "Village Cluster":null,
+    "County Villages":null,
+    "page":13,
+    "Type of Geography":null,
+    "Units":"Metres a.s.l Metres a.s.l Degrees N\/S Degrees E\/W",
+    "Value":null
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "source_page":11,
+    "text":"Table 4.3.3: Persons Reported to the Police to have Committed Offences against Morality and Other Offences",
+    "value_raw":"4.3, 3",
+    "imputed":false
+  },
+  {
+    "source_page":11,
+    "text":"against Persons by Type, Disability Status and Sex, 2019-2023 ................................................................................. 207",
+    "value_raw":"2019, -2023, 207",
+    "imputed":false
+  },
+  {
+    "source_page":11,
+    "text":"Table 4.3.4: Persons Reported to the Police to have Committed Homicide by Type, Disability Status and Sex, 2019-",
+    "value_raw":"4.3, 4, 2019",
+    "imputed":false
+  },
+  {
+    "source_page":11,
+    "text":"2023 ........................................................................................................................................................................... 210",
+    "value_raw":"2023, 210",
+    "imputed":false
+  },
+  {
+    "source_page":11,
+    "text":"Table 4.3.5: Persons Reported to the Police to have Committed Robbery and Theft by Type, Disability Status and Sex,",
+    "value_raw":"4.3, 5",
+    "imputed":false
+  }
+]

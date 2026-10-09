@@ -1,0 +1,4 @@
+county_code,county_name,domain,indicator,period,value,unit,imputed,source
+025,Samburu,demographic_social,Population,2025,1417500.0,persons,False,deterministic_baseline
+025,Samburu,economic,GDP contribution,2025,6.65,percent,False,deterministic_baseline
+025,Samburu,demographic_social,Health score,2025,69.2,index,False,deterministic_baseline
